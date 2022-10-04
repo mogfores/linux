@@ -45,6 +45,14 @@ O sistema de arquivo do linux é conhecimo como <b>ext4</b>. Esse sistema permit
  * ext4: Um sisgema de arquivos com recursos de journaling
  * ntfs: A partição nativa do MS Windows
  
+### Instalação do Linux
 
+O Debian é especialmente conhecido pelo seu sistema de gestão de pacotes, chamado APT, que permite: atualização, instalação quase sem esforço para novos pacotes e remoção limpa de pacotes antigos.<br>
+
+O ciclo de desenvolvimento das versões do Debian passa por três fases:<br>
+* Unstable - instável
+* Testing - teste
+* Stable - estável
+Quando as versões estão na fase "testing" elas são identificadas por codinomes tirados dos personagens do filme Toy Story. Ao se tornarem "stable" as versões recebem um número de versão.<br>
  
 
