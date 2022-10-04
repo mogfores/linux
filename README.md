@@ -168,11 +168,19 @@ Se no diretório possuir mais de uma pasta com a inicial "h", ao apertar TAB dua
 
 <b> Comandos CP - Copia os arquivos</b><br>
 * cp arquivo.extensão arquivo1.extensão : copia o arquivo "teste.txt" para "teste1.txt"
-* cp arquivo.extensão/diretório: copia o arquivo "teste.txt" para a pasta /tmp
+* cp arquivo.extensão/diretório arquivo.extensão: copia o arquivo "teste.txt" para a pasta /tmp
 * cp * /diretório: copia todos os arquivos do diretório atual para o diretório especificado.
-* cp-R/diretório/* /diretório: copia todos os arquivos e subdiretórios para a pasta especificada.
+* cp-R/diretório/* /diretório: copia todos os arquivos e subdiretórios para a pasta especificada (cópia reversa).
 
+<b> Comandos MV - move arquivos e diretórios</b><br>
+* mv arquivo.extensão /diretório: move o arquivos para o diretório especificado.
+* mv /diretório/* /diretório: move todos os arquivos do diretório para o outro especificado.
 
+<b> Comandos RM - Apaga um arquivo</b><br>
+* rm arquivo.extensão: apaga o arquivo "teste.txt" no diretório atual.
+* rm * .extensão: apagam os arquivos do diretório atual com a extensão ".txt"
+* rm -rf diretório/sub-diretório/* : apaga todos os arquivos do diretório e subdiretório
+* rm -rf diretório/sub-diretório: apaga todos os arquivos e o diretório
 
 ### Comandos do Linux
 
