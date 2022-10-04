@@ -35,5 +35,8 @@ O linux trabalha com diretórios (pontos de montagem) e tudo começa com o diret
 ![image](https://user-images.githubusercontent.com/89140035/193908624-c5a7bb47-470a-4c6e-83d9-9754df96797c.png)
 
 Cada um dos diretórios acima, poderia estar em um partição separada.<br>
-O sistema de arquivo do linux é conhecimo como <b>ext4<b>
+O sistema de arquivo do linux é conhecimo como <b>ext4<b>. Esse sistema permite gravação de arquivos de até 16TB com partições de até 1Exabyte.<br>
+ 
+ Suporte a <b>journalin<b> que dá suporte ao sistema operacional manter um log(<i>journal<i>
+ 
 
