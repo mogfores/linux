@@ -152,16 +152,19 @@ O usuário convidado é representado por $.<br>
 * ls|more: lista pausadamente os arquivos
 * ls*.extensão_do_arquivo: lista somente arquivos com uma extensão<br>
 
+
 * pwd : mostra o diretório atual
 * cd ..: volta um diretório
 * cd nome_da_pasta : mudar diretório (change directory)
 * cd / : mudar diretamente para o diretório raiz(/)<br>
+
 
 * clear : limpa a tela do prompt
 * pwd : mostra o caminho completo do diretório
 * mkdir nome_da_pasta : cria uma pasta (diretório)
 * rmdir nome_da_pasta: apaga uma pasta (diretório)
 * cat nome_do_arquivo: visualiza o conteúdo do arquivo no modo texto<br>
+
 
 ### Comandos do Linux
 
