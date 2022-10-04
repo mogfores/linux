@@ -59,6 +59,13 @@ Quando as versões estão na fase "testing" elas são identificadas por codinome
 Utilização do Debian 11 e VirtualBox para instalação no modo texto padrão.<br>
 
 Após a montagem da .ISO e posterior instação, seguindo os passos de idioma, local e teclado, o sistema perguntará com o nome da máquina na rede.
+
 ![image](https://user-images.githubusercontent.com/89140035/193921631-af0a1617-f943-4515-b647-2b71ac513cfa.png)
+
+Deixando como padrão ficará apenas debian, mais para frente será mostrado como mudar isso dentro do sistema. Logo em seguida será perguntado o nome do domínio.
+
+![image](https://user-images.githubusercontent.com/89140035/193922154-8e3b7ef0-b9e7-4439-b9dd-c3c011c51912.png)
+
+
 
 
