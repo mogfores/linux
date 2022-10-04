@@ -92,6 +92,14 @@ Depois o linux perguntará o fuso horário, e após isso o <b>particionamento do
 
 ![image](https://user-images.githubusercontent.com/89140035/193924815-a47cba49-d266-493a-acd0-705ba5cfc2d3.png)
 
+Utilizaremos a opção "manual", será selecionado a opção que foi criada pela nossa máquina virtual.
+
+![image](https://user-images.githubusercontent.com/89140035/193925590-13386210-4e73-4b7b-97f0-e6797fef5171.png)
+
+Selecione a opção "Sim" em Criar nova tabela de partições vazia neste dispositivo?<br>
+Veja que agora foi criado um espaço vazio, que será nossa opção, conforme figura:
+
+![image](https://user-images.githubusercontent.com/89140035/193926040-98a6ab23-7d7d-48a5-9adf-87caec1fdd68.png)
 
 
 
