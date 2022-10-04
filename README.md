@@ -143,25 +143,25 @@ Finalizado:
 O linux é <b>case sensitive</b>, ou seja, ele faz diferença entra maiúsculas e minúsculas.<br>
 
 O usuário root(raiz) também é representado por #(sustenido)
-O usuário convidado é representado por $.
+O usuário convidado é representado por $.<br>
 
 * ls    : lista o conteúdo do diretório
 * ls -l : lista os arquivos por linha
 * ls -r : inverte a ordem de seleção (ordem decrescente)
 * ls -a : lista os arquivos ocultos
 * ls|more: lista pausadamente os arquivos
-* ls*.extensão_do_arquivo: lista somente arquivos com uma extensão
+* ls*.extensão_do_arquivo: lista somente arquivos com uma extensão<br>
 
 * pwd : mostra o diretório atual
 * cd ..: volta um diretório
 * cd nome_da_pasta : mudar diretório (change directory)
-* cd / : mudar diretamente para o diretório raiz(/)
+* cd / : mudar diretamente para o diretório raiz(/)<br>
 
 * clear : limpa a tela do prompt
 * pwd : mostra o caminho completo do diretório
 * mkdir nome_da_pasta : cria uma pasta (diretório)
 * rmdir nome_da_pasta: apaga uma pasta (diretório)
-* cat nome_do_arquivo: visualiza o conteúdo do arquivo no modo texto
+* cat nome_do_arquivo: visualiza o conteúdo do arquivo no modo texto<br>
 
 ### Comandos do Linux
 
