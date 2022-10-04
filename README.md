@@ -140,7 +140,7 @@ Finalizado:
 
 ### Comando de manipulação de terminal
 
-
+O linux é <b>case sensitive</b>, ou seja, ele faz diferença entra maiúsculas e minúsculas.
 
 
 
