@@ -53,6 +53,7 @@ O ciclo de desenvolvimento das versões do Debian passa por três fases:<br>
 * Unstable - instável
 * Testing - teste
 * Stable - estável
+
 Quando as versões estão na fase "testing" elas são identificadas por codinomes tirados dos personagens do filme Toy Story. Ao se tornarem "stable" as versões recebem um número de versão.<br>
  
 
