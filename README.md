@@ -62,9 +62,24 @@ Após a montagem da .ISO e posterior instação, seguindo os passos de idioma, l
 
 ![image](https://user-images.githubusercontent.com/89140035/193921631-af0a1617-f943-4515-b647-2b71ac513cfa.png)
 
-Deixando como padrão ficará apenas debian, mais para frente será mostrado como mudar isso dentro do sistema. Logo em seguida será perguntado o nome do domínio.
+Deixando como padrão ficará apenas debian, mais para frente será mostrado como mudar isso dentro do sistema. Logo em seguida será perguntado o nome do domínio, que por hora ficará em branco.
 
 ![image](https://user-images.githubusercontent.com/89140035/193922154-8e3b7ef0-b9e7-4439-b9dd-c3c011c51912.png)
+
+Após o sistema apresentará uma tela para definição de senho do administrador do sistema (usuário root).
+
+![image](https://user-images.githubusercontent.com/89140035/193922709-42b80191-1170-40b4-ba48-2606a961bb34.png)
+
+A senha escolhida foi: "teste"
+
+Será pedido a confirmação da senha:
+
+![image](https://user-images.githubusercontent.com/89140035/193923205-58539544-5ea0-4d4a-b3fe-0b64303be24f.png)
+
+Após pergunta o nome completo do usuário:
+
+![image](https://user-images.githubusercontent.com/89140035/193923499-f33dbd70-ab23-45aa-8158-7da940c53c3c.png)
+
 
 
 
