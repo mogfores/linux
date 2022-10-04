@@ -11,11 +11,11 @@
 
 -- Linux --
 
-<p> Sendo ligado em uma IDE(placas-mãe mais antigas)
-Master primário IDE: /dev/hda
-Escravo primário IDE: /dev/hdb
-Master secundário IDE: /dev/hdc
-Escravo secundário IDE: /dev/hdd
+Sendo ligado em uma IDE(placas-mãe mais antigas) <br>
+* Master primário IDE: /dev/hda
+* Escravo primário IDE: /dev/hdb
+* Master secundário IDE: /dev/hdc
+* Escravo secundário IDE: /dev/hdd <br>
 
 Os arquivos de dispositivos SCSI ou SATA são semelhantes, exceto pelo fato de que não há uma limitação de quatro dispositivos.
 
