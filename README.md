@@ -1,6 +1,6 @@
 ## Linux
 
-** Sistema de Arquivos
+*Sistema de Arquivos*
 
  -- Windows --
 * A: unidade de disquete
@@ -33,3 +33,5 @@ O linux não trabalha com unidades de disco como o Windows (C:\D:).
 O linux trabalha com diretórios (pontos de montagem) e tudo começa com o diretório /(raiz)
 
 ![image](https://user-images.githubusercontent.com/89140035/193908624-c5a7bb47-470a-4c6e-83d9-9754df96797c.png)
+
+
