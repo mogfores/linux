@@ -39,4 +39,6 @@ O sistema de arquivo do linux é conhecimo como <b>ext4</b>. Esse sistema permit
  
  Suporte a <b>journalin</b> que dá suporte ao sistema operacional manter um log(<i>journal</i>), de todas as mudanças no sistema de arquivos antes de escrever os dados no disco, com a possibilidade de recuperar um arquivo mesmo que o mesmo tenha sido delatado da lixeira.
  
+ <color = red eduado>
+ 
 
