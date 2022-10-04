@@ -56,4 +56,9 @@ O ciclo de desenvolvimento das versões do Debian passa por três fases:<br>
 
 Quando as versões estão na fase "testing" elas são identificadas por codinomes tirados dos personagens do filme Toy Story. Ao se tornarem "stable" as versões recebem um número de versão.<br>
  
+Utilização do Debian 11 e VirtualBox para instalação no modo texto padrão.<br>
+
+Após a montagem da .ISO e posterior instação, seguindo os passos de idioma, local e teclado, o sistema perguntará com o nome da máquina na rede.
+![image](https://user-images.githubusercontent.com/89140035/193921631-af0a1617-f943-4515-b647-2b71ac513cfa.png)
+
 
