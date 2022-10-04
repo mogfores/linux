@@ -166,6 +166,11 @@ O linux possui um comando de auto-completar. Ex. caso queira entra na pasta home
 cd /h --> ao apertar TAB, o linux completara com o caminho /home
 Se no diretório possuir mais de uma pasta com a inicial "h", ao apertar TAB duas vezes o linux mostrará as opções de escolha.<br><br>
 
+<b> Comandos CP - Copia os arquivos</b><br>
+* cp arquivo.extensão arquivo1.extensão : copia o arquivo "teste.txt" para "teste1.txt"
+* cp arquivo.extensão/diretório: copia o arquivo "teste.txt" para a pasta /tmp
+* cp * /diretório: copia todos os arquivos do diretório atual para o diretório especificado.
+* cp-R/diretório/* /diretório: copia todos os arquivos e subdiretórios para a pasta especificada.
 
 
 
