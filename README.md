@@ -170,7 +170,7 @@ Se no diretório possuir mais de uma pasta com a inicial "h", ao apertar TAB dua
 * cp arquivo.extensão arquivo1.extensão : copia o arquivo "teste.txt" para "teste1.txt"
 * cp arquivo.extensão/diretório arquivo.extensão: copia o arquivo "teste.txt" para a pasta /tmp
 * cp * /diretório: copia todos os arquivos do diretório atual para o diretório especificado.
-* cp-R/diretório/* /diretório: copia todos os arquivos e subdiretórios para a pasta especificada (cópia reversa).
+* cp-R/diretório/* /diretório: copia todos os arquivos e subdiretórios para a pasta especificada (cópia recursiva).
 
 <b> Comandos MV - move arquivos e diretórios</b><br>
 * mv arquivo.extensão /diretório: move o arquivos para o diretório especificado.
@@ -182,11 +182,26 @@ Se no diretório possuir mais de uma pasta com a inicial "h", ao apertar TAB dua
 * rm -rf diretório/sub-diretório/* : apaga todos os arquivos do diretório e subdiretório
 * rm -rf diretório/sub-diretório: apaga todos os arquivos e o diretório
 
+![image](https://user-images.githubusercontent.com/89140035/193950065-8952b678-0e54-4493-b1da-5f1fdf0735ce.png)
+
+![image](https://user-images.githubusercontent.com/89140035/193950699-e61e42a7-807d-4b27-ab24-30b758a2fece.png)
+
+![image](https://user-images.githubusercontent.com/89140035/193950961-2d8aaca1-49c6-402b-929e-0cb15cf58017.png)
+
+![image](https://user-images.githubusercontent.com/89140035/193951364-6028ae6f-d651-4d93-9fa5-2076d1560e8d.png)
+
+
 ### Comandos do Linux
 
 * Ctrl + C : para a atividade atual
 
 
+### Editor de Arquivos
+
+No linux existem vários editores de arquivos, por padrão no sistema nós temos o vi.
+
+vi - Para criar ou abrir um arquivo já existente nós utilizamos o comando:
+<b>vi nome_do_arquivo</b>
 
 
 
