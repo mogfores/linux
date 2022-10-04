@@ -152,18 +152,21 @@ O usuário convidado é representado por $.<br><br>
 * ls|more: lista pausadamente os arquivos
 * ls*.extensão_do_arquivo: lista somente arquivos com uma extensão<br><br>
 
-
-* pwd : mostra o diretório atual
 * cd ..: volta um diretório
 * cd nome_da_pasta : mudar diretório (change directory)
 * cd / : mudar diretamente para o diretório raiz(/)<br><br>
 
-
 * clear : limpa a tela do prompt
 * pwd : mostra o caminho completo do diretório
 * mkdir nome_da_pasta : cria uma pasta (diretório)
-* rmdir nome_da_pasta: apaga uma pasta (diretório)
+* rmdir nome_da_pasta: apaga uma pasta (diretório. Obs.: a pasta precisa estar vazia)
 * cat nome_do_arquivo: visualiza o conteúdo do arquivo no modo texto<br><br>
+
+O linux possui um comando de auto-completar. Ex. caso queira entra na pasta home, fica:<br>
+cd /h --> ao apertar TAB, o linux completara com o caminho /home
+Se no diretório possuir mais de uma pasta com a inicial "h", ao apertar TAB duas vezes o linux mostrará as opções de escolha.<br><br>
+
+
 
 
 ### Comandos do Linux
