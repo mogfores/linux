@@ -80,6 +80,19 @@ Após pergunta o nome completo do usuário:
 
 ![image](https://user-images.githubusercontent.com/89140035/193923499-f33dbd70-ab23-45aa-8158-7da940c53c3c.png)
 
+Depois pergunta o nome de uma conta (convidado), já sugerindo o primeiro nome do root:
+
+![image](https://user-images.githubusercontent.com/89140035/193923935-aaf06da7-12bf-4e42-8255-1a2f321b56f4.png)
+
+Após uma senha para essa conta nova:
+
+![image](https://user-images.githubusercontent.com/89140035/193924281-76e685a7-489f-4925-8b88-dc6b9ed82eb3.png)
+
+Depois o linux perguntará o fuso horário, e após isso o <n>particionamento do disco</n>.
+
+![image](https://user-images.githubusercontent.com/89140035/193924815-a47cba49-d266-493a-acd0-705ba5cfc2d3.png)
+
+
 
 
 
