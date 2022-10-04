@@ -37,7 +37,7 @@ O linux trabalha com diretórios (pontos de montagem) e tudo começa com o diret
 Cada um dos diretórios acima, poderia estar em um partição separada.<br>
 O sistema de arquivo do linux é conhecimo como <b>ext4</b>. Esse sistema permite gravação de arquivos de até 16TB com partições de até 1Exabyte.<br>
  
- Suporte a <b>journalin</b> que dá suporte ao sistema operacional manter um log(<i>journal</i>), de todas as mudanças no sistema de arquivos antes de escrever os dados no disco, com a possibilidade de recuperar um arquivo mesmo que o mesmo tenha sido delatado da lixeira. <br>
+ Suporte a <b>journaling</b> que dá suporte ao sistema operacional manter um log(<i>journal</i>), de todas as mudanças no sistema de arquivos antes de escrever os dados no disco, com a possibilidade de recuperar um arquivo mesmo que o mesmo tenha sido delatado da lixeira. <br>
  
  O linux é capaz de montar uma série de sistemas de arquivos, como:<br>
  * ext2: O sistema de arquivos padrão linux
@@ -88,7 +88,7 @@ Após uma senha para essa conta nova:
 
 ![image](https://user-images.githubusercontent.com/89140035/193924281-76e685a7-489f-4925-8b88-dc6b9ed82eb3.png)
 
-Depois o linux perguntará o fuso horário, e após isso o <n>particionamento do disco</n>.
+Depois o linux perguntará o fuso horário, e após isso o <b>particionamento do disco</b>.
 
 ![image](https://user-images.githubusercontent.com/89140035/193924815-a47cba49-d266-493a-acd0-705ba5cfc2d3.png)
 
