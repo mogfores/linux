@@ -196,7 +196,8 @@ Se no diretório possuir mais de uma pasta com a inicial "h", ao apertar TAB dua
 
 ### Comandos do Linux 💣
 
-* Ctrl + C : para a atividade atual
+* Ctrl + C : parar a atividade atual
+* Alt + F1, F2, F3... : trocar de terminal de usuário
 
 
 ### Editor de Arquivos 💼
@@ -328,4 +329,31 @@ Em sua simples forma o kill é usado para parar um processo imediatamente. Basta
 #kill 1000
 
 OBS.: Ocasionalmente com o comando ps ou top um processo pode estar marcado como zumbi, são processos que ficaram travados ao tentar terminar, assim como nos filmes, não é possível matar um processo zumbi porque ele já esta morto.
+
+* <b>free</b>
+
+Esse comando exibe a quantidade de memória livre e usada do sistema.
+
+Opções:
+
+* -b : mostra o uso da memória em bytes
+* -k : mostra o uso da memória em kilobytes
+* -m : mostra o uso da memória em megabytes
+
+![image](https://user-images.githubusercontent.com/89140035/194176090-6aae23f0-808d-47ec-9548-7376e866e22d.png)
+
+* <b>uptime<b/>
+ 
+ O comando uptime mostra as seguintes informações: hora atual, quanto tempo o sistema rodando e quantos usuários estão logados no momento e as médias de carga no sistema (processamento) nos últimos 1, 5 e 15 minutos.
+ 
+ ![image](https://user-images.githubusercontent.com/89140035/194177023-eacf1cb3-8327-4f7a-bb24-c28292df542d.png)
+
+ ### Desligando e reiniciando o Linux modo texto 📴
+ 
+ * shutdown tempo_em_minutos -r : reiniciar (caso não funcione use: systemctl reboot)
+ * shutdown tempo_em_minutos -h : desligar
+ * shutdown -h now : desligar no mesmo momento (caso não funcione use: systemctl poweroff)
+ * shutdown -c : cancelar os shutdown agendadas nas opções acima
+ * halt : para o sistema operacional, porém o hardware continuará em execução
+ * reboot : reiniciar o computar imediatamente
 
