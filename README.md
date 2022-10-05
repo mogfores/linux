@@ -223,5 +223,23 @@ Opções: para fechar a opção pressionar ESC
 * :q : sai do Vi
 * :q! : sai do Vi, independente de salvar o conteúdo atual
 
+### Histórico e Edição de Comandos
+
+Trabalhando com um prompt de comando pode ser necessário e interessante conusltar ou até mesmo repetir um determinado comando executado.
+
+Os shells modernos, como o <b>bash</b>, incluem um importante conjunto de recursos chamados de histórico, expansão e edição dos comandos.
+
+A primeira parte desse conjunto é o histórico.
+
+A lista de históricos é controlada pela variável de shell HISTSIZE.
+
+Por padrão é definida com 500 linhas.
+
+Podemos consultar o tamanho da variável lendo ela com o comando: <b>echo $HISTSIZE</b>
+![image](https://user-images.githubusercontent.com/89140035/194132446-7b46065b-213f-48ea-aec7-0b197d1ce1f7.png)
+
+Para visualizar o seu histórico de comandos, use o comando <b>history</b>.
+
+Heverá um número de linha antes de cada comando.
 
 
