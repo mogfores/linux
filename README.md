@@ -236,6 +236,7 @@ A lista de históricos é controlada pela variável de shell HISTSIZE.
 Por padrão é definida com 500 linhas.
 
 Podemos consultar o tamanho da variável lendo ela com o comando: <b>echo $HISTSIZE</b>
+
 ![image](https://user-images.githubusercontent.com/89140035/194132446-7b46065b-213f-48ea-aec7-0b197d1ce1f7.png)
 
 Para visualizar o seu histórico de comandos, use o comando <b>history</b>.
