@@ -356,4 +356,5 @@ Opções:
  * shutdown -c : cancelar os shutdown agendadas nas opções acima
  * halt : para o sistema operacional, porém o hardware continuará em execução
  * reboot : reiniciar o computar imediatamente
+ 
 
