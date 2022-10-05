@@ -251,7 +251,13 @@ Esse número poderá ser usado posteriormente na expansão do histórico.
 
 * !! : refere-se ao último comando executado
 * !n : refere-se ao comando n do histórico, use o comando history para exibir esses números
-* !string : refere-se ao comando mais recente que comece com string
-* !?string : refere-se ao comando mais recente que contenha a string
+* !string : refere-se ao comando mais recente que comece com string (ex.:!c - buscará o comando mais recente no histórico que comece com a letra "c")
+* !?string : refere-se ao comando mais recente que contenha a string (ex.:caso queria entrar no comando "pwd" mas só lembra das letras "wd", basta colocar !?pw)
+
+### Criação e manipulação de arquivos
+
+Digitando sequencia de comandos: pode acontecer de surgir à necessidade de digitar dois comando na mesma linha do prompt, o linux permite essa opção, mas os comandos devem ser separados por <b>;</b>
+
+Exemplo: #ls ; ps
 
 
