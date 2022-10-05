@@ -243,4 +243,15 @@ Para visualizar o seu histórico de comandos, use o comando <b>history</b>.
 
 Heverá um número de linha antes de cada comando.
 
+Esse número poderá ser usado posteriormente na expansão do histórico.
+
+![image](https://user-images.githubusercontent.com/89140035/194162739-ba6acf12-e3c7-4134-8abf-b4e78fc1e94e.png)
+
+### Designadores de expansão de histórico
+
+* !! : refere-se ao último comando executado
+* !n : refere-se ao comando n do histórico, use o comando history para exibir esses números
+* !string : refere-se ao comando mais recente que comece com string
+* !?string : refere-se ao comando mais recente que contenha a string
+
 
