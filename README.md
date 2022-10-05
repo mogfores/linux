@@ -191,12 +191,12 @@ Se no diretório possuir mais de uma pasta com a inicial "h", ao apertar TAB dua
 ![image](https://user-images.githubusercontent.com/89140035/193951364-6028ae6f-d651-4d93-9fa5-2076d1560e8d.png)
 
 
-### Comandos do Linux
+### Comandos do Linux 💣
 
 * Ctrl + C : para a atividade atual
 
 
-### Editor de Arquivos
+### Editor de Arquivos 💼
 
 No linux existem vários editores de arquivos, por padrão no sistema nós temos o vi.
 
@@ -223,7 +223,7 @@ Opções: para fechar a opção pressionar ESC
 * :q : sai do Vi
 * :q! : sai do Vi, independente de salvar o conteúdo atual
 
-### Histórico e Edição de Comandos
+### Histórico e Edição de Comandos 🪐
 
 Trabalhando com um prompt de comando pode ser necessário e interessante conusltar ou até mesmo repetir um determinado comando executado.
 
@@ -247,14 +247,14 @@ Esse número poderá ser usado posteriormente na expansão do histórico.
 
 ![image](https://user-images.githubusercontent.com/89140035/194162739-ba6acf12-e3c7-4134-8abf-b4e78fc1e94e.png)
 
-### Designadores de expansão de histórico
+### Designadores de expansão de histórico 🗄️
 
 * !! : refere-se ao último comando executado
 * !n : refere-se ao comando n do histórico, use o comando history para exibir esses números
 * !string : refere-se ao comando mais recente que comece com string (ex.:!c - buscará o comando mais recente no histórico que comece com a letra "c")
 * !?string : refere-se ao comando mais recente que contenha a string (ex.:caso queria entrar no comando "pwd" mas só lembra das letras "wd", basta colocar !?pw)
 
-### Criação e manipulação de arquivos
+### Criação e manipulação de arquivos 📂
 
 Digitando sequencia de comandos: pode acontecer de surgir à necessidade de digitar dois comando na mesma linha do prompt, o linux permite essa opção, mas os comandos devem ser separados por <b>;</b>
 
@@ -272,5 +272,14 @@ Ele também modifica a data e hora de acesso e modificação de arquivos.
 
 Você pode modificar tanto a hora de acesso quanto a hora de modificação dos arquivos, ou os dois ao mesmo tempo.
 
-&Legenda:
+Legenda:
+* A - ano (é considerado a faixa de 1969 - 2068)
+* M - mês
+* D - dia
+* h - hora
+* m - minutos
+* s - segundos
 
+Para modificar a data e hora de acesso e modificação de um arquivo basta fazermos o seguinte:
+
+<b>touch -t AAAAMMDDhhmm arquivo</b>
