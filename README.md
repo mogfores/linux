@@ -145,7 +145,7 @@ O linux é <b>case sensitive</b>, ou seja, ele faz diferença entra maiúsculas 
 O usuário root(raiz) também é representado por #(sustenido)
 
 * su : entrar no modo administrador
-* 
+
 O usuário convidado é representado por $.<br><br>
 
 * ls    : lista o conteúdo do diretório
@@ -286,4 +286,28 @@ Legenda:
 Para modificar a data e hora de acesso e modificação de um arquivo basta fazermos o seguinte:
 
 <b>touch -t AAAAMMDDhhmm arquivo</b>
+
+Para mudar a data e a hora de modificação para a atual, utilize a opção <b>-m</b>
+
+<b>touch -m teste.txt</b>
+
+O comando touch não substitui (caso você crie arquivos com o mesmo nome) os arquivos já criados!!! 💣
+
+### Processos de sistema
+
+* ps
+
+O comando ps exibe informações sobre os processos que estão executando na máquina.
+
+Opções:
+
+* -a : mostra os processos de todos os usuários
+* -A : mostra todos os processos
+* -f : mostra a árvore de execução de comandos
+* -x : mostra os processos que não foram iniciados no console
+* -u : fornece o nome do usuário e a hora de início do processo
+
+![image](https://user-images.githubusercontent.com/89140035/194173001-e88367b4-fbb1-47d4-baf1-ca248dc74b1a.png)
+
+
 
