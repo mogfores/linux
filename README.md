@@ -143,6 +143,9 @@ Finalizado:
 O linux é <b>case sensitive</b>, ou seja, ele faz diferença entra maiúsculas e minúsculas.<br>
 
 O usuário root(raiz) também é representado por #(sustenido)
+
+* su : entrar no modo administrador
+* 
 O usuário convidado é representado por $.<br><br>
 
 * ls    : lista o conteúdo do diretório
@@ -283,3 +286,4 @@ Legenda:
 Para modificar a data e hora de acesso e modificação de um arquivo basta fazermos o seguinte:
 
 <b>touch -t AAAAMMDDhhmm arquivo</b>
+
