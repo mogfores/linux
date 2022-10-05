@@ -342,7 +342,7 @@ Opções:
 
 ![image](https://user-images.githubusercontent.com/89140035/194176090-6aae23f0-808d-47ec-9548-7376e866e22d.png)
 
-* <b>uptime<b/>
+* <b>uptime</b>
  
  O comando uptime mostra as seguintes informações: hora atual, quanto tempo o sistema rodando e quantos usuários estão logados no momento e as médias de carga no sistema (processamento) nos últimos 1, 5 e 15 minutos.
  
