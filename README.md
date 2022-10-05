@@ -1,4 +1,4 @@
-## Linux
+## Linux 🐧
 
 *Sistema de Arquivos*
 
@@ -24,7 +24,7 @@ Os arquivos de dispositivos SCSI ou SATA são semelhantes, exceto pelo fato de q
 * Terceiro drive SCSI: dev/sdc
 * ...assim por diante
 
-### Divisão das Partições
+### Divisão das Partições 💾
 
 Sendo uma IDE, o linux dividirá as partições em: HDA1, HDA2, HDA3 e HDA4. <br>
 Sendo uma SATA, o linux dividirá as partições em: SDA1, SDA2, SDA 3 e SDA4. <br>
@@ -45,7 +45,7 @@ O sistema de arquivo do linux é conhecimo como <b>ext4</b>. Esse sistema permit
  * ext4: Um sisgema de arquivos com recursos de journaling
  * ntfs: A partição nativa do MS Windows
  
-### Instalação do Linux
+### Instalação do Linux 👽
 
 O Debian é especialmente conhecido pelo seu sistema de gestão de pacotes, chamado APT, que permite: atualização, instalação quase sem esforço para novos pacotes e remoção limpa de pacotes antigos.<br>
 
@@ -138,7 +138,7 @@ Finalizado:
 ![image](https://user-images.githubusercontent.com/89140035/193935277-d10a1c1b-f46d-4ba3-aa65-f5683aa44c3b.png)
 
 
-### Comando de manipulação de terminal
+### Comando de manipulação de terminal 💻
 
 O linux é <b>case sensitive</b>, ou seja, ele faz diferença entra maiúsculas e minúsculas.<br>
 
