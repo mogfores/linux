@@ -295,7 +295,7 @@ O comando touch não substitui (caso você crie arquivos com o mesmo nome) os ar
 
 ### Processos de sistema
 
-* ps
+* <b>ps</b>
 
 O comando ps exibe informações sobre os processos que estão executando na máquina.
 
@@ -309,5 +309,23 @@ Opções:
 
 ![image](https://user-images.githubusercontent.com/89140035/194173001-e88367b4-fbb1-47d4-baf1-ca248dc74b1a.png)
 
+* <b>top</b>
 
+O comando <b>top</b> oferece uma saída semelhante à ps, porém em uma exibição continuamente atualizada.
+
+Isso é útil em situações nas quais você precisa monitorar o status de um ou mais processos ou para ver como eles estão usando o seu sistema.
+
+Opções:
+
+* -i : ignora os processos ociosos, listando apenas os em execução.
+
+![image](https://user-images.githubusercontent.com/89140035/194173990-16fea730-b6d8-4fe7-80d1-3eb9307ae934.png)
+
+* <b>kill</b>
+
+Em sua simples forma o kill é usado para parar um processo imediatamente. Basta inserir o número do processo que tem que ser finalizado.
+
+#kill 1000
+
+OBS.: Ocasionalmente com o comando ps ou top um processo pode estar marcado como zumbi, são processos que ficaram travados ao tentar terminar, assim como nos filmes, não é possível matar um processo zumbi porque ele já esta morto.
 
