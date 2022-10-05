@@ -268,4 +268,9 @@ Ele também pode criar vários arquivos de uma vez
 
 ![image](https://user-images.githubusercontent.com/89140035/194167032-519c0e7b-c853-4d50-9204-e7b4142cfa17.png)
 
+Ele também modifica a data e hora de acesso e modificação de arquivos.
+
+Você pode modificar tanto a hora de acesso quanto a hora de modificação dos arquivos, ou os dois ao mesmo tempo.
+
+&Legenda:
 
