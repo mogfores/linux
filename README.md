@@ -260,4 +260,12 @@ Digitando sequencia de comandos: pode acontecer de surgir à necessidade de digi
 
 Exemplo: #ls ; ps
 
+Comando <b>touch</b>: esse comando é utilizado para criar arquivos vazios e alterar o registro de data e hora dos arquivos.
+
+![image](https://user-images.githubusercontent.com/89140035/194166904-00836626-612d-46d0-a76c-e55cb8419917.png)
+
+Ele também pode criar vários arquivos de uma vez
+
+![image](https://user-images.githubusercontent.com/89140035/194167032-519c0e7b-c853-4d50-9204-e7b4142cfa17.png)
+
 
