@@ -200,8 +200,28 @@ Se no diretório possuir mais de uma pasta com a inicial "h", ao apertar TAB dua
 
 No linux existem vários editores de arquivos, por padrão no sistema nós temos o vi.
 
-vi - Para criar ou abrir um arquivo já existente nós utilizamos o comando:
+vi - Para criar ou abrir um arquivo já existente nós utilizamos o comando:<br>
 <b>vi nome_do_arquivo</b>
+
+Opções: para fechar a opção pressionar ESC
+* i : insere texto a partir do cursor atual
+* a : insere texto depois do cursor atual
+* l : insere texto no início da linha
+* A : insere texto no final da linha
+* /Expressão : Procura expressão (que pode ser qualquer palavra) no texto
+* n : procura próxima ocorrência de Expressão no texto
+* N : procura a ocorrência anterior
+* v : seleciona o texto
+* yy : copia linha atual do texto para memória
+* p : cola conteúdo da memória no texto
+* dd : apaga linha atual (e coloca na memória)
+* u : desfaz última ação executada
+* . : refaz última ação executada
+* :n : Pula para linha de número n
+* :w : salva o arquivo atual
+* :wq : salva o arquivo atual e sai do Vi
+* :q : sai do Vi
+* :q! : sai do Vi, independente de salvar o conteúdo atual
 
 
 
