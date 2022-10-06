@@ -198,7 +198,7 @@ Se no diretório possuir mais de uma pasta com a inicial "h", ao apertar TAB dua
 
 * Ctrl + C : parar a atividade atual
 * Alt + F1, F2, F3... : trocar de terminal de usuário
-* <b> Use su -lou su -para iniciar o shell raiz com um ambiente semelhante a um shell de 'login' normal. </b>
+* <b> Use su -l ou su - para iniciar o shell raiz com um ambiente semelhante a um shell de 'login' normal. </b>
 
 
 ### Editor de Arquivos 💼
