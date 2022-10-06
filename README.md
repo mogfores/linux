@@ -433,9 +433,23 @@ O arquivo <b>/etc/shadow</b> é utilizado para armazenar as senhas dos usuários
 <b>99999</b> : dias antes que uma alteração seja necessária<br>
 <b>7</b> : dias de avisos antes da expiração da senha<br><br>
 
-Algumas distribuições podem ainda usar os 3 últimos campos que são, <b>dias entre expiração e desativação, data de expiração, flag especial</b> (campo reservado).
+Algumas distribuições podem ainda usar os 3 últimos campos (:::) que são, <b>dias entre expiração e desativação, data de expiração, flag especial</b> (campo reservado).
 
 
+### Instalação e Gerenciamento de Pacotes do Linux
+
+* <b>Gerenciar Bibiotecas Compartilhadas</b>
+
+Quando um programa é compilado no linux, muitas das funções requeridas pelo programa são vinculadas a partir de bibliotecas de sistema que lidam com discos, com a memória e com outras funções.<br>
+Por exemplo, quando a função printf() da linguagem C padrão é usado em um programa, o programador não fornece o código finte de pintf(), mas, em ve disso, espera que o sistema já possua uma biblioteca contendo esse tipo de função.<br>
+Programas utilizam as rotinas do sistema, mas não incorporam o código das bibliotecas. Em vez disso, esse código é vinculado ao executável no momento da execução.<br>
+Esse processo de vinculação são compartilhados entre muitos aplicativos e, por isso, são chamadas de bibliotecas compartilhadas.
+
+* <b>Dependências de Bibliotecas Compartilhadas</b>
+
+Qualquer programa que esteja dinamicamente vinculado precisará de pelo menos algumas poucas bibliotecas compartilhadas. Se a biblioteca requeria não existir ou não puderem ser conectadas, o programa não poderá rodar.<br>
+Isso poderia acontecer, por exemplo, se você tentar rodar um aplicativo escrito para o ambiente gráfico GNOME sem ter instalado as bibliotecas GTK+ requeridas.<br>
+Instalar as bibliotecas corretas deve ser o suficiente para eliminar tais problemas.
 
 
 
