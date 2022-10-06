@@ -409,6 +409,32 @@ Ex.: <b>nome_do_grupo:x1002:eduardo, nome_do_novo_integrante</b>
 ![image](https://user-images.githubusercontent.com/89140035/194399783-93207fc6-c4d0-4440-bdb0-b78bdfbea98d.png)
 
 
+<b>root:x:0:0:root:/root:/bin/bash</b>
+
+root : nome de login do usuário<br>
+x : indica que a senha do usuário está localizada no arquivo /etc/shadow (criptografa)
+0 : UID do usuário
+0 : GID do usuário
+/root : diretório HOME do usuário
+/bin/bash : shell do usuário, o programa interpretador de comandos
+
+Para usuários comuns, ainda pode aparecer:
+
+,,, - informações do usuários, como nome, telefone...
+
+O arquivo <b>/etc/shadow</b> é utilizado para armazenar as senhas dos usuários no linux, de maneira criptografada. Também armazena informações sobre datas de expiração e validade das contas.
+
+![image](https://user-images.githubusercontent.com/89140035/194412065-938785ed-2fad-47da-8c9e-ce2d0c024737.png)
+
+<b>root</b> : nome de login do usuário<br>
+<b>$y$j9T...</b> : indica a senha do usuário criptografada<br>
+<b>19269</b> : data da ultima alteração de senha, armazenada como o número de dias decorridos desde 01/01/1970<br>
+<b>0</b> : dias até que a senha possa ser alterada novamente<br>
+<b>99999</b> : dias antes que uma alteração seja necessária<br>
+<b>7</b> : dias de avisos antes da expiração da senha<br><br>
+
+Algumas distribuições podem ainda usar os 3 últimos campos que são, <b>dias entre expiração e desativação, data de expiração, flag especial</b> (campo reservado).
+
 
 
 
