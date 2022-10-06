@@ -358,8 +358,28 @@ Opções:
  * reboot : reiniciar o computar imediatamente
  
 
-### Usuários e Grupos 
+### Usuários e Grupos 🧑 👨‍👨‍👦‍👦
+
+No Linux, existem 3 tipos de usuários:
+
+* 1º Administrador
+
+Esse usuário tem permissão total de utilização do sistema, podendo criar pastas/arquivos em qualquer diretório, além de poder editar e excluir qualquer arquivos de qualquer usuário ou de sistema.
+
+Esse usuário pode executar, também, qualquer comando disponível no sistema operacional.
 
 
+* 2º Comum
+
+Esse usuário tem algumas restrições na utilização do sistema, não podem executar todos os comandos, configurações ou acessar qualquer diretório.
+
+* 3º Sistema
+
+É um usuário criado durante a instalação de algum programa ou serviço para executar tarefas específicas daquele programa. Não é possível logar no sistema utilizando este usuário.
+
+<b>Comandos</b>
+
+* adduser nome_do_usuário : criar um novo usuário
+* 
 
 
