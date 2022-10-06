@@ -380,6 +380,32 @@ Esse usuário tem algumas restrições na utilização do sistema, não podem ex
 <b>Comandos</b>
 
 * adduser nome_do_usuário : criar um novo usuário
-* 
+* deluser nome_do_usuário : apaga um usuário
+* deluser no_do_usuário -remove-home : apago o usuário e seu diretório /home
+* passwd nome_do_usuário : trocar ou define uma nova senha
+* passwd -l nome_do_usuário : bloquear a conta de um usuário
+* passwd -u nome_do_usuário : desbloquear a conta de um usuário
+* logname : mostra o usuário logado no sistema
+* users : mostra os usuários conectados no sistema
+
+Os usuários são cadastrados no sistema através do arquivo <b>/etc/passwd</b>. É possível editar as configurações do usuário manualmente através deste arquivo.
+
+![image](https://user-images.githubusercontent.com/89140035/194397461-e41a88bf-557b-4dd2-a259-03457cc847c5.png)
+
+
+* groupadd nome_do_grupo : cria um novo grupo
+* adduser usuário grupo : adiciona um usuário a um grupo
+* groups nome_do_grupo : mostra os usuários do grupo
+* group nome_do_usuário : mostrar os grupos a qual o usuário pertence
+
+As informações sobre os grupos e seus usuários ficam salvas em <b>/etc/group</b>.<br>
+Neste arquivo é possível adicionar um usuário a um grupo manualmente, é necessário colocar umam virgula seguida do nome do usuário que se deseja acrescentar:
+
+![image](https://user-images.githubusercontent.com/89140035/194398548-cd161271-194d-49e4-8106-205537b9b243.png)
+
+Ex.: nome_do_grupo:x1002:eduardo, nome_do_novo_integrante
+
+
+
 
 
