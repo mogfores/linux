@@ -484,5 +484,24 @@ Quando o Debian foi criado, sentiu-se a necessidade de um sistema de gerenciamen
 Deu-se a esse sistema o nome de <b>dpkg</b>. Logo após a Red Hat resolver criar seu sistema conhecido como <b>rpm</b>.<br>
 Rapidamente outro dilema tomou conta das mentes dos produtores de GNU/Linux. Uma maneira rápida, prática e eficiente de se instalar pacotes, gerenciando suas dependências automaticamente e tomando conta de seus arquivos de configuração ao atualizar.<br>
 Assim, o Debian, criou o <b>APT ou Advanced Packging Tool</b>
+A ferramenta original de gerenciamento de pacotes do Debian é dpkg, que opera diretamente sobre os arquivos de pacotes .deb e pode ser usada para automatizar a instalação e a manutenção dos pacotes de software.<br>
+A ferramenta alternativa apt opera usando nomes de pacotes, obtendo-os a partir de uma fonte predefinida (CD-ROMS e sites FTP).<br>
+O comando <b>alien</b> permite o uso de pacotes não Debian, tais como o formato RPM do Red Hat.
 
+* <b>dpkg</b>
 
+Opções de entrada:
+
+<b>-E</b> : instrui o comando a não sobrescrever um pacote instalado, da mesma versão
+
+<b>-G</b> : instrui o comando a não sobrescrever um pacote instalado com uma versão mais antiga
+
+<b>--configure package</b> : configura um pacote descompactado
+
+<b>-i package_file</b> : instala o respectivo pacote
+
+<b>--purge package</b> : remove tudo a respeito de package
+
+<b>-r package</b> : remove tudo, exceto os arquivos de configuração
+
+<b>-s package</b> : relata o status do package
