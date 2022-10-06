@@ -505,3 +505,80 @@ Opções de entrada:
 <b>-r package</b> : remove tudo, exceto os arquivos de configuração
 
 <b>-s package</b> : relata o status do package
+
+<b>dpkg --get-selections</b> : lista dos pacotes já instalados
+
+![image](https://user-images.githubusercontent.com/89140035/194428803-42db912d-1ce3-4efc-b1ba-5c031c331013.png)
+
+
+
+Baixar o Pacote<br>
+![image](https://user-images.githubusercontent.com/89140035/194430185-8a5c94e8-454e-4ec9-88a0-62966a973448.png)
+
+Instalar o pacote<br>
+![image](https://user-images.githubusercontent.com/89140035/194430279-a3434d3d-4ee8-47de-bf61-e89acbc45cec.png)
+
+
+*<b>APT</b>
+
+Sintaxe:
+
+apt-get opções nome_do_pacote
+
+Ele não trabalha diretamente com os arquivos .deb como o dpkg, mas usa, em vez disso, nomes de pacotes .apt-get, além de fazer a configuração automática das dependências do pacote.
+
+<b>-d</b> : faz o download de arquivos, mas não instala
+
+<b>-s</b> : simula os passos em uma modificação de pacotes, mas não modifica realmente o sistema
+
+<b>-y</b> : responde "yes" as todas as perguntas do prompt
+
+<b>-dist-upgrade</b> : faz upgrade do Debian
+
+<b>install</b> : instala ou faz upgrade de pacotes mais novos
+
+<b>-remove</b> : remove os pacotes especificados
+
+<b>-update</b> : obtém uma lista atualizada de pacotes disponíveis para o APT-GET
+
+<b>-upgrade</b> : faz upgrade do conjunto de pacotes instalados no sistema
+
+<b>OBS</b>: O apt-get usa o arquivo /etc/apt/sources.list para determinar de onde os pacotes deverão ser obtidos:
+
+![image](https://user-images.githubusercontent.com/89140035/194432165-b6db55a6-93c8-475d-a2df-197d78e2f6b1.png)
+
+O sustenido # é uma linha comentada, logo não será necessário inserir CD-ROM toda vez que instalar o sistema.
+
+*<b>Procurar programas na lista do repositório</b>
+
+apt-cache search nome_do_programa
+
+![image](https://user-images.githubusercontent.com/89140035/194432781-19e5c136-b9ac-4ee1-bb52-a6e7bb7fdb6e.png)
+
+
+* <b>Alien</b>
+
+Comando converte ou instala um pacote não Debian. Os tipos de pacotes suportados incluem o .rpm do Red Hat, o .tgz do Slackware, além de arquivos .tar.gz genéricos.
+
+OBS: Não é uma garantia de funcionamente - tenta converter o pacote
+
+O RPM tem que estar instalado no seu sistema para poder fazer a conversão.
+
+Opções:
+
+<b>-i</b> : instala automaticamente o pacote gerado<br>
+<b>-r</b> : converte o pacote para RPM<br>
+<b>-t</b> : converte o pacote em um arquivo gzip tar<br>
+<b>-d</b> : converte o pacote para DEB<br>
+
+Exemplo:
+
+Instalar automaticamente um pacote não Debian em um sistema Debian
+
+<b>alien -i package.rpm</b>
+<b>alien -d package.rpm</b>
+
+
+### Localizadores de Arquivos 🔎
+
+
