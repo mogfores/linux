@@ -358,3 +358,8 @@ Opções:
  * reboot : reiniciar o computar imediatamente
  
 
+### Usuários e Grupos 
+
+
+
+
