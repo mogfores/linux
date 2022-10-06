@@ -198,6 +198,7 @@ Se no diretório possuir mais de uma pasta com a inicial "h", ao apertar TAB dua
 
 * Ctrl + C : parar a atividade atual
 * Alt + F1, F2, F3... : trocar de terminal de usuário
+* <b> Use su -lou su -para iniciar o shell raiz com um ambiente semelhante a um shell de 'login' normal. </b>
 
 
 ### Editor de Arquivos 💼
@@ -385,8 +386,8 @@ Esse usuário tem algumas restrições na utilização do sistema, não podem ex
 * passwd nome_do_usuário : trocar ou define uma nova senha
 * passwd -l nome_do_usuário : bloquear a conta de um usuário
 * passwd -u nome_do_usuário : desbloquear a conta de um usuário
-* logname : mostra o usuário logado no sistema
-* users : mostra os usuários conectados no sistema
+* logname : mostra o usuário logado no sistema no mesmo terminal
+* users : mostra os usuários conectados no sistema em todos terminais
 
 Os usuários são cadastrados no sistema através do arquivo <b>/etc/passwd</b>. É possível editar as configurações do usuário manualmente através deste arquivo.
 
@@ -403,7 +404,11 @@ Neste arquivo é possível adicionar um usuário a um grupo manualmente, é nece
 
 ![image](https://user-images.githubusercontent.com/89140035/194398548-cd161271-194d-49e4-8106-205537b9b243.png)
 
-Ex.: nome_do_grupo:x1002:eduardo, nome_do_novo_integrante
+Ex.: <b>nome_do_grupo:x1002:eduardo, nome_do_novo_integrante</b>
+
+![image](https://user-images.githubusercontent.com/89140035/194399783-93207fc6-c4d0-4440-bdb0-b78bdfbea98d.png)
+
+
 
 
 
