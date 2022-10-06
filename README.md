@@ -449,8 +449,40 @@ Esse processo de vinculação são compartilhados entre muitos aplicativos e, po
 
 Qualquer programa que esteja dinamicamente vinculado precisará de pelo menos algumas poucas bibliotecas compartilhadas. Se a biblioteca requeria não existir ou não puderem ser conectadas, o programa não poderá rodar.<br>
 Isso poderia acontecer, por exemplo, se você tentar rodar um aplicativo escrito para o ambiente gráfico GNOME sem ter instalado as bibliotecas GTK+ requeridas.<br>
-Instalar as bibliotecas corretas deve ser o suficiente para eliminar tais problemas.
+Instalar as bibliotecas corretas deve ser o suficiente para eliminar tais problemas.<br>
 
 
+* <b>ldd</b>
+
+O utilitário ldd pode ser usado para se determinar quais bibliotecas são necessárias para um executável específico, deverá ser executado dentro da pasta /bin.<br><br>
+Exemplo: O top requer 12 bibliotecas compartilhadas:<br>
+
+![image](https://user-images.githubusercontent.com/89140035/194417699-ddf7f166-bfe5-438c-bfdc-a810d43b7076.png)
+
+A primeira linha é o kernel (linux-vdso.so.1), e tudo que estiver com setas "=>" são as bibliotecas.
+
+* <b>Visão geral do gerenciamento de pacotes do Debian </b>
+
+Cada pacote do Debian contém arquivos de programas, configurações, documentação e indicação de dependências. Os nomes dos pacotes do Debian possuem três elementos em comum, incluindo:
+
+<b>Nome do pacote</b><br>
+Um nome de pacote do Debian é sempre curto e descrito e quando várias palavras são usadas elas são separadas por hifens.<br><br>
+
+<b>Número da versão</b><br>
+Cada pacote tem uma versão. A maioria das versões dos pacotes tem o mesmo número que o software que elas contêm.<br><br>
+
+
+<b>Extensão do arquivo</b><br>
+Por padrão todos os pacotes do Debian terminam com a extensão .deb
+
+Exemplo: nano-tiny_2.2.4-1_amd64.deb
+
+* <b>Gerenciando os pacotes do Debian</b>
+
+No inicio havia o <b>.tar.gz</b>. Os usuários tinham de penar para compilar cada programa usado em seu sistema GNU/Linux.<br>
+Quando o Debian foi criado, sentiu-se a necessidade de um sistema de gerenciamento de pacotes instalados no sistema.<br>
+Deu-se a esse sistema o nome de <b>dpkg</b>. Logo após a Red Hat resolver criar seu sistema conhecido como <b>rpm</b>.<br>
+Rapidamente outro dilema tomou conta das mentes dos produtores de GNU/Linux. Uma maneira rápida, prática e eficiente de se instalar pacotes, gerenciando suas dependências automaticamente e tomando conta de seus arquivos de configuração ao atualizar.<br>
+Assim, o Debian, criou o <b>APT ou Advanced Packging Tool</b>
 
 
