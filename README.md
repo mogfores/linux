@@ -650,7 +650,24 @@ Outro exemplo pode se a pesquisa por ocorrência em letras que independentemente
  
  <b>root@debian:/pasta_teste# grep -i "teste" --color -n *.doc</b>
 
-  
+ ![image](https://user-images.githubusercontent.com/89140035/194647943-13416d0b-8049-40d1-a84b-f6c6b31249e7.png)
+
+Podemos realizar a pesquisa recursiva, isso é, realizando a busca em sub-diretórios -r
+
+Outro recurso de grep é a opção -w onde será eliminado os resultados que conterem números, trazendo ocorrências que somente tiverem textos
+
+![image](https://user-images.githubusercontent.com/89140035/194648555-e16c23ac-9bd9-4259-b60d-465185918f09.png)
+
+Podemos solicitar que o comando grep conte o número de ocorrências da string com a opção -c
+
+![image](https://user-images.githubusercontent.com/89140035/194649174-ece82ff3-289d-482a-aad2-76c67cca4881.png)
+
+A opção -o mostra somente o texto que coincide com a string
+
+![image](https://user-images.githubusercontent.com/89140035/194649499-3aecb492-175c-4cf8-b956-a50bb7977dd8.png)
+
+
+
 
 
 
