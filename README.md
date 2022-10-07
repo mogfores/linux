@@ -634,7 +634,7 @@ grep "ldap" /etc/services
 
 Outro exemplo pode se a pesquisa por ocorrência em letras que independentemente estejam em maiúsculas ou minúsculas com a opção -i
 
-<b>grep -i "name" /etc/services
+<b>grep -i "name" /etc/services</b>
  
  ![image](https://user-images.githubusercontent.com/89140035/194645850-d67839bd-cc84-4404-8431-4e4e9e374a1a.png)
  
