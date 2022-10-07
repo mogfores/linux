@@ -611,6 +611,48 @@ Por questão de performance e segurança, este comando não indexa diretórios t
 
 Qualquer pesquisa realizada por qualquer usuário somente retornará os dados a que o usuário tiver permissão de acesso.
 
+![image](https://user-images.githubusercontent.com/89140035/194644173-416a5622-9199-4e60-9f3d-400714b9e45a.png)
+
+![image](https://user-images.githubusercontent.com/89140035/194644236-3ee1f47c-8d6b-4c7d-a6ee-150490e6b5a2.png)
+
+![image](https://user-images.githubusercontent.com/89140035/194644528-2db2b9a6-f733-412b-989f-6533464fbe2a.png)
+
+
+### Comando GREP 🔡
+
+Muitas vezes, precisamos localizar um arquivo pelo seu conteúdo e não apenas pelo seu nome. Para isso utilizamos o comando grep.
+
+Sintaxe:
+
+<b>grep opções filtro-a-aplicar arquivo ou diretório</b>
+
+Ex.: Localizar a ocorrência "ldap" dentro do arquivo /etc/services:
+
+grep "ldap" /etc/services
+
+![image](https://user-images.githubusercontent.com/89140035/194645121-9149c00e-14b2-4a93-b07f-58d066bcb94d.png)
+
+Outro exemplo pode se a pesquisa por ocorrência em letras que independentemente estejam em maiúsculas ou minúsculas com a opção -i
+
+<b>grep -i "name" /etc/services
+ 
+ ![image](https://user-images.githubusercontent.com/89140035/194645850-d67839bd-cc84-4404-8431-4e4e9e374a1a.png)
+ 
+ Utilizando o grep também podemos destacar a cor do item procurando como no exemplo abaixo, utilizando <b>--color</b>
+ 
+ <b>root@debian:/pasta_teste# grep "teste" --color eduardo.doc</b>
+ 
+ Também é útil saber em qual linha se encontra a ocorrência, para isso adicionamos a opção <b>-n</b>
+ 
+ <b>root@debian:/pasta_teste# grep -i "teste" --color -n eduardo.doc</b>
+ 
+ Podemos ainda utilizar um caractere coringa como o * para realizar a busca em vários arquivos:
+ 
+ <b>root@debian:/pasta_teste# grep -i "teste" --color -n *.doc</b>
+
+ 
+
+
 
 
 
