@@ -581,4 +581,39 @@ Instalar automaticamente um pacote não Debian em um sistema Debian
 
 ### Localizadores de Arquivos 🔎
 
+* <b>Find</b>
+
+O comando find, realiza a busca de arquivos pelo seu nome, podemos utilizar a sintaxe abaixo:
+
+<b>root@debian:/# find -name nome_do_arquivo</b>
+
+Esse comando buscará a partir do diretório que o usuário se encontra
+
+![image](https://user-images.githubusercontent.com/89140035/194637991-2bf9d75c-678f-4d18-a96d-4c972cf3edd1.png)
+
+Podemos listar todos os arquivos contido em um diretório junto com os seus subdiretórios utilizando a sintaxe:
+
+<b>root@debian:/# find</b> ou <b>find .</b>
+
+![image](https://user-images.githubusercontent.com/89140035/194639169-cd602c73-cc60-45f5-9e08-1b87fcbe5bbc.png)
+
+Com o comando find também podemos listar somente arquivos ou somente diretórios com a opção <b>-type f</b> para arqvuios e <b>-type d</b> para diretórios
+
+* <b>locate</b>
+
+O comando locate utiliza uma base indexada para localização de arquivos.
+
+Antes de sua utilização é necessário construir esta base com o comando <b>updatedb</b>
+
+Na primeira execução deste comando é criada a base e todo o hd/ssd é varrido para a construção da base e de sua indexação
+
+Por questão de performance e segurança, este comando não indexa diretórios temporários, dirtórios pessoais (/home, /root) e sistemas de arquivos remotos (mapeamentos)
+
+Qualquer pesquisa realizada por qualquer usuário somente retornará os dados a que o usuário tiver permissão de acesso.
+
+
+
+
+
+
 
