@@ -666,6 +666,41 @@ A opção -o mostra somente o texto que coincide com a string
 
 ![image](https://user-images.githubusercontent.com/89140035/194649499-3aecb492-175c-4cf8-b956-a50bb7977dd8.png)
 
+A opção -B "n" mostra as linhas N antes da string
+
+![image](https://user-images.githubusercontent.com/89140035/194650263-027d5018-629f-48fc-bf7d-e2183213e13e.png)
+
+A opção -A "n" mostra as linhas N depois da string
+
+![image](https://user-images.githubusercontent.com/89140035/194650793-22c959f3-cd0e-423f-8324-33b6f75df288.png)
+
+A opção -C uni as duas opções, pegando e imprimindo linhas antes e depois da linha que contem a string pesquisada
+
+![image](https://user-images.githubusercontent.com/89140035/194652544-9a9d25db-3709-4e41-be35-d2cd759c9df1.png)
+
+A opção -l mostra somente o arquivo, não a string
+
+![image](https://user-images.githubusercontent.com/89140035/194652854-9f408d2c-1ed0-40d1-99dc-74891393dd71.png)
+
+A opção -L retorna os arquivos que não possuem a strig pesquisada
+
+![image](https://user-images.githubusercontent.com/89140035/194653120-c43c9d2d-6f33-4c81-a40f-196447c4a0eb.png)
+
+Com o grep, também é possível realizar buscar utilizando o que chamamos de Expressões Regulares. Para isso utilizamos a opção -E. A opção | funciona como se fosse um "OU"
+
+![image](https://user-images.githubusercontent.com/89140035/194654607-40308851-80db-45dc-a354-a73cd4661b8e.png)
+
+A opção . funciona substituindo o texto<br>
+A opção \ funciona como um "escape" para que possa entender o . no exemplo
+
+![image](https://user-images.githubusercontent.com/89140035/194668842-08d3f55f-a2f7-4e59-8694-25774dbd5a7b.png)
+
+O comando grep pode ser utilizado junto com outro comando, utilizando o <b>pipe</b>
+
+![image](https://user-images.githubusercontent.com/89140035/194669524-357270b9-88fc-40cd-8abd-e5971ce5c86c.png)
+
+
+
 
 
 
