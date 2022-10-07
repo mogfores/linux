@@ -650,7 +650,7 @@ Outro exemplo pode se a pesquisa por ocorrência em letras que independentemente
  
  <b>root@debian:/pasta_teste# grep -i "teste" --color -n *.doc</b>
 
- 
+  
 
 
 
