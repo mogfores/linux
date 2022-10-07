@@ -700,6 +700,8 @@ O comando grep pode ser utilizado junto com outro comando, utilizando o <b>pipe<
 ![image](https://user-images.githubusercontent.com/89140035/194669524-357270b9-88fc-40cd-8abd-e5971ce5c86c.png)
 
 
+### Compactadores de Arquivos 🧬
+
 
 
 
