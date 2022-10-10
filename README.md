@@ -707,7 +707,7 @@ O comando grep pode ser utilizado junto com outro comando, utilizando o <b>pipe<
 O Tar(Tape Archive) é o que faz o empacotamento com a extensão .tar<br>
 A Sintaxe do Tar é a seguinte:
 
-<b>tar [parâmetros] [nome_do_arquivo_tar] [arquivo_de_origem]<b>
+<b>tar [parâmetros] [nome_do_arquivo_tar] [arquivo_de_origem]</b>
 
 Exemplo: tar -cf dados.tar arquivo1 arquivo2 trabalho.doc planilha xls
 
@@ -723,23 +723,23 @@ Em parâmetros, é possível utilizar várias opções. Eis as principais:
 
 1 - Compactar arquivos:
  
- <b>cf dados.tar arquivo1 arquivo2 arquivo3 (Obs:pode ser usado o caractere curinga*)<b>
+ <b>cf dados.tar arquivo1 arquivo2 arquivo3 (Obs:pode ser usado o caractere curinga*)</b>
   
 2 - Visualizar o conteúdo de um arquivo tar:
   
-<b>tar -tf dados.tar<b>
+<b>tar -tf dados.tar</b>
  
 3 - Descoompactar um arquivo tar:
 
-<b>tar -xf dados.tar<b>
+<b>tar -xf dados.tar</b>
  
 4 - Adicionar um arquivo ao arquivo já compactado:
  
-<b>tar -rf dados.tar arquivo_novo<b>
+<b>tar -rf dados.tar arquivo_novo</b>
  
 5 - Compactar arquivos e pedir confirmação de arquivo por arquivo:
  
-<b>tar -cwf dados.tar*<b>
+<b>tar -cwf dados.tar*</b>
  
 * bzip2
  
@@ -752,10 +752,10 @@ Opções:
 -1 a -9 : define o tamanho do bloco para 100k, 200k, 300k, ...900k ao fazer compactação. Isso define os níveis de compactação.
  
 Compactar um arquivo usando o nível mais alto de compactação.<br>
-<b>bzip -9*.doc<b> : compactar todos os arquivos .doc
+<b>bzip -9*.doc</b> : compactar todos os arquivos .doc
   
 Descompactar um arquivo com a extensão .bz2<br>
-<b>bzip2 -d *.bz2<b> : descompactar todos arquivos .bz2
+<b>bzip2 -d *.bz2</b> : descompactar todos arquivos .bz2
    
 * gzip e gunzip
    
