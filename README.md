@@ -837,4 +837,12 @@ Dispositivo é um disco físico, como <b>/dev/hda</b>, e não uma partição com
 Os comando interativos para fdisk são na forma de uma letra seguida por um retorno.<br>
 Os comando não usam argumentos, mas iniciam um diálogo interativo.<br>
 Os comando operam sobre partições que irão pedir o número da partição, que é um número inteiro.<br>
-As fazer modificações à tabela de partição, fdisk acumula modificações sem escrevê-las em disco, até receber o comando. <b>write</b>
+As fazer modificações à tabela de partição, fdisk acumula modificações sem escrevê-las em disco, até receber o comando <b>write</b>.
+
+![image](https://user-images.githubusercontent.com/89140035/194937987-d86e140e-70fa-4fc9-861f-ad5ef33b96e9.png)
+
+<b> #fdisk /dev/sdb</b>
+
+![image](https://user-images.githubusercontent.com/89140035/194938836-e4b59e35-2037-40c4-b890-8d03e65cc6f3.png)
+
+
