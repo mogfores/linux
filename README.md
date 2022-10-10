@@ -952,7 +952,7 @@ Logo, inicializaremos a máquina com o comando reboot
 
 ![image](https://user-images.githubusercontent.com/89140035/194959611-66dd8454-4ace-4871-a480-3499c3ffc3d7.png)
 
-Agora vamos formatar o disco sdb2 com o comando <b> mkfs /dev/sdb2
+Agora vamos formatar o disco sdb2 com o comando <b> mkfs /dev/sdb2 </b>
  
 ![image](https://user-images.githubusercontent.com/89140035/194959894-335350b8-c06d-4217-b65b-d9c965563da4.png)
 
