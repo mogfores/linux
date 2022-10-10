@@ -917,4 +917,19 @@ O arquivo /etc/fstab é de texto simples e consiste de linhas com seis campos:<b
 
 0 - instrui o fsck a não verificar o sistema de arquivos.
 
+O arquivo /etc/fstab é criado automaticamente quando o Linux é instalado e é baseado na configuração de particionamento e de ponto de montagem especificada.
 
+Esse arquivo pode ser modificado a qualquer momento para adicionar dispositivos e pontos de montagem.
+
+Há uma série de parâmetros disponíveis como opções para se montarem sistemas de arquivos.<br>
+Essas opções podem ser especificadas em /etc/fstab.
+
+<b> auto </b> : habilita a montagem automática na inicialização do sistema operacional.<br>
+<b> defaults </b> : implica rw, exec, auto, nouser. É encontrada comumente em entradas de /etc/fstab para pontos de montagem ext2, ext3 e ext4. <br>
+<b> exec </b> : habilita a execução de programas contidos na partição montada. <br>
+<b> noauto </b> : proíbe a montagem automática. É geralmente especificadas para mídias removíveis. <br>
+<b> noexec </b> : proíbe a execução de programas executáveis, uma potencial medida de segurança. <br>
+<b> nouser </b> : proíbe que usuários não root montem e desmontem o sistema de arquivos. <br>
+<b> ro </b> : configura a partição para ser montada em modo de somente leitura. <br>
+<b> rw </b> : configura a partição para ser montada em modo escrita. <br>
+<b> users </b> : permite que qualquer usuário monte e desmonte o sistema de arquivos.
