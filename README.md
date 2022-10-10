@@ -877,3 +877,23 @@ Exemplo:
 
 Criar uma partição ext em /dev/sdb1:<br>
 <b> mkfs /dev/sdb1 </b>
+
+* Formantando o disco
+
+![image](https://user-images.githubusercontent.com/89140035/194946801-05f88cc9-14a8-401b-a707-e004e8d12ef1.png)
+
+
+### Montagem e desmontagem de sistema de arquivos ⚡
+
+Quando o Linux faz o boot, o kernel realiza uma verificação de todos os sistemas de arquivos de <b>/etc/fstab.</b><br>
+Todos os sistemas de arquivos que não tenham sido desmontados de forma limpa são verificados.<br>
+Se essa verificação encontrar erros significativos, o sistema entra em modo de usuário único para que você possa excutar o <b>fsck</b> manualmente.
+
+* Controlar a montagem e a desmontagem do sistema de arquivos
+
+O Linux geralmente se compõe de várias partições, cada uma conectada ao sistema de arquivos root(/).<br>
+Sistemas de arquivos de mídia removível, como CD-ROMS, USB..., são conectados da mesma forma, mas geralmente de forma temporária.<br>
+Cada um desses sistemas de arquivos separados é montado no sistema na forma de diretório (ponto de montagem). <br>
+Os diretórios criados para serem pontos de montagem geralmente não contém arquivos nem outros diretórios.<br>
+Se um diretório que já contiver arquivos for usado como um ponto de montagem, os seus arquivos serão obscurecidos e ficarão indisponíveis até que o sistema de arquivos seja desmontado.<br>
+Essas informações são registradas no arquivo <b>/etc/fstab.</b>
