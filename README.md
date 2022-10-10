@@ -905,4 +905,16 @@ O arquivo /etc/fstab é de texto simples e consiste de linhas com seis campos:<b
 
 <b> Tipo do sistema de arquivos </b> : Em seguida, é especificado o tipo do sistema de arquivos. Este pode ser do tipo ext4, swap, isso 9660 (CD-ROM) entre outros.
 
+<b> Opções de montagem </b> : Este campo contém uma lista de opções, separadas por vírgulas. Algumas opções são específicas de determinados tipos de sistemas de arquivos.<br>
+
+<b> Frequencia de dump </b> : O programa dump, um utilitário de backup padrão do Unix, consulta /etc/fstab para obter informações sobre a frequencia com que ele deve fazer o dumping de cada sistema de arquivos.
+
+<b> Número de passe para fsck </b> : Este campo é usado pelo <b>fsck</b> quando a opção <b>-A</b> é especificada, geralmente no momento do boot. Trata-se de um flag que pode conter apenas os valores 0, 1 ou 2.
+
+1 - instrui o fsck a verificar esse sistema primeiro.
+
+2 - instrui o fsck a verificar os sistemas de arquivos correspondentes, após aqueles com um valor 1.
+
+0 - instrui o fsck a não verificar o sistema de arquivos.
+
 
