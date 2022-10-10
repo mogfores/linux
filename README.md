@@ -854,4 +854,14 @@ As fazer modificações à tabela de partição, fdisk acumula modificações se
 
 ![image](https://user-images.githubusercontent.com/89140035/194941293-f2e4c8a5-2da2-4a9d-a149-2c29c7ec33c0.png)
 
+![image](https://user-images.githubusercontent.com/89140035/194942505-4250ccb3-3aa8-424a-93c9-00e7f3fbe29d.png)
 
+* Criando sistemas e arquivos
+
+Uma vez particionado um disco, podem ser criados sistemas de arquivos nessas partições usando-se o utilitário <b>mkfs.</b><br>
+O mkfs é uma ferramenta de criação de sistemas de arquivos, tais como mkfs.ext2 e mkfs.msdos, mkfs.ext3...<br>
+
+Sintaxe: mkfs -tipo -opções dispositivo
+
+O comando mkfs cria um sistema de arquivo, se o fstype for omitido, ext é usado por padrão (depende de qual distribuição estiver usando, por exemplo, o Debian 7 usa o ext4 como padrão).<br>
+É comum ver referencias de comandos como mkfs.ext2, mkfs.ext4 que são alias para mkfs, especificando o tipo de sistema de arquivo desejado.
