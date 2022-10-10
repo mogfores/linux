@@ -1001,4 +1001,21 @@ Opções de linha de comando:<br>
 
 * Desmontando sistema de arquivos
 
-Uma vez montado um sistema de arquivos, ele pode ser desmontado, 
+Uma vez montado um sistema de arquivos, ele pode ser desmontado, liberando assim seu diretório ou dispositivo. Para descontar é utilizado o comando <b> umont. </b>
+
+Sintaxe:
+
+<b> umont opções dispositivo diretório </b>
+
+Opções:<br>
+-a : desmonta todos os sistemas de arquivos descritos em /etc/fstab. Este dispositivo é mantido pelos comandos mount e umount e contêm uma lista atualizada de sistemas montados.<br>
+-t fstype : desmonta apenas sistemas de arquivos do tipo fstype.
+
+Exemplo:<br>
+Desmontar o CD-ROM /dev/hdc montado em /mnt/cdrom:
+
+<b> umount/mnt/cdrom </b>
+
+Desmontar todos os sistemas de arquivos NFS:
+
+<b> umount -at nfs </b>
