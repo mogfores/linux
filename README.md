@@ -832,4 +832,9 @@ Sintaxe:
 
 <b> fdisk dispositivo </b>
 
-O comando fdisk manipula ou exibe a tabela de particionamento para dispositivo usando uma interface de texto interativa, dirigida por comandos.
+O comando fdisk manipula ou exibe a tabela de particionamento para dispositivo usando uma interface de texto interativa, dirigida por comandos.<br>
+Dispositivo é um disco físico, como <b>/dev/hda</b>, e não uma partição como /dev/hda1.<br>
+Os comando interativos para fdisk são na forma de uma letra seguida por um retorno.<br>
+Os comando não usam argumentos, mas iniciam um diálogo interativo.<br>
+Os comando operam sobre partições que irão pedir o número da partição, que é um número inteiro.<br>
+As fazer modificações à tabela de partição, fdisk acumula modificações sem escrevê-las em disco, até receber o comando. <b>write</b>
