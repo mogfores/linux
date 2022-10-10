@@ -777,6 +777,12 @@ gzip -d eduardo.gz
 
 ![image](https://user-images.githubusercontent.com/89140035/194924433-710d0295-e10d-4a8b-8699-0c5387225077.png)
 
+![image](https://user-images.githubusercontent.com/89140035/194924881-56d93f09-aae8-4e60-b40c-a0eb75999835.png)
+
+![image](https://user-images.githubusercontent.com/89140035/194928440-4caa7902-1f7c-4598-ba37-63db179a8253.png)
+
+![image](https://user-images.githubusercontent.com/89140035/194928709-c78fddbf-dcfb-4ec7-8288-6f33850aca2f.png)
+
 
 
 
