@@ -865,3 +865,15 @@ Sintaxe: mkfs -tipo -opções dispositivo
 
 O comando mkfs cria um sistema de arquivo, se o fstype for omitido, ext é usado por padrão (depende de qual distribuição estiver usando, por exemplo, o Debian 7 usa o ext4 como padrão).<br>
 É comum ver referencias de comandos como mkfs.ext2, mkfs.ext4 que são alias para mkfs, especificando o tipo de sistema de arquivo desejado.
+
+Opções:
+
+-c : verifica se existem ba blocks em dispositivo antes de criar o sistema de arquivo. <br>
+-L rótulo : define o rótulo do volume para o sistema de arquivos (apenas sistemas de arquivos com base em ext).<br>
+-q : usa mkfs em modo silencioso, resultando em uma saída bastante reduzida.<br>
+-j : cria um arquivo de jornal ext3.<br>
+
+Exemplo:
+
+Criar uma partição ext em /dev/sdb1:<br>
+<b> mkfs /dev/sdb1 </b>
