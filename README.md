@@ -791,10 +791,21 @@ gzip -d eduardo.gz
 
 ![image](https://user-images.githubusercontent.com/89140035/194929988-f3fcf69c-1dde-477e-9ac1-35c56edc3b5b.png)
 
+![image](https://user-images.githubusercontent.com/89140035/194930435-e824d158-2731-4a85-a2f7-23ce5fd8c005.png)
 
 
+### Gerenciamento de Sistemas de Arquivos 🗄️
 
+O gerenciamento do sistema de arquivos está entre as atividades mais importantes que você precisa realizar para manter um sistema Linux estável.<br>
+Em situações simples, após uma instalação com sucesso, você talvez nunca tenha um problema nem precise gerenciar detalhes específicos do sistema de arquivos.<br>
+No entanto, entender como configurar e fazer a manutenção dos sistemas de arquivos do Linux é essencial para gerenciar com segurança o seu sistema.
 
+* Partições de disco
 
+Quase todos os sistemas operacionais tem suporte a um sistema para dividir um disco em dispositivos lógicos, chamados particções.<br>
+O Linux oferece suporte a diversos formatos de particionamento diferentes, mas, por padrão, usa o formato do MS-DOS.<br>
+A tabela de partição do MS-DOS permite até *quatro partições primárias*.<br>
+Uma dessas quatro partições primárias pode ser substituída por uma partição estendida, que pode conter até 12 partições lógicas, para um total de 15 partições possíveis (16 se você incluir o container da partição estendida).<br>
+O tipo de partição, bem como o tipo de dispositivo, afeta o nome do dispositivo que o Linux usa para acessar a partição.
 
 
