@@ -980,4 +980,25 @@ Neste caso só é possível entrar no modo root para verificar o erro e conserta
 
 Veja que não é possível fazer qualquer alteração no diretório leitura, uma vez que ele foi mapeado apenas para ser leitura. Isso é importante para disponibilizar um disco para um determinado usuário que só terá poder de leitura mas não de alteração.
 
+* Montando Sistemas de Arquivos
  
+Os sistemas de arquivos são montados usando-se o comando <b> mount </b>.<br>
+No momento do boot, os sistemas de arquivos com um número de passe diferente se zero em <b> /etc/fstab </b> são verificados e montado automaticamente. <br>
+Depois disso, você pode rodar <b> mount </b> manualmente para adicionar outros sistemas de arquivos do sistema.
+O problema do mount é ele perde a montagem quando desligamos ou reiniciamos a máquina.<br>
+
+Sintaxe:
+
+<b> mount opções dispositivo diretório </b>
+
+Opções de linha de comando:<br>
+-a : monta todas as partições especificadas em /etc/fstab, exceto aquelas com a opção noauto.<br>
+-r : monta o sistema de arquivos como somente leitura. <br>
+-v : define o modo verbose. <br>
+-w : monta o sistema de arquivos no modo escrita.
+ 
+![image](https://user-images.githubusercontent.com/89140035/194965213-a55f4a76-9a9a-4799-a973-7419c3e5b4e7.png)
+
+* Desmontando sistema de arquivos
+
+Uma vez montado um sistema de arquivos, ele pode ser desmontado, 
