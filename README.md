@@ -808,4 +808,28 @@ A tabela de partição do MS-DOS permite até *quatro partições primárias*.<b
 Uma dessas quatro partições primárias pode ser substituída por uma partição estendida, que pode conter até 12 partições lógicas, para um total de 15 partições possíveis (16 se você incluir o container da partição estendida).<br>
 O tipo de partição, bem como o tipo de dispositivo, afeta o nome do dispositivo que o Linux usa para acessar a partição.
 
+* Partições de disco
 
+Partições primária em um disco IDE:<br>
+/dev/hda1<br>
+/dev/hda2<br>
+/dev/hda3<br>
+/dev/hda4<br>
+
+Partições estendidas:<br>
+/dev/hda1<br>
+/dev/hda2<br>
+...<br>
+
+As partiç~eso lógicas existem dentro da partiçao estendida e são numeradas de 5 a 16.
+
+* Gerenciando partições
+
+O Linux tem a opção básica para o particionamento de drivers de disco.<br>
+O comando <b>fdisk</b> é um programa de modo texto fácil de usar e que existe em todas as distribuições do Linux.
+
+Sintaxe:
+
+<b> fdisk dispositivo </b>
+
+O comando fdisk manipula ou exibe a tabela de particionamento para dispositivo usando uma interface de texto interativa, dirigida por comandos.
