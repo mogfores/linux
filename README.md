@@ -772,7 +772,12 @@ gunzip eduardo.gz<br>
 ou<br>
 gzip -d eduardo.gz
  
- 
+
+![image](https://user-images.githubusercontent.com/89140035/194924143-86db5601-05e0-418c-99d8-4db2b6785e81.png)
+
+![image](https://user-images.githubusercontent.com/89140035/194924433-710d0295-e10d-4a8b-8699-0c5387225077.png)
+
+
 
 
 
