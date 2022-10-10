@@ -933,3 +933,6 @@ Essas opções podem ser especificadas em /etc/fstab.
 <b> ro </b> : configura a partição para ser montada em modo de somente leitura. <br>
 <b> rw </b> : configura a partição para ser montada em modo escrita. <br>
 <b> users </b> : permite que qualquer usuário monte e desmonte o sistema de arquivos.
+
+![image](https://user-images.githubusercontent.com/89140035/194956663-ede0d9d2-f1c3-40c1-91bc-58a497c431ea.png)
+
