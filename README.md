@@ -702,7 +702,24 @@ O comando grep pode ser utilizado junto com outro comando, utilizando o <b>pipe<
 
 ### Compactadores de Arquivos 🧬
 
+* Comando Tar
 
+O Tar(Tape Archive) é o que faz o empacotamento com a extensão .tar<br>
+A Sintaxe do Tar é a seguinte:
+
+<b> tar [parâmetros] [nome_do_arquivo_tar] [arquivo_de_origem]<b>
+
+Exemplo: tar -cf dados.tar arquivo1 arquivo2trabalho.doc planilha xls
+
+Em parâmetros, é possível utilizar várias opções. Eis as principais:
+
+-c : Cria um novo arquivo tar<br>
+-t : exibe o conteúdo do um arquivo tar<br>
+-r : adiciona arquivos a um arquivo tar existente<br>
+-f : permite especificar o arquivo tar a ser utilizado<br>
+-v : exibe detalhes da operação<br>
+-w : pede confirmação antes de cada ação no comando<br>
+-x : extrai arquivos de um arquivo tar existente<br>
 
 
 
