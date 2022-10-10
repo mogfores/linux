@@ -709,7 +709,7 @@ A Sintaxe do Tar é a seguinte:
 
 <b> tar [parâmetros] [nome_do_arquivo_tar] [arquivo_de_origem]<b>
 
-Exemplo: tar -cf dados.tar arquivo1 arquivo2trabalho.doc planilha xls
+Exemplo: tar -cf dados.tar arquivo1 arquivo2 trabalho.doc planilha xls
 
 Em parâmetros, é possível utilizar várias opções. Eis as principais:
 
@@ -721,9 +721,58 @@ Em parâmetros, é possível utilizar várias opções. Eis as principais:
 -w : pede confirmação antes de cada ação no comando<br>
 -x : extrai arquivos de um arquivo tar existente<br>
 
+1 - Compactar arquivos:
+ 
+ <b> cf dados.tar arquivo1 arquivo2 arquivo3 (Obs:pode ser usado o caractere curinga*) <b>
+  
+2 - Visualizar o conteúdo de um arquivo tar:
+  
+<b> tar -tf dados.tar <b>
+ 
+3 - Descoompactar um arquivo tar:
 
+<b> tar -xf dados.tar <b>
+ 
+4 - Adicionar um arquivo ao arquivo já compactado:
+ 
+<b> tar -rf dados.tar arquivo_novo <b>
+ 
+5 - Compactar arquivos e pedir confirmação de arquivo por arquivo:
+ 
+<b> tar -cwf dados.tar*<b>
+ 
+* bzip2
+ 
+Compacta ou descompacta arquivos usando-se o algoritmo de compressão de texto que ordena blocos chamados Burrows-Wheeler e a codificação Huffman. Os arquivos compactados com bzip2 normalmente possuem a extensão .bz2.
+ 
+Opções:
+ 
+-d : descompacta um arquivo .bzip2
+ 
+-1 a -9 : define o tamanho do bloco para 100k, 200k, 300k, ...900k ao fazer compactação. Isso define os níveis de compactação.
+ 
+Compactar um arquivo usando o nível mais alto de compactação.<br>
+<b> bzip -9*.doc <b> : compactar todos os arquivos .doc
+  
+Descompactar um arquivo com a extensão .bz2<br>
+<b> bzip2 -d *.bz2<b> : descompactar todos arquivos .bz2
+   
+* gzip e gunzip
+   
+Esses comandos servem para compactar e descompactar arquivos usando a codificação Lempel-Ziv, o gzip é um dos formatos de compactação mais comuns encontrados em sistemas Linux, embora esteja sendo substituído pelo bzip2 que é mais eficiente. Os arquivos compactados com gzip normalmente possuem a extensão .gz.
+   
+Opções:
 
+-d : descompactar um arquivo<br>
+-r : navega pela estrutura de diretórios recursivamente, compactanto tudo
 
+Descompactando o arquivo eduardo.gz
+ 
+gunzip eduardo.gz<br>
+ou<br>
+gzip -d eduardo.gz
+ 
+ 
 
 
 
