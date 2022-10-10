@@ -897,3 +897,12 @@ Cada um desses sistemas de arquivos separados é montado no sistema na forma de 
 Os diretórios criados para serem pontos de montagem geralmente não contém arquivos nem outros diretórios.<br>
 Se um diretório que já contiver arquivos for usado como um ponto de montagem, os seus arquivos serão obscurecidos e ficarão indisponíveis até que o sistema de arquivos seja desmontado.<br>
 Essas informações são registradas no arquivo <b>/etc/fstab.</b>
+O arquivo /etc/fstab é de texto simples e consiste de linhas com seis campos:<br>
+
+<b> Dispositivo: </b> : Este campo especifica o arquivo de dispositivo da partição que armazena o sistema de arquivos (/dev/hda1). Ele pode ser tanto o nome do dispositivo, ou o UUID do dispositivo. <br>
+
+<b> Ponto de montagem </b> : Este campo especifica o diretório no qual o sistema de arquivos deve ser montado. Por exemplo, se /dev/hda1 contiver o sistema de arquivos root, ele será montado em /. <br>
+
+<b> Tipo do sistema de arquivos </b> : Em seguida, é especificado o tipo do sistema de arquivos. Este pode ser do tipo ext4, swap, isso 9660 (CD-ROM) entre outros.
+
+
