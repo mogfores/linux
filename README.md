@@ -845,4 +845,13 @@ As fazer modificações à tabela de partição, fdisk acumula modificações se
 
 ![image](https://user-images.githubusercontent.com/89140035/194938836-e4b59e35-2037-40c4-b890-8d03e65cc6f3.png)
 
+* Criar uma partição /dev/sdb no Virtual Box
+* Pressionar a tecla <b>n</b> : criar nova partição
+
+![image](https://user-images.githubusercontent.com/89140035/194940782-0de1c3db-720a-4627-adb6-117a4e3f4b24.png)
+
+* Criar duas partições primárias e uma estendida
+
+![image](https://user-images.githubusercontent.com/89140035/194941293-f2e4c8a5-2da2-4a9d-a149-2c29c7ec33c0.png)
+
 
