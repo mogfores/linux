@@ -936,3 +936,48 @@ Essas opções podem ser especificadas em /etc/fstab.
 
 ![image](https://user-images.githubusercontent.com/89140035/194956663-ede0d9d2-f1c3-40c1-91bc-58a497c431ea.png)
 
+Para ver como isso funciona na prática, foi feita uma pasta chamada "mp3" no diretório /. Após isso, entramos com a opção de edição do arquivo fstab, com o comando:
+
+<b> vi /etc/fst </b> 
+
+E acrescentamos o ponto de montagem manualmente:
+
+![image](https://user-images.githubusercontent.com/89140035/194958921-87ed138d-499b-49ca-b69a-562e17962d16.png)
+
+Com o comando df -h é possível que o ponto de montagem ainda não foi montado, isso acontece porque a montagem acontece na inicialização:
+
+![image](https://user-images.githubusercontent.com/89140035/194959388-fc26b6b0-b8c7-47e2-afee-f853a62919c9.png)
+
+Logo, inicializaremos a máquina com o comando reboot
+
+![image](https://user-images.githubusercontent.com/89140035/194959611-66dd8454-4ace-4871-a480-3499c3ffc3d7.png)
+
+Agora vamos formatar o disco sdb2 com o comando <b> mkfs /dev/sdb2
+ 
+![image](https://user-images.githubusercontent.com/89140035/194959894-335350b8-c06d-4217-b65b-d9c965563da4.png)
+
+Agora vamos criar outra pasta em que só pode ser feita somente leitura pelo usuário.<br>
+<b> mkdir leitura </b> <br>
+ 
+Logo em seguida editaremos o arquivo fstab com o comando: <br>
+<b> vi /etc/fstab </b> <br>
+ 
+![image](https://user-images.githubusercontent.com/89140035/194961152-61d41c2f-02af-483e-9a92-dd141d85a080.png)
+
+Veja que no mesmo caso não é possível ver montado sem o reboot:
+ 
+![image](https://user-images.githubusercontent.com/89140035/194961285-cfc73aa6-2d63-4be2-8914-3fff73be877c.png)
+
+Caso acontece algo de errado, por exemplo, erro de digitação, no reboot entrará em modo de emergência com a mensagem:
+ 
+ <b> [FAILED] Failed to mount /leitura </b>
+
+Neste caso só é possível entrar no modo root para verificar o erro e consertar.
+
+![image](https://user-images.githubusercontent.com/89140035/194963907-738770ea-99b8-4117-a3a3-d83d782b6be8.png)
+ 
+![image](https://user-images.githubusercontent.com/89140035/194964124-a92c23eb-10e0-4220-aaad-cc8e0b399fe2.png)
+
+Veja que não é possível fazer qualquer alteração no diretório leitura, uma vez que ele foi mapeado apenas para ser leitura. Isso é importante para disponibilizar um disco para um determinado usuário que só terá poder de leitura mas não de alteração.
+
+ 
