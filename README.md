@@ -1189,3 +1189,57 @@ Exemplo, ug para usuário e grupo combinados, ou rw para leitura e escrita. <br>
 <b> go-w </b> : remove a permissão de escrita das classes grupo e outros. <br>
 <b> a=rw </b> : define as permissões de leitura e escrita, mas não de execução, para todos.<br>
 <b> a+x </b> : concede a todos a permissão de execução para diretórios e para os arquivos que já tenham alguma permissão de execução.
+
+<b> chmod </b>
+
+O comando chmod modifica o modo de acesso para arquivos.<br>
+Na primeira forma, usa uma ou mais especificações de modo simbólico, separadas por vírgula, para modificar os arquivos. <br>
+Na segunda forma, usa um modo octal para modificar os arquivos.<br>
+
+Sintaxe:<br>
+chmod opções modo_simbólico arquivos <br>
+chmod opções modo_octal arquivos <br>
+
+Opções: <br>
+-R : usa o modo recursivo, repassando as hierarquias de diretórios abaixo dos arquivos e fazendo modificações em todo o percurso. <br>
+-v : usa o comportamento verbose, relatando todas as ações para todos os arquivos.
+
+Exemplo:
+
+Definir o modo de um arquivo como rw-r-r--, usando especificações octal:<br>
+chmod 644 arquivo
+
+Exemplo:
+
+Definir a mesma permissão, usando-se especificação simbólica, com a opção verbose:<br>
+chmod -v u=rw, go=r arquivo
+
+Exemplo:
+
+Remover recursivamente todas as permissões para os outros em um diretório:<br>
+chmod -R -v o-rwx diretório
+
+<b> chown </b>
+
+O comando chown é usado para modificar o proprietário e/ou grupo de arquivos.
+
+Sintaxe: <br>
+chown opções usuário-proprietário *arquivos* <br>
+chown opções usuário-proprietário.grupo-proprietário *arquivos* <br>
+chown opções grupo-proprietário *arquivos* <br>
+
+Na primeira forma, definimos o usuário proprietário. <br>
+Na segunda forma, definimos o usuário proprietário e o grupo proprietário. <br>
+Na terceira forma, definimos o grupo proprietário. 
+
+Opções: <br>
+-R : usa o modo recursivo, descendendo através dos diretórios e fazendo alterações. <br>
+-v : usa o comportamento verbose, relatando ações para todos os arquivos.
+
+Exemplo:
+
+Define o usuário proprietário de um arquivo: <br>
+chown -v eduardo *arquivo* <br>
+
+Define o usuário e o grupo proprietário de um arquivo: <br>
+chown -v eduardo.grupo *arquivo* <br>
