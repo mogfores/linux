@@ -1135,4 +1135,28 @@ Essas três permissões se aplicam às três classes diferentes: usuário, grupo
 ![image](https://user-images.githubusercontent.com/89140035/195204546-303acb00-e596-4700-8d24-bc3f4e34de4f.png)
 
 Quando exibidas por comandos como ls -l, as permissões usam as abreviaturas. <br>
-Para representar apenas a permissão de leitura, por exemplo, seria usado <b> r-- </b>
+Para representar apenas a permissão de leitura, por exemplo, seria usado <b> r-- </b><br>
+Leitura e gravação juntas, seriam indicadas com <b> rw-- </b> <br>
+Essas notações normalmente são apresentadas em conjuntos de três, como por exemplo: <b> rw-rw-r-- </b>
+
+![image](https://user-images.githubusercontent.com/89140035/195205110-2068cc9e-bc63-49ad-a55d-65503e9bc594.png)
+
+O traço separa as classes, logo a seguinta notação: <br>
+rw-rw-r--<br>
+rw : user --> poderá ler e escrever <br>
+rw : grupo --> poderá ler e escrever <br>
+r : outros --> poderá apenas ler
+
+* Os bits para permissão
+
+As permissões de arquivos e diretórios podem ser representadas em uma string de 9 bits. <br>
+É comum referir-se a esses bits em três conjuntos de três, traduzidos para três dígitos octais (base-8). <br>
+Os dígitos octais representam as permissões de leitura, escrita e execução.
+
+![image](https://user-images.githubusercontent.com/89140035/195206689-aeee2d77-cd20-41aa-a8e1-b22758d70b50.png)
+
+A permissão de leitura sozinha é r--, que pode ser entendida como um 100 binário ou 4 octal.<br>
+Adicionando-se a permissão de escrita, tem-se rw- ou 110 binário, que equivale a 6 octal.
+
+![image](https://user-images.githubusercontent.com/89140035/195207097-595171ed-2387-4e05-9289-45bef221d417.png)
+
