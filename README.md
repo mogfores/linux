@@ -1019,3 +1019,9 @@ Desmontar o CD-ROM /dev/hdc montado em /mnt/cdrom:
 Desmontar todos os sistemas de arquivos NFS:
 
 <b> umount -at nfs </b>
+
+
+### Monitorando e Consertando Sistemas de Arquivos
+
+
+
