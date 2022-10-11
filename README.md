@@ -1098,6 +1098,7 @@ Opções:
 -p : repara automaticamente o sistema de arquivos, sem pedir confirmação ao usuário. <br>
 -y : responde "yes" a todos os prompts interativos.
 
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/89140035/195200420-96ca99d0-181c-40cd-8640-0b1617a5036a.png">
 
 
 
