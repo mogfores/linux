@@ -1060,6 +1060,11 @@ Opções:<br>
 -S : exclui subdiretórios de contagens e de totais, limitando os totais aos diretórios. <br>
 -c : somatória geral de todos os ítens. <br>
 
+![image](https://user-images.githubusercontent.com/89140035/195198710-90a40dd9-c77e-4a3e-95cc-2ac52fb35d28.png)
+
+![image](https://user-images.githubusercontent.com/89140035/195199501-c5d26261-6b1f-473e-aa32-b53f991bdba6.png)
+
+
 Exemplo:
 
 Examinar a utilização de disco em /etc, incluindo os subdiretórios dentro dele.<br>
