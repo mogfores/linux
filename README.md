@@ -1101,4 +1101,31 @@ Opções:
 <img width="452" alt="image" src="https://user-images.githubusercontent.com/89140035/195200420-96ca99d0-181c-40cd-8640-0b1617a5036a.png">
 
 
+### Permissões de Arquivos ❗
+
+* Gerenciar a prioridade e as permissões dos arquivos
+
+A segurança do sistema de arquivos é um requerimento fundamental para qualquer sistema operacional multiusuários.<br>
+Arquivos de sistema, kernel, arquivos de configuração e os programas precisam ser protegidos contra acidentes e contra a manipulação feita por pessoas não autorizadas.<br>
+Os arquivos dos usuários precisam ser protegidos contra modificações feitas por pessoas sem autorização e em alguns casos precisam ser mantidos completamente privados.<br>
+Em geral, é preciso implementar alguma forma de controle de acesso para se permitir as operações seguras. <br>
+
+* Controle de Acesso Linux
+
+O controle de acesso ao sistema de arquivos do Linux é implementado usando um conjunto de propriedades mantidas separadamente para cada arquivo. <br>
+Essas propriedades são chamadas de modo de acesso de um arquivo. <br>
+O controle de acesso é dividido em três categorias:
+
+<b> Usuários (User)</b> : o usuário que é o proprietário do arquivo. <br>
+<b> Grupo (Group) </b> : o grupo que é o proprietário do arquivo. <br>
+<b> Outros (Other) </b> : todos os outros usuários do sistema. <br>
+
+As definições de propriedade do usuário e do grupo fazem parte do inode e ambas são atribuídas quando um arquivo é criado.<br>
+Geralmente, o proprietário é o usuário que criou o arquivo.<br>
+O grupo do arquivo normalmente é definido como o grupo padrão do seu criador. <br>
+Os "outros" usuários são aqueles que não são membros do grupo do arquivo e também não são o seu proprietário. <br>
+Para cada uma dessas três categorias, são definidas três tipos de permissões, que se aplicam diferentemente para arquivos e diretórios.<br>
+
+![image](https://user-images.githubusercontent.com/89140035/195203337-bcf9eafc-5be5-4d5c-a766-8d3c1c78fe86.png)
+
 
