@@ -1128,4 +1128,11 @@ Para cada uma dessas três categorias, são definidas três tipos de permissões
 
 ![image](https://user-images.githubusercontent.com/89140035/195203337-bcf9eafc-5be5-4d5c-a766-8d3c1c78fe86.png)
 
+Essas três permissões se aplicam às três classes diferentes: usuário, grupo e outros. Sendo que pode haver duas formas:<br>
+0 : não permite
+1 : permite
 
+![image](https://user-images.githubusercontent.com/89140035/195204546-303acb00-e596-4700-8d24-bc3f4e34de4f.png)
+
+Quando exibidas por comandos como ls -l, as permissões usam as abreviaturas. <br>
+Para representar apenas a permissão de leitura, por exemplo, seria usado <b> r-- </b>
