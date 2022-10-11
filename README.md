@@ -1085,9 +1085,13 @@ Por padrão, fsck assume que o tipo do sistema é o ext e roda interativamente, 
 
 Opções:
 
-
-
-
+-A : roda verificações em todos os sistemas de arquivos especificados em /etc/fstab. Esta opção é para uso no momento do boot, antes de os sistemas de arquivos serem montados.<br>
+-N : não executa, mas mostra o que seria feito, quais arquivos e partições que seriam corrigidos.<br>
+-t tipo : especifica o tipo de sistema de arquivos a ser verificado; o padrão é o ext. O valor de tipo determina qual verificador, de qual sistema de arquivos será chamado.<br>
+-c : verifica se há bad blocks.<br>
+-f : força uma verificação, mesmo que o sistema de arquivos pareça ok. <br>
+-p : repara automaticamente o sistema de arquivos, sem pedir confirmação ao usuário. <br>
+-y : responde "yes" a todos os prompts interativos.
 
 
 
