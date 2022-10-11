@@ -1243,3 +1243,19 @@ chown -v eduardo *arquivo* <br>
 
 Define o usuário e o grupo proprietário de um arquivo: <br>
 chown -v eduardo.grupo *arquivo* <br>
+
+![image](https://user-images.githubusercontent.com/89140035/195216646-876f5912-6473-4c4e-b38f-ee4e12eab26b.png)
+
+![image](https://user-images.githubusercontent.com/89140035/195216903-5910951c-428e-448c-8e4b-e53914b43ef6.png)
+
+![image](https://user-images.githubusercontent.com/89140035/195216985-82eadf7f-f201-4676-86ed-f04e29dc93d1.png)
+
+OBS: Não é possível liberar a permissão de escrita se não for concedida a permissão de leitura.
+
+![image](https://user-images.githubusercontent.com/89140035/195217828-853c75f2-5795-42a6-88e8-ea881e4f1d7f.png)
+
+![image](https://user-images.githubusercontent.com/89140035/195218069-630f5d17-f95f-47ee-a8ca-0b03c7b3198d.png)
+
+![image](https://user-images.githubusercontent.com/89140035/195218498-f6f69521-0bad-48b9-947e-7202755884a0.png)
+
+OBS.: O usuário root, independente da permissão que você defina, ele será capaz de fazer qualquer alteração em todos os usuários e arquivos da máquina.
