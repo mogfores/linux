@@ -1160,3 +1160,32 @@ Adicionando-se a permissão de escrita, tem-se rw- ou 110 binário, que equivale
 
 ![image](https://user-images.githubusercontent.com/89140035/195207097-595171ed-2387-4e05-9289-45bef221d417.png)
 
+Para transformar os bits de modo <b>111101001</b> em uma representação octal, primeiramente separa-se em pedaçõs com três bits cada um:<br>
+
+111 , 101 e 001 <br>
+
+O primeiro grupo, representando as permissões do usuário é o 111, ou 4 + 2 + 1 = 7. <br>
+O segundo grupo, representando as permissões do grupo, é o 101, ou 4 + 0 + 1 = 5. <br>
+O último grupo, representando as outras permissões, é o 001, ou 0 + 0 + 1 = 1. <br>
+
+A string de modo para este exemplo pode, então, ser escrita como o número <b> octal 751. </b> <br>
+Este formato é usado para se exibir o modo do arquivo na saída do comando <b> stat. </b>
+
+![image](https://user-images.githubusercontent.com/89140035/195209949-337465a4-4beb-4529-8ab1-202ca8213b00.png)
+
+644 é o valor em octal: usuário dono do arquivo pode ler, escrever, mas não pode executar, o grupo desse usuário só pode ler, e os outros usuários também só podem ler.
+
+* Modificando modos de acesso
+
+Os modos de acesso podem ser modificados com o comando <b>chmod</b>, o qual aceita especificações de modo de acesso octais ou simbólicos. <br>
+As especificações de modo simbólico possuem três partes, compostas de caracteres individuais. <br>
+
+![image](https://user-images.githubusercontent.com/89140035/195211126-f02e1abe-6b92-4a66-b21a-5f76f8037b99.png)
+
+Os caracteres que representam a classe individual do usuário e os que representam as permissões podeer ser agrupados para se formarem expressões compostas. <br>
+Exemplo, ug para usuário e grupo combinados, ou rw para leitura e escrita. <br>
+
+<b> u+x </b> : adiciona a permissão de execução para o usuário. <br>
+<b> go-w </b> : remove a permissão de escrita das classes grupo e outros. <br>
+<b> a=rw </b> : define as permissões de leitura e escrita, mas não de execução, para todos.<br>
+<b> a+x </b> : concede a todos a permissão de execução para diretórios e para os arquivos que já tenham alguma permissão de execução.
