@@ -1021,7 +1021,74 @@ Desmontar todos os sistemas de arquivos NFS:
 <b> umount -at nfs </b>
 
 
-### Monitorando e Consertando Sistemas de Arquivos
+### Monitorando e Consertando Sistemas de Arquivos 🛠️
+
+* Monitorar o espaço livre em disco
+
+Um sistema de arquivos de leitura/escrita não é muito útil se ele crescer até o ponto em que não aceite mais arquivos novos.<br>
+Isso poderia acontecer se o sistema de arquivos tiver a sua capacidade totalmente preenchida. <br>
+O comando <b>df</b> lhe fornece as informações de que precisa sobre o status tanto da utilização do espaço em disco como também sua vida útil.<br>
+
+<b>df</b>
+
+Sintaxe: df opções
+
+Exibe informações gerais sobre a utilização do disco para sistemas de arquivos montados em arquivos.<br>
+Em geral, arquivo é um arquivo de dispositivo para uma partição, como /dev/hda1.<br>
+As informações para sistemas montados em todos os dispositivos ficam em <b>/etc/fstab.</b><br>
+
+Opções:
+
+-h : Exibe os resultados em um formato legível, incluindo sufixos momo M (megabytes) e G (gigabytes).<br>
+-i : Exibe informações sobre os <b>inodes</b> restantes, em vez de as informações padrão sobre o espaço em disco.
+
+Para cada arquivo existe um <b>inode</b>, que armazena informações sobre o arquivo relacionado. Essas informações, também conhecidas como Metadados, são importantes para administração do arquivo. O inode guarda informações como permissões, tempo, grupo e proprietário do arquivo.
+
+![image](https://user-images.githubusercontent.com/89140035/195164176-67b6a254-388c-45cd-8476-fb005fdca262.png)
+
+<b> du </b>
+
+O comando du exibe informações de utilização de disco para diretórios. Se diretórios forem omitidos, a busca é feita no diretório de trabalho atual.
+
+Sintaxe:<br>
+du opções diretórios
+
+Opções:<br>
+-a : mostra todos os arquivos, e não apenas diretórios.<br>
+-h : exibe resultados em um formato legível, incluindo sufixos como M (megabytes) e G (gigabytes).<br>
+-s : exibe um resumo para cada um dos diretórios especificados, em vez de totais para cada subdiretório encontrado recursivamente.<br>
+-S : exclui subdiretórios de contagens e de totais, limitando os totais aos diretórios. <br>
+-c : somatória geral de todos os ítens. <br>
+
+Exemplo:
+
+Examinar a utilização de disco em /etc, incluindo os subdiretórios dentro dele.<br>
+
+![image](https://user-images.githubusercontent.com/89140035/195175188-0fd03a20-b751-4c22-9054-b22679ce6764.png)
+
+Exibir um resumo de todos os subdiretórios de /home, com uma saída legível:
+
+![image](https://user-images.githubusercontent.com/89140035/195175490-4a09caaf-e80b-4f12-bedf-a72e83245aba.png)
+
+Computadores eventualmente podem falhar, mesmo por uma parada de energia ou até mesmo uma arquivo malicioso.<br>
+Se uma operação de escrita em disco for abortada antes de se completar, os dados em trânsito poderão se perder e as partes do disco que haviam sido alocadas para eles serão marcadas como utilizadas.<br>
+Ambos os cenários levam a inconsistências no sistema de arquivos e precisam ser corrigidos para se garantir uma operação confiável.<br>
+Os sistemas de arquivos são verificados com o <b>fsck.</b><br>
+
+<b> fsck </b>
+
+Sintaxe:<br>
+fsck opções tipo_sistema_aquivo
+
+O fsck verifica se há erros nos sistemas de arquivos e, opcionalmente, os corrige.<br>
+Por padrão, fsck assume que o tipo do sistema é o ext e roda interativamente, pausando para lhe pedir permissão antes de aplicar quaisquer reparos.
+
+Opções:
+
+
+
+
+
 
 
 
