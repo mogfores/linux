@@ -1259,3 +1259,5 @@ OBS: Não é possível liberar a permissão de escrita se não for concedida a p
 ![image](https://user-images.githubusercontent.com/89140035/195218498-f6f69521-0bad-48b9-947e-7202755884a0.png)
 
 OBS.: O usuário root, independente da permissão que você defina, ele será capaz de fazer qualquer alteração em todos os usuários e arquivos da máquina.
+
+### Redes 
