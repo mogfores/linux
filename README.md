@@ -1279,3 +1279,21 @@ Para sistemas que possuam a interface gráfica instalada, utilizamos o <b> Netwo
 Antigamente se tratando de interface de rede cabeada, o Linux chamava suas interfaces de <b> eth0, eth1, eth2. </b> <br>
 Se tratando da interface de rede wireless, o Linux chamava suas interfaces pelo nome de <b> wlan0 </b> e as próximas seguem o mesmo padrão. <br>
 É importante salientar que esse padrão não é REGRA, pois ele pode ser alterado em algumas distribuições Linux. <br>
+
+* Nova Nomenclatura de Onterfaces no Linux
+
+As principais distribuições Linux estão adotando o padrão <b> systemd </b>, onde ocorre algumas padronizações em relaçãoas configurações do sistema, uma delas é justamente a padronização dos comandos e interfaces de rede. <br>
+A partir da versão Debian 8 (Jessie) passou a ser utilizado o padrão, portanto a não ser que você instale o aplicativo <b> net-tools </b>, seus padrões de rede serão os padrões novos. <br>
+A partir da versão <b> v197 do systemd </b>, o Linux passou a utlizar um novo mecanismo para nomenclatura das interfaces de redes, denominado <b> Predictable Network Interface Names </b>. O objetivo da nova nomenclatura foi solucionar problemas reais decorrentes da generalização dos nomes tradicionais que utilizavam o formato ethX (ethernet), wlanX (wireless), etc. <br>
+O problema da nomenclatura tradicional é que as interfaces de mesma natureza recebem seus nomes do kernel de maneira sequencial (no formato eth0, eth1, eth2, etc...) assim que elas são consultadas pelo driver. <br>
+Ocorre que o mecanismo de comunicação entre o driver e a interface não é previsível, o que implica na possibilidade de alteração nos nomes das interfaces durante o processo de boot de máquinas que tenham múltiplas interfaces de rede em caso de atualização de hardware. <br>
+Essa situação traz riscos de segurança em ambientes que tenham configurações e scripts de firewall que foram baseados nos nomes tradicionais. <br>
+O novo mecanismo de nomenclatura traz suporte nativo a diferentes políticas para nomeação das interfaces de rede, a destacatar: <br>
+1. Nomes Indexados via Firmware/BIOS On-Board
+2. Nomes Indexados via Firmware/BIOS PCI Express
+3. Nomes Indexados via Localização Física do Hardware
+4. Nomes Indexados via Endereço Físico (MAC)
+5. Nomes Clássicos Nativos do Kernel (Imprevisíveis) <br> <br>
+Todas essas políticas são utilizadas em conjunto, de forma que a primeira política será adotada caso as informações do firmware on-board estejam disponíveis, seguida pela segunda política caso as informações do firmware PCI estejam disponíveis, seguida pela terceira política e assim por diante. <br>
+Por exemplo, possíveis nomes de interfaces baseados na primeira, segunda, terceira, quarta e quinta políticas, respectivamente, seriam: <b> eno1, ens1, enp2s0, enx78e7d1ea46da e eth0. </b> <br>
+Apesar das políticas padrões, as configurações realizadas pelo administrador sempre tem precedência.
