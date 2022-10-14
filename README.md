@@ -1294,6 +1294,8 @@ O novo mecanismo de nomenclatura traz suporte nativo a diferentes políticas par
 3. Nomes Indexados via Localização Física do Hardware
 4. Nomes Indexados via Endereço Físico (MAC)
 5. Nomes Clássicos Nativos do Kernel (Imprevisíveis) <br> <br>
+
+
 Todas essas políticas são utilizadas em conjunto, de forma que a primeira política será adotada caso as informações do firmware on-board estejam disponíveis, seguida pela segunda política caso as informações do firmware PCI estejam disponíveis, seguida pela terceira política e assim por diante. <br>
 Por exemplo, possíveis nomes de interfaces baseados na primeira, segunda, terceira, quarta e quinta políticas, respectivamente, seriam: <b> eno1, ens1, enp2s0, enx78e7d1ea46da e eth0. </b> <br>
 Apesar das políticas padrões, as configurações realizadas pelo administrador sempre tem precedência.
