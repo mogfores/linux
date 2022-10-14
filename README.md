@@ -1273,7 +1273,7 @@ NAT: a maquina real fará um reteamento para a máquina virtual, sem compartilha
 Modo Interno: As máquinas virtuais não possuem nenhum tipo de acesso externo. Só são capazes de se comunicar entre si (entre máquinas virtuais). <br>
 
 Quando se trata de ambientes de servidores Linux, independente da distribuição escolhida, normalmente você vai se deparar apenas com a <b> interface modo texto </b>, o que nos faz realizar as configurações de rede manualmente, escrevendo as configurações em um arquivo. <br>
-No Linux, nas maiorias das distribuições, o arquivo de configuração de redes é o arquivo <b> interfaces. <b> Localizado dentro de </b> /etc/network. <b> <br>
+No Linux, nas maiorias das distribuições, o arquivo de configuração de redes é o arquivo <b> interfaces. </b> Localizado dentro de <b> /etc/network. </b> <br>
 Antes de começar a explorar esse arquivo, também é importante compreender como o Linux chama suas <b> interfaces de rede. </b> <br>
 Para sistemas que possuam a interface gráfica instalada, utilizamos o <b> Network Manager. </b> <br>
 Antigamente se tratando de interface de rede cabeada, o Linux chamava suas interfaces de <b> eth0, eth1, eth2. </b> <br>
