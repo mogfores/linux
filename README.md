@@ -1299,3 +1299,49 @@ O novo mecanismo de nomenclatura traz suporte nativo a diferentes políticas par
 Todas essas políticas são utilizadas em conjunto, de forma que a primeira política será adotada caso as informações do firmware on-board estejam disponíveis, seguida pela segunda política caso as informações do firmware PCI estejam disponíveis, seguida pela terceira política e assim por diante. <br>
 Por exemplo, possíveis nomes de interfaces baseados na primeira, segunda, terceira, quarta e quinta políticas, respectivamente, seriam: <b> eno1, ens1, enp2s0, enx78e7d1ea46da e eth0. </b> <br>
 Apesar das políticas padrões, as configurações realizadas pelo administrador sempre tem precedência.
+
+* Comandos de Redes
+
+Os primeiros comandos de redes são para verificação e controle da interface.
+
+<b> ip a <b>
+
+O comando irá trazer todas as interfaces de rede configuradas como também os endereços IPv4 e IPv6, os endereços MAC, entre outras opções.
+
+![image](https://user-images.githubusercontent.com/89140035/195946636-a982c994-5f5b-4a72-9850-74ebaabc4396.png)
+
+Caso você queira ainda uma visão mais limpa, você pode selecionar apenas os endereços IPv4 ou o IPv6, com os comandos: <b> ip -4 a e ip -6 a </b>
+ 
+![image](https://user-images.githubusercontent.com/89140035/195946953-b8cc1a61-2526-4e99-92a3-9fbf59d23650.png)
+
+![image](https://user-images.githubusercontent.com/89140035/195947004-01d819ca-4662-4e09-8149-29596e46ccdb.png)
+
+<b> ip r </b>
+ 
+Esse comando mostrará o Gateway padrão.
+
+![image](https://user-images.githubusercontent.com/89140035/195947291-c6d15722-f917-474b-a977-68adf5e1ee49.png)
+
+<b> ip -s link </b>
+
+Esse comando irá checar o tráfego da placa de rede
+
+![image](https://user-images.githubusercontent.com/89140035/195947495-bb220865-bd7a-4cc2-b402-cccf56b2b66f.png)
+
+Também podemos ativar ou desativar uma determinada interface de rede (placa de rede), utilizando os comandos <b> ifup e ifdown </b>. <br>
+
+<b> ifdown enp0s3 </b> : Parar a placa de rede
+
+<b> ifup enp0s3 </b> : Ativar a placa de rede
+
+![image](https://user-images.githubusercontent.com/89140035/195948013-964f61cf-d24a-439f-af24-0c23f2226247.png)
+
+* Achar a interface da placa de rede
+
+Comando <b> dmesg | grep -i network </b>
+
+![image](https://user-images.githubusercontent.com/89140035/195948389-c60d7f4f-3cb0-4f31-9972-84229f022695.png)
+
+![image](https://user-images.githubusercontent.com/89140035/195948623-ec9b219b-1708-4d7e-a1fc-3a2245624942.png)
+
+![image](https://user-images.githubusercontent.com/89140035/195948874-61b29aad-94dd-425a-bc89-c80ca04cb6ac.png)
