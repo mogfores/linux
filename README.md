@@ -1260,4 +1260,22 @@ OBS: Não é possível liberar a permissão de escrita se não for concedida a p
 
 OBS.: O usuário root, independente da permissão que você defina, ele será capaz de fazer qualquer alteração em todos os usuários e arquivos da máquina.
 
-### Redes 
+### Redes Linux ➡️
+
+* Entendendo a Placa de Rede Virtualizada
+
+Modos: Bridge, NAT e Interna <br>
+
+Bridge: divisão da placa de rede da máquina real para as máquinas virtuais (compartilhada fisicamente), a máquina virtualizada vai poder se comunicar com o roteador, switch e outros equipamentos na rede. Elá receberá um IP da rede. <br>
+
+NAT: a maquina real fará um reteamento para a máquina virtual, sem compartilhar a mesma placa de rede. O compartilhamento o processamento e armazenamento. O equipamento virtualizado solicita o pacote para o equipamento real, e este então se encarrega de solicitá-lo e depois mandar para a máquina virtual. A máquina virtual receberá um endereço de IP secundário. <br>
+
+Modo Interno: As máquinas virtuais não possuem nenhum tipo de acesso externo. Só são capazes de se comunicar entre si (entre máquinas virtuais). <br>
+
+Quando se trata de ambientes de servidores Linux, independente da distribuição escolhida, normalmente você vai se deparar apenas com a <b> interface modo texto <b>, o que nos faz realizar as configurações de rede manualmente, escrevendo as configurações em um arquivo. <br>
+No Linux, nas maiorias das distribuições, o arquivo de configuração de redes é o arquivo <b> interfaces. <b> Localizado dentro de <b> /etc/network. <b> <br>
+Antes de começar a explorar esse arquivo, também é importante compreender como o Linux chama suas <b> interfaces de rede. <b> <br>
+Para sistemas que possuam a interface gráfica instalada, utilizamos o <b> Network Manager. <b> <br>
+Antigamente se tratando de interface de rede cabeada, o Linux chamava suas interfaces de <b> eth0, eth1, eth2. <b> <br>
+Se tratando da interface de rede wireless, o Linux chamava suas interfaces pelo nome de <b> wlan0 <b> e as próximas seguem o mesmo padrão. <b> <br>
+É importante salientar que esse padrão não é REGRA, pois ele pode ser alterado em algumas distribuições Linux. <b> <br>
