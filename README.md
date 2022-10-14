@@ -1304,7 +1304,7 @@ Apesar das políticas padrões, as configurações realizadas pelo administrador
 
 Os primeiros comandos de redes são para verificação e controle da interface.
 
-<b> ip a <b>
+<b> ip a </b>
 
 O comando irá trazer todas as interfaces de rede configuradas como também os endereços IPv4 e IPv6, os endereços MAC, entre outras opções.
 
