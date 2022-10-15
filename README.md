@@ -1454,3 +1454,7 @@ OBJETIVO: <br>
 3 - Fazer o teste de conexão entre as duas máquinas. <br>
 4 - Responder a pergunta: As máquinas tem acesso a internet?
 
+Primeira deixar as duas máquinas IP fixo através da edição do arquivos interfaces na pasta /etc/network.
+
+![image](https://user-images.githubusercontent.com/89140035/196009548-7d5df001-461d-47b3-bf7f-e29ce985d656.png)
+
