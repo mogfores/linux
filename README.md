@@ -1353,3 +1353,38 @@ Existem duas maneiras da interface de rede adquirir um endereço IP, ou você te
 O arquivo de configuração de rede se localiza dentro do diretório <b> /etc/network. </b>. O arquivo se chama <b> interfaces. </b>
 
 Fazendo a leitura do arquivo interfaces, observamos a seguinte configuração por default:
+
+![image](https://user-images.githubusercontent.com/89140035/195990356-b5f3d9cb-99eb-49dc-91c9-922458837296.png)
+
+Note que no nosso exemplo são apresentados duas interfaces, a interface do <b> lo </b> e a interface de rede <b> enp0s3 </b>.
+
+OBS.: A interface de lo ou também chamada de Loopback refere-se ao roteamento de sinais eletrônicos, fluxo de dados digitais ou fluxos de itens que retornam para suas origens sem processamento ou modificação intercional.
+
+O loopback pode ser um canal de comunicação com apenas um ponto final de comunicação, de forma que qualquer mensagem transmitida por meio de tal canal é imediatamente recebida pelo mesmo canal.
+
+Em telecomunicações, dispositivos de loopback realizam teste de transmissão.
+
+No arquivo de configuração a respeito da interface enp0s3, encontramos as seguintes linhas:
+
+<b> allow-hotplug enp0s3 <br>
+iface enp0s3 inet dhcp </b>
+
+E isto nos diz muitas coisas, como por exemplo:
+
+<b> allow-hotplug - </b> : ativa a placa de rede na inicialização. <br>
+<b> enp0s3 - </b> : nome da interface de rede adicionado automaticamente utilizando o sistema de nomenclatura. <br>
+<b> iface - </b> : interdace de rede. <br>
+<b> inet dhcp - </b> : está especificando que o endereço (inet) será atribuído via DHCP.
+
+Esse resumo, essas configurações dizem que a interface será iniciada junto com o sistema e terá a sua configuração através do <b> protocolo DHCP </b>.
+
+Agora vamos configurar a interface manualmente. Devemos abrir o arquivo interface e adicionar os seguintes itens:
+
+auto enp0s3 <br>
+iface enp0s3 inet static <br>
+address 192.168.1.100 <br>
+netmask 255.255.255.0 <br>
+network 192.168.1.0 <br>
+broadcast 192.168.1.255 <br>
+gateway 192.168.1.1 <br>
+
