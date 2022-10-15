@@ -1487,3 +1487,7 @@ Com a configuração da terceira interface, vamos conferir se agora existe numer
 Agora a maquina 1 consegue estabelecer conexão com a internet
 
 ![image](https://user-images.githubusercontent.com/89140035/196010714-1b56beaf-010c-4635-a11c-284e20388342.png)
+
+### Servidor de Arquivos (SAMBA) 👋
+
+
