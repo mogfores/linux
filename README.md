@@ -1443,3 +1443,8 @@ Opções: <br>
 -6 : somente IPv6 <br>
 
 Exemplo: ss -tulpn
+
+### Prática Redes Linux 🧑‍🚀
+
+![image](https://user-images.githubusercontent.com/89140035/196009431-6547a9fe-7f8b-4f1d-99fe-edc85330cb4d.png)
+
