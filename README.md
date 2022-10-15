@@ -1380,11 +1380,25 @@ Esse resumo, essas configurações dizem que a interface será iniciada junto co
 
 Agora vamos configurar a interface manualmente. Devemos abrir o arquivo interface e adicionar os seguintes itens:
 
-auto enp0s3 <br>
-iface enp0s3 inet static <br>
-address 192.168.1.100 <br>
-netmask 255.255.255.0 <br>
-network 192.168.1.0 <br>
-broadcast 192.168.1.255 <br>
-gateway 192.168.1.1 <br>
+auto enp0s3 : inciar a placa de rede junto ao sistema <br>
+iface enp0s3 inet static : especificando que o endereço para enp0s3 será manual <br>
+address 192.168.1.100 : endereço IP <br>
+netmask 255.255.255.0 : máscara de sub rede <br>
+network 192.168.1.0 : endereço de rede <br>
+broadcast 192.168.1.255 : endereço de broadcast <br>
+gateway 192.168.1.1 : endereço do gateway <br>
+
+![image](https://user-images.githubusercontent.com/89140035/195991947-25c49676-d369-4072-8f5e-c865f8f82a9b.png)
+
+Ao término para carregar as novas configurações, entre com o comando para reiniciar o serviço de rede:
+
+<b> service networking restart </b> 
+
+* Comandos de Redes
+
+Outro comando muito importante é o ping, que serve para verificar se um dispositivo na rede responde a uma solicitação, isso mostra que o dispositivo está ativo na rede.
+
+Sintaxe:
+
+<b> ping endereço_ip </b>
 
