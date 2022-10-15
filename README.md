@@ -1484,3 +1484,6 @@ Com a configuração da terceira interface, vamos conferir se agora existe numer
 
 ![image](https://user-images.githubusercontent.com/89140035/196010656-888ec9da-0c67-4e3e-9025-2923bf9b9d23.png)
 
+Agora a maquina 1 consegue estabelecer conexão com a internet
+
+![image](https://user-images.githubusercontent.com/89140035/196010714-1b56beaf-010c-4635-a11c-284e20388342.png)
