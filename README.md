@@ -1402,3 +1402,44 @@ Sintaxe:
 
 <b> ping endereço_ip </b>
 
+![image](https://user-images.githubusercontent.com/89140035/196006229-beacdfef-d333-4b29-bea8-9c5b2ba8bc4b.png)
+
+Também podemos verificar o <b> DNS </b> consultado o arquivo <b> resolv.conf </b> localizado dentro do <b> /etc </b>
+
+![image](https://user-images.githubusercontent.com/89140035/196004501-963399c6-faf7-44e7-9010-cb80ba914030.png)
+
+Você pode alterar ou acrescentar novos servidores DNS inserindo a linha <b> "nameserver" </b> mais o endereço IP.
+
+Aproveintado o DNS, vamos falar agora sobre o arquivo <b> hostname </b>, esse que serve para consultar ou definir o nome do equipamento.
+
+![image](https://user-images.githubusercontent.com/89140035/196004595-977a1354-c7f8-430c-8771-d98b950e891b.png)
+
+O arquivo <b> hostname </b> fica localizado dentro do diretório <b> /etc </b>, você pode editar o arquivo afim de trocar o nome da estação.
+
+Também podemos consultar o IP de determinados sites consultando o nosso DNS utilizando o <b> nslookup </b>
+
+![image](https://user-images.githubusercontent.com/89140035/196006037-824cc7b1-22ba-4f74-a55c-285495478b63.png)
+
+OBS.: O NSLOOKUP faz parte do pacote do <b> dnsutils, </b> que deve ser instalado no sistema.
+
+<b> traceroute ip ou domínio </b>
+
+Com traceroute podemos ver em tempo real todo o caminho que um pacote percorre até chegar ao seu destino.
+
+![image](https://user-images.githubusercontent.com/89140035/196006205-8e7f7092-99ac-4d19-bcce-403d74c5f2c4.png)
+
+<b> ss </b>
+
+O comando ss serve para vocÊ verificar quais portas de rede estão abertas em seu Linux.
+
+Opções: <br>
+-r : resolve nomes dos hosts conectados a maquina <br>
+-t : mostrar portas tcp <br>
+-u : mostrar portas udp <br>
+-l : mostrar portas que estão em escuta (prontas para aceitar conexões) <br>
+-p : mostrar os processos que estão usando as portas <br>
+-n : não resolve os nomes dos serviços (apresenta o serviço Linux e o ID) <br>
+-4 : somente IPv4 <br>
+-6 : somente IPv6 <br>
+
+Exemplo: ss -tulpn
