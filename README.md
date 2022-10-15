@@ -1478,3 +1478,5 @@ Desta forma ficaremos com 3 interfaces
 
 Por que a terceira interface não pegou IP mesmo colocando em modo bridge? No arquivo de interfaces não existe a configuração para a nova interface.
 
+![image](https://user-images.githubusercontent.com/89140035/196010479-d8953db6-08f7-4801-88c3-570c210a63a7.png)
+
