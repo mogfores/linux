@@ -1345,3 +1345,11 @@ Comando <b> dmesg | grep -i network </b>
 ![image](https://user-images.githubusercontent.com/89140035/195948623-ec9b219b-1708-4d7e-a1fc-3a2245624942.png)
 
 ![image](https://user-images.githubusercontent.com/89140035/195948874-61b29aad-94dd-425a-bc89-c80ca04cb6ac.png)
+
+* Configuração da Interface de Rede
+
+Existem duas maneiras da interface de rede adquirir um endereço IP, ou você tem na sua rede um serviço habilitado de <b> DHCP (Dynamic Host Configuration Protocol) </b> ou então você irá ter que <b> configurar manualmente </b> a sua interface de rede.
+
+O arquivo de configuração de rede se localiza dentro do diretório <b> /etc/network. </b>. O arquivo se chama <b> interfaces. </b>
+
+Fazendo a leitura do arquivo interfaces, observamos a seguinte configuração por default:
