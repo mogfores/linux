@@ -1458,3 +1458,7 @@ Primeira deixar as duas máquinas IP fixo através da edição do arquivos inter
 
 ![image](https://user-images.githubusercontent.com/89140035/196009548-7d5df001-461d-47b3-bf7f-e29ce985d656.png)
 
+Verificando os números de IP das máquinas pelo comando ip -4 a
+
+![image](https://user-images.githubusercontent.com/89140035/196009597-f1e2eef0-ec2b-4e05-ba1a-dd195edac9ff.png)
+
