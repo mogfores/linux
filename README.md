@@ -1470,4 +1470,6 @@ Como as duas máquinas estão especificadas em modo interno e também não houve
 
 Agora vamos adicionar outra interface na Máquina 1, fazendo a seguinte topologia:
 
+![image](https://user-images.githubusercontent.com/89140035/196010168-30d2b763-084a-4ff7-985f-657176dc94d1.png)
+
 
