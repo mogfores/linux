@@ -1465,3 +1465,9 @@ Verificando os números de IP das máquinas pelo comando "ip -4 a" após o coman
 Teste de ping da máquina 1 para a 2 e a máquina 2 para a 1
 
 ![image](https://user-images.githubusercontent.com/89140035/196009726-564ecc3f-18d6-4595-9c8a-fd2a256e9a48.png)
+
+Como as duas máquinas estão especificadas em modo interno e também não houve configuração de gateway padrão não é possível pingar a um site externo.
+
+Agora vamos adicionar outra interface na Máquina 1, fazendo a seguinte topologia:
+
+
