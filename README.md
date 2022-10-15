@@ -1472,4 +1472,7 @@ Agora vamos adicionar outra interface na Máquina 1, fazendo a seguinte topologi
 
 ![image](https://user-images.githubusercontent.com/89140035/196010168-30d2b763-084a-4ff7-985f-657176dc94d1.png)
 
+Desta forma ficaremos com 3 interfaces
+
+![image](https://user-images.githubusercontent.com/89140035/196010312-6b01c227-8d66-4be5-a124-64876f750f6a.png)
 
