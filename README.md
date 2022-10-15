@@ -1448,3 +1448,9 @@ Exemplo: ss -tulpn
 
 ![image](https://user-images.githubusercontent.com/89140035/196009431-6547a9fe-7f8b-4f1d-99fe-edc85330cb4d.png)
 
+OBJETIVO: <br>
+1 - Definir a configuração das placas de rede das duas máquinas virtualizadas em modo interno. <br>
+2 - Fazer as duas máquinas se comunicarem na rede classe A. <br>
+3 - Fazer o teste de conexão entre as duas máquinas. <br>
+4 - Responder a pergunta: As máquinas tem acesso a internet?
+
