@@ -1480,3 +1480,7 @@ Por que a terceira interface não pegou IP mesmo colocando em modo bridge? No ar
 
 ![image](https://user-images.githubusercontent.com/89140035/196010479-d8953db6-08f7-4801-88c3-570c210a63a7.png)
 
+Com a configuração da terceira interface, vamos conferir se agora existe numero de IP
+
+![image](https://user-images.githubusercontent.com/89140035/196010656-888ec9da-0c67-4e3e-9025-2923bf9b9d23.png)
+
