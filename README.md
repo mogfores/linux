@@ -1643,5 +1643,18 @@ Agora é possível usar as credenciais do João para acesso a pasta TI, inclusiv
 
 Agora temos como opção de somente leitura o usuário João, e com permissão de escrita a usuária Maria.
 
+Quando um usuário apaga um arquivo pela rede, este arquivo só não é deletado do compartilhamento, mas também do servidor. Não existe uma "lixeira" para arquivos apagados pelos compartilhamentos, o sistema operacional não faz esse tipo de gravação. Pensando nisso, o samba também tem a possibilidade de criação de uma lixeira para os arquivos e diretórios.
+
+* <b> Criando uma Lixeira </b>
+
+Em configurações globais, crie as linhas:
+
+![image](https://user-images.githubusercontent.com/89140035/196297517-5b0159c9-a26d-4ef4-aa74-ce4b4bd83266.png)
+
+Crie o diretório lixeira:
+
+![image](https://user-images.githubusercontent.com/89140035/196297793-3859e35b-6c18-4822-94d3-c525636088bb.png)
+
+
 
 
