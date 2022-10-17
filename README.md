@@ -1545,8 +1545,11 @@ Com o arquivo <b> smb.conf </b> aberto, vamos adicionar as seguintes linhas, ess
 
 ![image](https://user-images.githubusercontent.com/89140035/196264222-fa644186-7394-4776-bcd2-ddc13c0771b0.png)
 
-O parâmetro <b> map to guest </b> mapeia usuários mal autenticados para a conta de convidado, portanto, basta adicionar o parâmetro <b> guest ok=yes </b> na sessão de compartilhamento. <br>
+O parâmetro <b> map to guest </b> mapeia usuários mal autenticados (sem autenticação) para a conta de convidado, portanto, basta adicionar o parâmetro <b> guest ok=yes </b> na sessão de compartilhamento. <br>
 No nosso exemplo <b> [dados] </b>. Essa situação, cria um compartilhamento público chamado dados, sem a necessidade de autenticação. <br>
+
 Os outros parâmetros no compartilhamento são: <br>
 <b> Path </b> : é o parâmetro que indica o caminho do diretório a ser compartilhado. <br>
 <b> Available </b> : é o parâmentro que indica se o compartilhamento está habilitado ou não. <br>
+<b> Writable </b> : é o parâmetro que indica se o compartilhamento está com permissão de escrita. Aqui cabe uma observação, pois indicando <b> YES </b> o compartilhamento aceita gravação, colocando <b> NO </b> ele passa ser somente leitura, no caso de somente leitura, pode-se substituir pela opção <b> read only=yes. </b> <br>
+<b> Browseable </b> : é o parâmentro que indica se o compartilhamento vai estar visível ou oculto para a sua rede. (OBS: Não use como quesito de segurança a ocultação de compartilhamento de rede, segurança por obscuridade não é totalmente eficaz.)
