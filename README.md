@@ -1519,3 +1519,4 @@ A instalação pode ser feita através do gerenciador de pacotes apt-get. Entre 
 <b> apt-get install samba smbclient cifs-utils </b> <br>
 
 O pacote samba é o servidor samba e os pacotes smbclient e cifs-utils fazem parte dos aplicativos cliente.
+
