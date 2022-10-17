@@ -1587,4 +1587,10 @@ Mudando as configurações de permissões:
 
 ![image](https://user-images.githubusercontent.com/89140035/196280131-46cadc68-e185-464c-b915-51515c63343d.png)
 
-Veja acima que com a nova opção o usuário verá a pasta vazia.
+Veja acima que com a nova opção o usuário verá a pasta vazia. No entanto, se o usuário souber o nome do compartilhamento e dar um "enter", ele terá acesso normalmente:
+
+<b> \\192.168.0.20\dados </b>
+
+Mundando agora o "writeable":
+
+
