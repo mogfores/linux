@@ -1541,6 +1541,12 @@ Toda a configuração do Samba, incluindo as configurações gerais do servidor,
 Por padrão, o arquivo <b> smb.conf </b> já vem com informações escritas e é possível ser personalizado, afim de estudos, renomeie o arquivo <b> smb.conf </b> para <b> smb.conf.original </b> dessa forma se você precisar para consulta de alguma informação do arquivo original ele ainda estará disponível. <br>
 Crie um novo arquivo chamado <b> smb.conf </b> dentro do diretório <b> /etc/samba </b>.
 
+![image](https://user-images.githubusercontent.com/89140035/196269893-152a1c55-b78c-45f9-86eb-34b8ef1b1473.png)
+
+![image](https://user-images.githubusercontent.com/89140035/196270030-91695861-d88c-4c10-bbb6-82808355a3ec.png)
+
+
+
 Com o arquivo <b> smb.conf </b> aberto, vamos adicionar as seguintes linhas, esse exemplo básico, cria um compartilhamento básico e público (sem autenticação nenhuma).
 
 ![image](https://user-images.githubusercontent.com/89140035/196264222-fa644186-7394-4776-bcd2-ddc13c0771b0.png)
@@ -1556,3 +1562,6 @@ Os outros parâmetros no compartilhamento são: <br>
 
 ![image](https://user-images.githubusercontent.com/89140035/196268827-ad20f7fa-907d-4793-9c9c-b5e5200bdb0d.png)
 
+Criado o arquivo entramos com as seguintes instruções:
+
+![image](https://user-images.githubusercontent.com/89140035/196271430-2c607665-ca4c-4fe7-a737-e0a9dea8be1c.png)
