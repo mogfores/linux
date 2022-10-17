@@ -1655,6 +1655,14 @@ Crie o diretório lixeira:
 
 ![image](https://user-images.githubusercontent.com/89140035/196297793-3859e35b-6c18-4822-94d3-c525636088bb.png)
 
+Desta forma, se qualquer usuário deletar alguns arquivo, ele será mantido dentro do diretório <b> lixeira </b> no disco do servidor, até ser movido ou deletado permanentemente.
+
+* <b> Bloquear determinados arquivos de gravação por usuários </b>
+
+Tal situação pode ser necessário, pois com a permissão concedida é possível o usuário gravar qualquer tipo de arquivo, como video, musica, entre outros. <br>
+Neste caso o Samba tem a opção de vetar arquivos.
+
+![image](https://user-images.githubusercontent.com/89140035/196298727-c5235ff3-294e-4cea-aca1-a43d8f2a3ae8.png)
 
 
 
