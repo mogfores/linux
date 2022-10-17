@@ -1512,3 +1512,10 @@ Características:
 4 - Permite ocultar o conteúdo de determinados diretórios que não quer que sejam exibidos na rede. <br>
 5 - Permite montar unidades mapeadas de sistemas Windows ou outros servidores Linux como um diretório. <br>
 6 - Permite a configuração de recursos simples atrvés de programas de configuração gráficos via web.
+
+* <b> Instalação </b>
+
+A instalação pode ser feita através do gerenciador de pacotes apt-get. Entre com o comando: <br>
+<b> apt-get install samba smbclient cifs-utils </b> <br>
+
+O pacote samba é o servidor samba e os pacotes smbclient e cifs-utils fazem parte dos aplicativos cliente.
