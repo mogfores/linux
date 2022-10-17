@@ -1623,5 +1623,19 @@ Com isso ao tentar acessar o compartilhamento TI será solicitado um usuário e 
 
 ![image](https://user-images.githubusercontent.com/89140035/196293037-dda412e0-0de5-4e5b-a08a-1e472b1e5548.png)
 
+* Criando os Usuários João e Maria
+
+No Samba é preciso criar o usuário localmente no Linux, e para ele é preciso dar permissão para que ele possa acessar os compartilhamentos pela rede - permissão do smbd.
+
+![image](https://user-images.githubusercontent.com/89140035/196294472-8393c218-cc4a-40c5-8951-234a313c82b9.png)
+
+Adicionar permissões administrativas para acessar o compartilhamento:
+
+![image](https://user-images.githubusercontent.com/89140035/196294764-962afcb8-794e-45d1-bdc3-0723d45eaccc.png)
+
+Veja que é possível dar acesso de senha para o usário do sistema e outra senha apenas para acesso ao diretório SMB.
+
+Agora é possível usar as credenciais do João para acesso a pasta TI, inclusive adicionar e remover arquivos.
+
 
 
