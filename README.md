@@ -1595,4 +1595,6 @@ Mundando agora o "writeable":
 
 ![image](https://user-images.githubusercontent.com/89140035/196281335-79a6e0e6-73b8-4c02-a232-b4e36582b6f0.png)
 
-Veja que agora é possível visualizar a pasta, mas ao tentar criar qualquer arquivo dentro do diretório a permissão é negada.
+Veja que agora é possível visualizar a pasta, mas ao tentar criar, excluir qualquer arquivo dentro do diretório a permissão é negada.
+
+OBS.: As últimas atualizações do Win10 estão impedindo que você acesso compartilhamento públicos (aqueles que não solicitem tanto o usuário quanto a senha), então é preciso desativar isso.
