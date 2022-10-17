@@ -1426,7 +1426,7 @@ OBS.: O NSLOOKUP faz parte do pacote do <b> dnsutils, </b> que deve ser instalad
 
 Com traceroute podemos ver em tempo real todo o caminho que um pacote percorre até chegar ao seu destino.
 
-![image](https://user-images.githubusercontent.com/89140035/196006205-8e7f7092-99ac-4d19-bcce-403d74c5f2c4.png)
+![image](https://user-images.githubusercontent.com/89140035/196293244-1f5833c2-19b7-47df-a1de-99f357ca6f79.png)
 
 <b> ss </b>
 
