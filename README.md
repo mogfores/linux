@@ -1540,3 +1540,13 @@ Toda a configuração do Samba, incluindo as configurações gerais do servidor,
 
 Por padrão, o arquivo <b> smb.conf </b> já vem com informações escritas e é possível ser personalizado, afim de estudos, renomeie o arquivo <b> smb.conf </b> para <b> smb.conf.original </b> dessa forma se você precisar para consulta de alguma informação do arquivo original ele ainda estará disponível. <br>
 Crie um novo arquivo chamado <b> smb.conf </b> dentro do diretório <b> /etc/samba </b>.
+
+Com o arquivo <b> smb.conf </b> aberto, vamos adicionar as seguintes linhas, esse exemplo básico, cria um compartilhamento básico e público (sem autenticação nenhuma).
+
+![image](https://user-images.githubusercontent.com/89140035/196264222-fa644186-7394-4776-bcd2-ddc13c0771b0.png)
+
+O parâmetro <b> map to guest </b> mapeia usuários mal autenticados para a conta de convidado, portanto, basta adicionar o parâmetro <b> guest ok=yes </b> na sessão de compartilhamento. <br>
+No nosso exemplo <b> [dados] </b>. Essa situação, cria um compartilhamento público chamado dados, sem a necessidade de autenticação. <br>
+Os outros parâmetros no compartilhamento são: <br>
+<b> Path </b> : é o parâmetro que indica o caminho do diretório a ser compartilhado. <br>
+<b> Available </b> : é o parâmentro que indica se o compartilhamento está habilitado ou não. <br>
