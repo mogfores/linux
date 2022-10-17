@@ -1602,7 +1602,14 @@ OBS.: As últimas atualizações do Win10 estão impedindo que você acesso comp
 Para isso é preciso entrarmos no "Editor de Política de Grupo Local" ou Executar -> gpedit.msc <br>
 Caso você esteja com a versão do Win10 Home, ele não é nativo, para instalar é preciso seguir os seguintes passos: <br>
 1 - Em "Ativar ou Desativar Recursos do Windows" no Painel de Controle --> Desinstalar ou Alterar um Programa; <br>
-2 - Selecione a Opção ".NET Framework 3.5 (inclui .NET 2.0 e 3.0)", ao cliquer em OK, o sistema instalará automaticamente; <br>
-3 - Entre no modo administrador do CMD e esvreva os comandos:<br>
-<b> FOR %F IN ("%SystemRoot%\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientTools-Package~*.mum") DO (DISM /Online /NoRestart /Add-Package:"%F") <br>
+2 - Selecione a Opção "Suporte para Compartilhamento de Arquivos SMB 1.0/CIFS" <br>
+3 - Selecione a Opção ".NET Framework 3.5 (inclui .NET 2.0 e 3.0)", ao cliquer em OK, o sistema instalará automaticamente; <br>
+4 - Entre no modo administrador do CMD e esvreva os comandos:<br>
+<b> FOR %F IN ("%SystemRoot%\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientTools-Package~*.mum") DO (DISM /Online /NoRestart /Add-Package:"%F") <br> <br>
 FOR %F IN ("%SystemRoot%\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientExtensions-Package~*.mum") DO (DISM /Online /NoRestart /Add-Package:"%F") </b> <br>
+
+Com  isso você instalará o GPEDIT.MSC. Agora siga o caminho: <br>
+Configuração do Computador --> Modelos Administrativos --> Rede --> Estação de Trabalho do LANMAN --> Habilitar logons de convidados não seguros <br>
+Mude-o para "Habilitado"
+
+
