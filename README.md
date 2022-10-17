@@ -1553,3 +1553,6 @@ Os outros parâmetros no compartilhamento são: <br>
 <b> Available </b> : é o parâmentro que indica se o compartilhamento está habilitado ou não. <br>
 <b> Writable </b> : é o parâmetro que indica se o compartilhamento está com permissão de escrita. Aqui cabe uma observação, pois indicando <b> YES </b> o compartilhamento aceita gravação, colocando <b> NO </b> ele passa ser somente leitura, no caso de somente leitura, pode-se substituir pela opção <b> read only=yes. </b> <br>
 <b> Browseable </b> : é o parâmentro que indica se o compartilhamento vai estar visível ou oculto para a sua rede. (OBS: Não use como quesito de segurança a ocultação de compartilhamento de rede, segurança por obscuridade não é totalmente eficaz.)
+
+![image](https://user-images.githubusercontent.com/89140035/196268827-ad20f7fa-907d-4793-9c9c-b5e5200bdb0d.png)
+
