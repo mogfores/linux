@@ -1637,5 +1637,11 @@ Veja que é possível dar acesso de senha para o usário do sistema e outra senh
 
 Agora é possível usar as credenciais do João para acesso a pasta TI, inclusive adicionar e remover arquivos.
 
+* Criação de diretório com permissão de escrita para alguns usuários e somente leitura para outros usuários
+
+![image](https://user-images.githubusercontent.com/89140035/196295799-27948a5d-b990-411e-80cd-b9533f307608.png)
+
+Agora temos como opção de somente leitura o usuário João, e com permissão de escrita a usuária Maria.
+
 
 
