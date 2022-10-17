@@ -1581,5 +1581,6 @@ Reinicinando e Confirmando o Status do Serviço:
 
 Agora basta acessar a pasta "Dados" através da rede no Windows:
 
-![image](https://user-images.githubusercontent.com/89140035/196278606-ae77d271-e014-4e2b-8472-63b61a0807bc.png)
+![image](https://user-images.githubusercontent.com/89140035/196279014-c571d8a8-4d30-467b-b395-3fb1da238271.png)
+
 
