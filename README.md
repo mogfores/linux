@@ -1593,4 +1593,6 @@ Veja acima que com a nova opção o usuário verá a pasta vazia. No entanto, se
 
 Mundando agora o "writeable":
 
+![image](https://user-images.githubusercontent.com/89140035/196281335-79a6e0e6-73b8-4c02-a232-b4e36582b6f0.png)
 
+Veja que agora é possível visualizar a pasta, mas ao tentar criar qualquer arquivo dentro do diretório a permissão é negada.
