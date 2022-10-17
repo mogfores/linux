@@ -1520,3 +1520,15 @@ A instalação pode ser feita através do gerenciador de pacotes apt-get. Entre 
 
 O pacote samba é o servidor samba e os pacotes smbclient e cifs-utils fazem parte dos aplicativos cliente.
 
+Após a instaalção, execute o comando: <br>
+<b> service --status-all </b> <br>
+
+Observe que o serviço do Samba estará aparecendo e com o sinal de + na frente, indicando que está ativo.
+
+Pode se controlar o serviço com os comandos: <br>
+
+* <b> service smbd status </b> <br>
+* <b> service smbd start </b> <br>
+* <b> service smbd stop </b> <br>
+* <b> service smbd restart </b> <br> 
+
