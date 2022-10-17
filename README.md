@@ -1490,4 +1490,8 @@ Agora a maquina 1 consegue estabelecer conexão com a internet
 
 ### Servidor de Arquivos (SAMBA) 👋
 
-
+Um <b> servidor de arquivos </b> é um computador conectado a uma rede que tem o objetivo principal de proporcionar um local para o armazenamento compartilhado de arquivos de computadores (como documentos, arquivos de som, fotografias, filmes, imagens, bases de dados, etc) <br>
+No Linux, o servidro de arquivos é o Samba, um conjunto de programas de interoperabilidade padrão do Windows para Linux e Unix. <br>
+O Samba é um Software Livre licenciado sob a GNU General Public License, o projeto Samba é um mombro da Software Freedom Conservancy. <br>
+Desde 1992, o Samba fornece serviços de arquivos para todos os clientes que usam o protocolo <b> SMB (server Messege Block) / CIFS (Common Internet File System), </b> como todas as versões do DOS e Windows, OS/2, Linux e muitos outros. <br>
+O Samba é um componente importante para integrar perfeitamente servidores e desktops Linux/Unix em ambientes do <b> Active Diretory </b>. Ele pode funcionar como um controlador de domínimio ou como um membro regular de domínio.
