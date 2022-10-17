@@ -1562,6 +1562,20 @@ Os outros parâmetros no compartilhamento são: <br>
 
 ![image](https://user-images.githubusercontent.com/89140035/196268827-ad20f7fa-907d-4793-9c9c-b5e5200bdb0d.png)
 
+_________________________________________________________________________________________________________________________________________________________
 Criado o arquivo entramos com as seguintes instruções:
 
 ![image](https://user-images.githubusercontent.com/89140035/196271430-2c607665-ca4c-4fe7-a737-e0a9dea8be1c.png)
+
+Criar o diretório dados na raiz /
+
+![image](https://user-images.githubusercontent.com/89140035/196271987-b72f410c-ace0-4635-b573-62abe0650a3d.png)
+
+É preciso dar permissão para o arquivo:
+
+![image](https://user-images.githubusercontent.com/89140035/196272464-0990d81c-5ee9-4918-9662-dcb5b9a373a5.png)
+
+Reinicinando e Confirmando o Status do Serviço:
+
+![image](https://user-images.githubusercontent.com/89140035/196272800-e08aaa36-b913-41d8-9e18-837f8bc0af27.png)
+
