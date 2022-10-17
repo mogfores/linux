@@ -1583,4 +1583,8 @@ Agora basta acessar a pasta "Dados" através da rede no Windows:
 
 ![image](https://user-images.githubusercontent.com/89140035/196279014-c571d8a8-4d30-467b-b395-3fb1da238271.png)
 
+Mudando as configurações de permissões:
 
+![image](https://user-images.githubusercontent.com/89140035/196280131-46cadc68-e185-464c-b915-51515c63343d.png)
+
+Veja acima que com a nova opção o usuário verá a pasta vazia.
