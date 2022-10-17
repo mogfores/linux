@@ -1534,3 +1534,9 @@ Pode se controlar o serviço com os comandos: <br>
 * <b> service smbd stop </b> <br>
 * <b> service smbd restart </b> <br> 
 
+Toda a configuração do Samba, incluindo as configurações gerais do servidor, impressoras e todos os compartilhamentos, é feita em um único arquivo de configuração, o /etc/samba/smb.conf
+
+![image](https://user-images.githubusercontent.com/89140035/196262169-9c570e27-04a4-49f6-98de-8bc7eeade8b0.png)
+
+Por padrão, o arquivo <b> smb.conf </b> já vem com informações escritas e é possível ser personalizado, afim de estudos, renomeie o arquivo <b> smb.conf </b> para <b> smb.conf.original </b> dessa forma se você precisar para consulta de alguma informação do arquivo original ele ainda estará disponível. <br>
+Crie um novo arquivo chamado <b> smb.conf </b> dentro do diretório <b> /etc/samba </b>.
