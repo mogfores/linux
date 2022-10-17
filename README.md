@@ -1605,11 +1605,22 @@ Caso você esteja com a versão do Win10 Home, ele não é nativo, para instalar
 2 - Selecione a Opção "Suporte para Compartilhamento de Arquivos SMB 1.0/CIFS" <br>
 3 - Selecione a Opção ".NET Framework 3.5 (inclui .NET 2.0 e 3.0)", ao cliquer em OK, o sistema instalará automaticamente; <br>
 4 - Entre no modo administrador do CMD e esvreva os comandos:<br>
+
 <b> FOR %F IN ("%SystemRoot%\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientTools-Package~*.mum") DO (DISM /Online /NoRestart /Add-Package:"%F") <br> <br>
 FOR %F IN ("%SystemRoot%\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientExtensions-Package~*.mum") DO (DISM /Online /NoRestart /Add-Package:"%F") </b> <br>
 
 Com  isso você instalará o GPEDIT.MSC. Agora siga o caminho: <br>
 Configuração do Computador --> Modelos Administrativos --> Rede --> Estação de Trabalho do LANMAN --> Habilitar logons de convidados não seguros <br>
 Mude-o para "Habilitado"
+
+Vamos agora criar mais um compartilhamento que solicite autenticação de usuário e senha. Vamos criar um compartilhamento chamado <b> TI </b>. <br>
+Para isso, crie o diretório em sua disco chamado TI e de a permissão no <b> chmod </b>, para os teste vamos definir 777. Logo após abra o arquivo <b> smb.conf </b> e adicione os itens:
+
+![image](https://user-images.githubusercontent.com/89140035/196292533-e37d5270-291d-43d2-b9bc-e04f3eb7f649.png)
+
+Aqui, você pode observar que o compartilhamento <b> [TI] </b> foi criado e também foi apresentado o parâmetro <b> valid users </b>. <br>
+Com isso ao tentar acessar o compartilhamento TI será solicitado um usuário e senha.
+
+![image](https://user-images.githubusercontent.com/89140035/196293037-dda412e0-0de5-4e5b-a08a-1e472b1e5548.png)
 
 
