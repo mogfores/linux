@@ -1494,4 +1494,21 @@ Um <b> servidor de arquivos </b> é um computador conectado a uma rede que tem o
 No Linux, o servidro de arquivos é o Samba, um conjunto de programas de interoperabilidade padrão do Windows para Linux e Unix. <br>
 O Samba é um Software Livre licenciado sob a GNU General Public License, o projeto Samba é um mombro da Software Freedom Conservancy. <br>
 Desde 1992, o Samba fornece serviços de arquivos para todos os clientes que usam o protocolo <b> SMB (server Messege Block) / CIFS (Common Internet File System), </b> como todas as versões do DOS e Windows, OS/2, Linux e muitos outros. <br>
-O Samba é um componente importante para integrar perfeitamente servidores e desktops Linux/Unix em ambientes do <b> Active Diretory </b>. Ele pode funcionar como um controlador de domínimio ou como um membro regular de domínio.
+O Samba é um componente importante para integrar perfeitamente servidores e desktops Linux/Unix em ambientes do <b> Active Diretory </b>. Ele pode funcionar como um controlador de domínimio ou como um membro regular de domínio. <br>
+
+* Quais são as vantagens de um servidor de arquivos? 
+
+1 - Backup <br>
+2 - Centralização da Infomação e Disponibilidade <br>
+3 - Confidencialidade e Integridade da Informação <br><br>
+
+O Linux tem a capacidade de agir como um servidor de arquivos. Para essa tarefa vamos utilizar os serviços do SAMBA que é um conjuntos de serviços que permite que máquinas Linux e Windows se comuniquem, compartilhando serviços de arquivos. 
+
+Características:
+
+1 - Compartilhamento de arquivos entre máquinas Linux e Windows. <br>
+2 - Controle de acesso leitura/gravação por compartilhamento ou por usuário autenticado. <br>
+3 - Possibilidade de definir compartilhamento público. <br>
+4 - Permite ocultar o conteúdo de determinados diretórios que não quer que sejam exibidos na rede. <br>
+5 - Permite montar unidades mapeadas de sistemas Windows ou outros servidores Linux como um diretório. <br>
+6 - Permite a configuração de recursos simples atrvés de programas de configuração gráficos via web.
