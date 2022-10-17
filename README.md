@@ -1598,3 +1598,11 @@ Mundando agora o "writeable":
 Veja que agora é possível visualizar a pasta, mas ao tentar criar, excluir qualquer arquivo dentro do diretório a permissão é negada.
 
 OBS.: As últimas atualizações do Win10 estão impedindo que você acesso compartilhamento públicos (aqueles que não solicitem tanto o usuário quanto a senha), então é preciso desativar isso.
+
+Para isso é preciso entrarmos no "Editor de Política de Grupo Local" ou Executar -> gpedit.msc <br>
+Caso você esteja com a versão do Win10 Home, ele não é nativo, para instalar é preciso seguir os seguintes passos: <br>
+1 - Em "Ativar ou Desativar Recursos do Windows" no Painel de Controle --> Desinstalar ou Alterar um Programa; <br>
+2 - Selecione a Opção ".NET Framework 3.5 (inclui .NET 2.0 e 3.0)", ao cliquer em OK, o sistema instalará automaticamente; <br>
+3 - Entre no modo administrador do CMD e esvreva os comandos:<br>
+<b> FOR %F IN ("%SystemRoot%\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientTools-Package~*.mum") DO (DISM /Online /NoRestart /Add-Package:"%F") <br>
+FOR %F IN ("%SystemRoot%\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientExtensions-Package~*.mum") DO (DISM /Online /NoRestart /Add-Package:"%F") </b> <br>
