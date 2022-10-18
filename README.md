@@ -1665,4 +1665,13 @@ Neste caso o Samba tem a opção de vetar arquivos.
 ![image](https://user-images.githubusercontent.com/89140035/196298727-c5235ff3-294e-4cea-aca1-a43d8f2a3ae8.png)
 
 
+### Servidor DHCP
+
+O DHCP, Dynamic Host Configuration Protocol, é um protocolo de serviço TCP/IP que oferece configuração dinâmica de terminais, com concessão de endereços IP de host e outros parâmetros de configuração para clientes de rede. <br>
+O DHCP usa um mode cliente-servidor, no qual o servidor DHCP mantém o <b> gerenciamento contralizado </b> dos endereços IP usados na rede. <br>
+1 - <b> DHCPDISCOVER : </b> serve para encontrar quais servidores DHCP estão disponíveis. <br>
+2 - <b> DHCPOFFER: </b> uma resposta do servidor para os pacotes DHCPDISCOVER que tem os primeiros parâmentros da conexão. <br>
+3 - <b> DHCPREQUEST: </b> pedido do cliente para o aluguel do endereço IP. <br>
+4 - <b> DHCPACK : </b> uma resposta do servidor com os parâmentros e o IP do computadpr do cliente.
+
 
