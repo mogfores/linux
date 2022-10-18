@@ -1738,3 +1738,8 @@ As vezes é necessário que o DHCP entregue o mesmo endereço de IP para uma má
 * host: o nome do host, encontre pelo comando "hostname". <br>
 * hardware ethernet: endereço MAC do host, encontre pelo comando "ip a". <br>
 * fixed-address: endereço IP que queira que fique fixo.
+
+Veja que agora o IP na máquina cliente está atribuido conforme fixado:
+
+![image](https://user-images.githubusercontent.com/89140035/196517941-b48da986-432a-4bbc-bb50-38824ec80879.png)
+
