@@ -1665,7 +1665,7 @@ Neste caso o Samba tem a opção de vetar arquivos.
 ![image](https://user-images.githubusercontent.com/89140035/196298727-c5235ff3-294e-4cea-aca1-a43d8f2a3ae8.png)
 
 
-### Servidor DHCP
+### Servidor DHCP 🖇️
 
 O DHCP, Dynamic Host Configuration Protocol, é um protocolo de serviço TCP/IP que oferece configuração dinâmica de terminais, com concessão de endereços IP de host e outros parâmetros de configuração para clientes de rede. <br>
 O DHCP usa um mode cliente-servidor, no qual o servidor DHCP mantém o <b> gerenciamento contralizado </b> dos endereços IP usados na rede. <br>
@@ -1674,4 +1674,21 @@ O DHCP usa um mode cliente-servidor, no qual o servidor DHCP mantém o <b> geren
 3 - <b> DHCPREQUEST: </b> pedido do cliente para o aluguel do endereço IP. <br>
 4 - <b> DHCPACK : </b> uma resposta do servidor com os parâmentros e o IP do computadpr do cliente.
 
+A instalação é feita com o pacote isc-dhcp-server
 
+<b> apt-get install isc-dhcp-server </b>
+
+Como todo serviço, o DHCP pode ser iniciado, parado ou então reiniciado, para isso use os comandos:
+
+<b> service isc-dhcp-server start, stop, restart, status </b>
+
+Arquivo de configuração:<br>
+<b> /etc/dhcp/dhcpd.conf </b>
+
+![image](https://user-images.githubusercontent.com/89140035/196500201-5fef299f-3673-411e-82bc-8c0643749c41.png)
+
+OBJETIVOS:
+
+1 - Instalar o serviço de DHCP. <br>
+2 - Configurar o serviço de DHCP para fornecer as configurações para a rede interna.<br>
+3 - Testar com uma estação de trabalho na rede interna.
