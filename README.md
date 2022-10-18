@@ -1692,3 +1692,12 @@ OBJETIVOS:
 1 - Instalar o serviço de DHCP. <br>
 2 - Configurar o serviço de DHCP para fornecer as configurações para a rede interna.<br>
 3 - Testar com uma estação de trabalho na rede interna.
+
+Após a instalação é verificado um status de erro, isso acontece pelo fato de não havar as configurações iniciais.
+
+![image](https://user-images.githubusercontent.com/89140035/196501942-773c0c37-5fb9-41d7-b7e5-5f002f220be1.png)
+
+Assim como feito no servidor de arquivos Samba, iremos mover o arquivo <b> dhcpd.conf </b>
+
+![image](https://user-images.githubusercontent.com/89140035/196502872-e6ed1026-bf14-4b08-a354-cb96a8bfa21d.png)
+
