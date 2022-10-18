@@ -1715,3 +1715,11 @@ Agora vamos configurar o arquivo de interfaces, na pasta network:
 
 ![image](https://user-images.githubusercontent.com/89140035/196506986-e141ec19-b4d2-4248-92f9-0369f66c43fb.png)
 
+* Configuração
+
+A configuração do DHCP está dentro do <b> dhcpd.conf </b> na pasta <b> /etc/dhcp/dhcpd.conf </b>
+
+![image](https://user-images.githubusercontent.com/89140035/196512141-54966e81-0693-4f12-910f-129ee4572be3.png)
+
+![image](https://user-images.githubusercontent.com/89140035/196512614-fbb2cb20-a2f7-484e-9ad9-b9043c3e50ff.png)
+
