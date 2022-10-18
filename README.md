@@ -1701,3 +1701,17 @@ Assim como feito no servidor de arquivos Samba, iremos mover o arquivo <b> dhcpd
 
 ![image](https://user-images.githubusercontent.com/89140035/196502872-e6ed1026-bf14-4b08-a354-cb96a8bfa21d.png)
 
+Para VirtualBox: com duas interfaces de rede - duas placas de rede (Bridge e Interna), é preciso indicar para o Linux que servirá para configuração. O arquivo de configuração deverá ser encontrado na pasta: <br><br>
+
+<b> /etc/default </b>
+
+Arquivo : <b> isc-dhcp-server </b>
+
+![image](https://user-images.githubusercontent.com/89140035/196505353-f62f3f75-33a8-4387-8de6-acd2bfc3a7f0.png)
+
+Agora vamos configurar o arquivo de interfaces, na pasta network:
+
+![image](https://user-images.githubusercontent.com/89140035/196506684-03ee5f14-c371-4af4-9dd7-70aecdb1a807.png)
+
+![image](https://user-images.githubusercontent.com/89140035/196506986-e141ec19-b4d2-4248-92f9-0369f66c43fb.png)
+
