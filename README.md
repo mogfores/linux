@@ -1723,3 +1723,18 @@ A configuração do DHCP está dentro do <b> dhcpd.conf </b> na pasta <b> /etc/d
 
 ![image](https://user-images.githubusercontent.com/89140035/196512614-fbb2cb20-a2f7-484e-9ad9-b9043c3e50ff.png)
 
+* Consultar as Máquinas que estão conectadas no servidor DHCP
+
+![image](https://user-images.githubusercontent.com/89140035/196514376-6a6d9300-b357-4515-bb52-de00f46a0301.png)
+
+* Travar um endereço de uma máquina
+
+As vezes é necessário que o DHCP entregue o mesmo endereço de IP para uma máquina mesmo que o tempo limite de entrega tenha expirado e outra máquina peça endereço para se conectar na rede. Ex.: compartilhamento de uma impressora instalada em uma máquina que está sendo compartilhada, montar um servidor de arquivos sem forçar que os usuários sempre tentem descobrir o novo endereço de IP, etc.
+
+<b> /etc/dhcp vi dhcpd.conf </b>
+
+![image](https://user-images.githubusercontent.com/89140035/196516915-e086a205-60fb-4345-8c4c-5b1b4edf6789.png)
+
+* host: o nome do host, encontre pelo comando "hostname". <br>
+* hardware ethernet: endereço MAC do host, encontre pelo comando "ip a". <br>
+* fixed-address: endereço IP que queira que fique fixo.
