@@ -1743,3 +1743,5 @@ Veja que agora o IP na máquina cliente está atribuido conforme fixado:
 
 ![image](https://user-images.githubusercontent.com/89140035/196517941-b48da986-432a-4bbc-bb50-38824ec80879.png)
 
+### Compartilhando a Internet 📨
+
