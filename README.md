@@ -1762,3 +1762,16 @@ Para compartilhar a internet, seguimos os seguintes comandos:
  echo 1 > /proc/sys/net/ipv4/ip_forward <br>
  iptables -t nat -A POSTROUTING -o enp0s3 -j MASQUERADE </b> <br> 
  
+Onde:
+
+modproble iptable_nat <br>
+modprobe - carrega os módulos necessários <br>
+iptable_nat - carrega os módulos de roteamento.
+
+echo 1> /proc/sys/net/ipv4/ip_forward <br>
+echo 1> - inicia um script <br>
+/proc/sys/net/ipv4/ip_forward - ativa o "ip_forward", o módulo responsável pelo encaminhamento dos pacotes 
+
+iptables -t nat -A POSTROUTING -o enp0s3 -j MASQUERADE
+
+Cria uma regra de roteamento, que orienta o servidor
