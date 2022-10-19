@@ -1786,4 +1786,18 @@ Esses comandos não criam um serviço de servidor de internet, ou seja, todas as
 
 <b> cd /etc/init.d/ </b>
 
-Nesta pasta indicada na imagem acima são encontrados os serviços de inicialização do Debian.
+Nesta pasta indicada na imagem acima são encontrados os serviços de inicialização do Debian. Crie um arquivo "vi internet" e digite as mesmas funções abaixo:
+
+![image](https://user-images.githubusercontent.com/89140035/196778752-ee68ab78-cbef-46a4-a868-fea865cf62bb.png)
+
+Agora transforme esse arquivo de texto em um script, pelos comandos:
+
+![image](https://user-images.githubusercontent.com/89140035/196779134-480d7431-18f3-4893-a270-a6ef994799a5.png)
+
+![image](https://user-images.githubusercontent.com/89140035/196779370-d5009d98-2365-4be2-9879-589d65d1e9b7.png)
+
+Para rodar o scricpt ao reiniciar o servidor basta entrar com o comando:
+
+<b> service internet start </b>
+
+
