@@ -1775,3 +1775,15 @@ echo 1> - inicia um script <br>
 iptables -t nat -A POSTROUTING -o enp0s3 -j MASQUERADE
 
 Cria uma regra de roteamento, que orienta o servidor
+
+<b> Caso o comando iptables der não encontrado, entre com a instalação pelo comando apt-get install iptables </b>
+
+![image](https://user-images.githubusercontent.com/89140035/196764249-1ba75ee4-884a-48b9-b314-eb46a2c6472d.png)
+
+Esses comandos não criam um serviço de servidor de internet, ou seja, todas as vezes que a máquina com o Linux Debian reiniciar o serviço irá cair, e mesmo após ligar a máquina com o Linux Mint ficará sem conexão. Para desenvolver um serviço permanente de servidor de internet é necessária a criação de scritp. Siga os passos abaixo:
+
+![image](https://user-images.githubusercontent.com/89140035/196777696-33682e8f-8e2f-4c81-a333-c9f3aa950557.png)
+
+<b> cd /etc/init.d/ </b>
+
+Nesta pasta indicada na imagem acima são encontrados os serviços de inicialização do Debian.
