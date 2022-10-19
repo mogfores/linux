@@ -1,3 +1,6 @@
+Fonte Principal: Curso Linux Completo + Servidores
+Udemy: https://www.udemy.com/course/linux-completo-servidores/
+
 ## Linux 🐧
 
 *Sistema de Arquivos*
@@ -1745,3 +1748,17 @@ Veja que agora o IP na máquina cliente está atribuido conforme fixado:
 
 ### Compartilhando a Internet 📨
 
+![image](https://user-images.githubusercontent.com/89140035/196755696-9ebede9f-4808-4fb8-b1f8-b5200484d998.png)
+
+Objetivo: <br>
+<b> Debian 10: </b> Habilitar o serviço de NAT, para que a conexão vinda das estações de trabalho vi enp0s8 sejam redirecionadas para a enp0s3. <br>
+<b> Linux Mint: </b> Configurar Gateway Padrão 10.200.0.1 <br>
+
+Essa configuração fará que possa ser compartilhado a internet para suas estações de trabalho. Transformando seu servidor Linux em um servidor de internet.
+
+Para compartilhar a internet, seguimos os seguintes comandos:
+
+<b> modprobe iptable_nat <br>
+ echo 1 > /proc/sys/net/ipv4/ip_forward <br>
+ iptables -t nat -A POSTROUTING -o enp0s3 -j MASQUERADE </b> <br> 
+ 
