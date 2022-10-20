@@ -1837,5 +1837,5 @@ Através do caminho <b> cat /var/log/apache2/error.log </b> será possível ver 
 
 Veja que ao digitar o número de IP ele traz a página default do Apache
 
-![image](https://user-images.githubusercontent.com/89140035/197078355-49c87ff0-be44-4c5c-83ef-fc28b003bf79.png)
+
 
