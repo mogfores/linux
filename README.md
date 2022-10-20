@@ -1832,3 +1832,10 @@ Caso seu servidor apacha tenha apenas um site, basta deixar o arquivo padrão e 
 Através do caminho <b> cat /var/log/apache2/access.log </b> será possível ver todos os acessos da página.
 
 Através do caminho <b> cat /var/log/apache2/error.log </b> será possível ver todos os erros decorrentes do Apache, como configurações errada, serviço parado, entre outros.
+
+![image](https://user-images.githubusercontent.com/89140035/197078275-d3cfe658-19c2-49fe-8886-417e67d2720b.png)
+
+Veja que ao digitar o número de IP ele traz a página default do Apache
+
+![image](https://user-images.githubusercontent.com/89140035/197078355-49c87ff0-be44-4c5c-83ef-fc28b003bf79.png)
+
