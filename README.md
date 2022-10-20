@@ -1800,4 +1800,9 @@ Para rodar o scricpt ao reiniciar o servidor basta entrar com o comando:
 
 <b> service internet start </b>
 
+### Servidor WEB (Apache2 + PhP) 🎏
 
+Servidor web é um software responsável por aceitar pedidos em HTTP de clientes, geralmente os navegadores, e servi-los com resposta e HTTP. <br>
+Isso inclui dados, que geralmente são páginas web, tais como documentos em HTML com objetos embutidos (imagens, etc.) <br>
+O mais popular, e mais utilizado no mundo, é o servidor <b> Apache </b> (software livre). A Microsoft possui a sua própria solução denominada <b> IIS </b> (Internet Information Services). <br>
+O servidor de web, é responsável por hospedar e publicar os recursos de HTTP e Banco de Dados, existem vários serviços e maneiras de realizar a publicação, normalmente se usa a combinação entre <b> Apache, MySQL e PHP </b>
