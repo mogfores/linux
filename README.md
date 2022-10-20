@@ -1826,3 +1826,9 @@ Reiniciar o servidor Apache2:
 
 O Apache vem com um arquivo host virtual padrão chamado <b> 000-default.conf </b> que você pode usar como default. <br>
 Caso seu servidor apacha tenha apenas um site, basta deixar o arquivo padrão e adicionar o seu site dentro do diretório <b> /var/www/html </b>
+
+![image](https://user-images.githubusercontent.com/89140035/197076760-e3317e2b-77c1-4fc8-bac4-2c7827ed6a07.png)
+
+Através do caminho <b> cat /var/log/apache2/access.log </b> será possível ver todos os acessos da página.
+
+Através do caminho <b> cat /var/log/apache2/error.log </b> será possível ver todos os erros decorrentes do Apache, como configurações errada, serviço parado, entre outros.
