@@ -1823,3 +1823,6 @@ Durante a instalação do apache2 é criado um ficheiro de configuração locali
 Reiniciar o servidor Apache2:
 
 <b> service apache2 restart </b>
+
+O Apache vem com um arquivo host virtual padrão chamado <b> 000-default.conf </b> que você pode usar como default. <br>
+Caso seu servidor apacha tenha apenas um site, basta deixar o arquivo padrão e adicionar o seu site dentro do diretório <b> /var/www/html </b>
