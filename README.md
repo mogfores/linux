@@ -1845,4 +1845,13 @@ Ao listar as portas pelo comando <b> ss -tl </b> já é possível ver a última 
 
 ![image](https://user-images.githubusercontent.com/89140035/197079231-536710e1-2aff-45d6-a9db-2344041e5d17.png)
 
+![image](https://user-images.githubusercontent.com/89140035/197079815-2cb22673-a3c6-471f-9721-bad7682b704e.png)
+
+* <b> index.html default </b>
+
+![image](https://user-images.githubusercontent.com/89140035/197079979-de01ae5b-e06e-4603-9c0d-f5302278e7ef.png)
+
+O index.html é a página padrão dentro dos diretórios nos servidores de websites que é carregada sempre que uma seja solicitada e não seja especificado o nome de um arquivos específico, neste caso o próprio servidor se encarrega de procurar pelo arquivo index.html e entregar para o visitante. <br>
+A palavra index vem do inglês, que quer dizer Índice. Traduzindo para a internet, o arquivo index, seria a página principal, que guarda o índice (links) de todo o site.
+
 
