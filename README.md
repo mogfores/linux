@@ -1837,5 +1837,12 @@ Através do caminho <b> cat /var/log/apache2/error.log </b> será possível ver 
 
 Veja que ao digitar o número de IP ele traz a página default do Apache
 
+![image](https://user-images.githubusercontent.com/89140035/197078768-4ff1b2b8-7bed-42e9-a693-3e213e720c90.png)
+
+Veja acima as informações da máquina que acessou a página padrão do Apache
+
+Ao listar as portas pelo comando <b> ss -tl </b> já é possível ver a última linha <b> *:http </b> que é justamente a porta 80
+
+![image](https://user-images.githubusercontent.com/89140035/197079231-536710e1-2aff-45d6-a9db-2344041e5d17.png)
 
 
