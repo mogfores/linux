@@ -1992,3 +1992,5 @@ Veja que pela imagem acima a tabela não possui dados.
 8) <b> exit </b> : sair do terminal
 
 9) <b> drop database teste; </b> : apagar tabela teste
+
+### WordPress - Instalando e Administrando 🗺️
