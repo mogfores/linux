@@ -1947,8 +1947,27 @@ Pro desconfiar da administração do MySQL pela Oracle, os desenvolvedores origi
 Instalar MySQL (MariaDB) <br>
 <b> apt-install mariadb-server </b>
 
+![image](https://user-images.githubusercontent.com/89140035/197275302-b2bffb01-f5a8-4696-ac26-393b27a79ba5.png)
+
 Após a instalação, executar a configuração de segurança <br>
 <b> mysql_secure_installation </b>
 
 Para conectar no bando de dados <br>
-<b> mariadb -u root </b>
+<b> mariadb -u nome_do_usário </b>
+
+![image](https://user-images.githubusercontent.com/89140035/197275827-9d381870-de85-486a-b71b-8f5f023aa2de.png)
+
+1) <b>Show Databases</b>: Mostra quais bancos de dados possui no servidor
+
+![image](https://user-images.githubusercontent.com/89140035/197276191-45ab1cab-8af8-4f0e-95e7-8796657934e0.png)
+
+2) <b>create database nome</b>: Criar Banco de Dados
+
+![image](https://user-images.githubusercontent.com/89140035/197276643-046f1f03-057a-4c1e-aeb5-c7c887bf933f.png)
+
+3) <b> create table nome </b>: Criar uma tabela dentro do banco de dados
+
+![image](https://user-images.githubusercontent.com/89140035/197277377-5e931bda-ad23-4f07-8fcc-1c4362701a4d.png)
+
+
+
