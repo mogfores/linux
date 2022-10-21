@@ -1886,4 +1886,28 @@ O Apache vem com um arquivo host virtual padrão chamado <b> 000-default.conf </
 
 Após a cópia do arquivo, realizar as seguintes alterações:
 
-                                                        
+***** Colocar imagem de mudança
+
+Após as alterações é preciso ativar o site através do comando:
+
+<b> a2ensite teste.com.br.conf </b>
+
+Após a execução será retornado a seguinte mensagem:
+
+Enabling site example.com. <br>
+To active the new confuguration, you need to run: <br>
+service apache2 reload <br>
+
+Lembre-se de desativar o site padrão 000-default.conf pelo comando:
+
+<b> a2dissite 000-default.conf </b>
+
+Reinicie o apache pelo comando:
+
+<b> service apache2 restart </b>
+
+Comandos extras:
+
+<b> apachectl -t </b>: verificar se a sintaxe do ficheiro de configuração está correta
+
+<b> apache2 -v </b> : verificar versão Apache
