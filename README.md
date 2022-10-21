@@ -1943,3 +1943,12 @@ A primeira versão do MySQL apareceu em 1995. Foi criada inicialmente para uso p
 Em janeiro de 2008, a Sun Microsystems comprou o MySQL por $1 bilhão. Logo depois, a Oracle adquiriu toda a Sun Microsystems após obter aprovação da Comissão Europeia no final de 2009.
 
 Pro desconfiar da administração do MySQL pela Oracle, os desenvolvedores originais do MySQL criaram o <b> MariaDB </b> em 2009. Com o passar do tempo, o MariaDB substituiu o MySQL.
+
+Instalar MySQL (MariaDB) <br>
+<b> apt-install mariadb-server </b>
+
+Após a instalação, executar a configuração de segurança <br>
+<b> mysql_secure_installation </b>
+
+Para conectar no bando de dados <br>
+<b> mariadb -u root </b>
