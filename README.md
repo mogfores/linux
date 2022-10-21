@@ -1875,12 +1875,7 @@ Os arquivos do host virtual especificam a configuração real de nossos hosts vi
  mkdir -p /var/www/zezinho.com.br/public_html </b> <br>
  
  Crie um novo <b> index.html </b>, exemplo de conteúdo: <br>
- <html> <br>
- <head> <br>
-  <title> Bem Vindo! </title> <br>
- </head> <br>
- <body> <br>
-  <h1>Teste do Servidor Apache</h1> <br>
- </body> <br>
- </html> <br>
+ 
+ ![image](https://user-images.githubusercontent.com/89140035/197082478-a07486a6-749c-4509-ae48-26ead506afad.png)
+
                                                         
