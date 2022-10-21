@@ -1854,4 +1854,33 @@ Ao listar as portas pelo comando <b> ss -tl </b> já é possível ver a última 
 O index.html é a página padrão dentro dos diretórios nos servidores de websites que é carregada sempre que uma seja solicitada e não seja especificado o nome de um arquivos específico, neste caso o próprio servidor se encarrega de procurar pelo arquivo index.html e entregar para o visitante. <br>
 A palavra index vem do inglês, que quer dizer Índice. Traduzindo para a internet, o arquivo index, seria a página principal, que guarda o índice (links) de todo o site.
 
+Assim como os demais arquivos, vamos movê-lo e criar um novo.
 
+![image](https://user-images.githubusercontent.com/89140035/197080860-7a8c41da-ac19-44c7-8dfe-6eba2562579f.png)
+
+Edite o arquivo para teste
+
+![image](https://user-images.githubusercontent.com/89140035/197081333-b173434b-b0ff-4ad9-b068-9a8a326967aa.png)
+
+Ao carregar a página, o novo arquivo será visto pelo navegador
+
+![image](https://user-images.githubusercontent.com/89140035/197081481-97e14bf8-0c91-4e43-a45f-0ab8f051a0b8.png)
+
+Mas se seu servidor for hospedar mais páginas, será necessário trabalhar com arquivos de <b> host virtual </b>. <br>
+Os arquivos do host virtual especificam a configuração real de nossos hosts virtuais e editam como o servidor da web Apache responderá a várias solicitações de domínio.
+
+<b> Crie o diretório para o seu novo site: <br>
+ Exemplos: <br>
+ mkdir -p /var/www/teste.com.br/public_html <br>
+ mkdir -p /var/www/zezinho.com.br/public_html </b> <br>
+ 
+ Crie um novo <b> index.html </b>, exemplo de conteúdo: <br>
+ <html>
+ <head>
+  <title> Bem Vindo! </title>
+ </head>
+ <body>
+  <h1>Teste do Servidor Apache</h1>
+ </body>
+ </html>
+                                                        
