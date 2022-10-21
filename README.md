@@ -1929,3 +1929,17 @@ Ao instalar a versão mais nova dos pacotes de PHP, ativeo, através dos comando
 Consulte a versão pelo comando:
 
 ![image](https://user-images.githubusercontent.com/89140035/197091489-df6923ad-2a77-4240-9dd9-ee3300fe141b.png)
+
+### MariaDB
+
+<b> Banco de Dados </b>: São conjuntos de arquivos armazenados e relacionados através de tabelas. São coleções organizadas de dados que se relacionam de forma a criar algum sentido e dar mais eficiência durante uma pesquisa.
+
+<b> SGBD </b>: Sistema Gerenciador de Banco de Dados são os softwares responsáveis pela criação, administração e armazenamento de um banco de dados.
+
+<b> Tabelas </b>: São os locais lógicos onde os dados ficam armazenados de uma maneira organizada, uma tabela é formada por campos e registros. Os campos são os valores fixos de uma tabela, como nome, telefone, email... Já os registros são as informações adicionadas dentro da tabela.
+
+A primeira versão do MySQL apareceu em 1995. Foi criada inicialmente para uso pessoal, mas em poucos anos evoluiu para um banco de dados de nível empresarial e se tornou o sotware de banco de dados relacional de código aberto mais popular do mundo.
+
+Em janeiro de 2008, a Sun Microsystems comprou o MySQL por $1 bilhão. Logo depois, a Oracle adquiriu toda a Sun Microsystems após obter aprovação da Comissão Europeia no final de 2009.
+
+Pro desconfiar da administração do MySQL pela Oracle, os desenvolvedores originais do MySQL criaram o <b> MariaDB </b> em 2009. Com o passar do tempo, o MariaDB substituiu o MySQL.
