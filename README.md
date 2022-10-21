@@ -1874,9 +1874,14 @@ Os arquivos do host virtual especificam a configuração real de nossos hosts vi
  mkdir -p /var/www/teste.com.br/public_html <br>
  mkdir -p /var/www/zezinho.com.br/public_html </b> <br>
  
+ ![image](https://user-images.githubusercontent.com/89140035/197087661-3d3c6c88-f51c-4fc9-bd12-97ea28aa27d6.png)
+ 
  Crie um novo <b> index.html </b>, exemplo de conteúdo: <br>
  
+ ![image](https://user-images.githubusercontent.com/89140035/197087794-4c1a23c0-152e-4648-a420-508b09ae4b98.png)
+ 
  ![image](https://user-images.githubusercontent.com/89140035/197082478-a07486a6-749c-4509-ae48-26ead506afad.png)
+
 
 Criar o arquivo de configuração dos sites:
 
@@ -1884,9 +1889,11 @@ O Apache vem com um arquivo host virtual padrão chamado <b> 000-default.conf </
 
 <b> cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/teste.com.br.conf </b>
 
+![image](https://user-images.githubusercontent.com/89140035/197088478-ed43c3b6-a34c-456d-80a6-27156416178e.png)
+
 Após a cópia do arquivo, realizar as seguintes alterações:
 
-***** Colocar imagem de mudança
+![image](https://user-images.githubusercontent.com/89140035/197088741-2a36c5ad-a316-4b66-ada7-64e4fa123823.png)
 
 Após as alterações é preciso ativar o site através do comando:
 
@@ -1905,6 +1912,8 @@ Lembre-se de desativar o site padrão 000-default.conf pelo comando:
 Reinicie o apache pelo comando:
 
 <b> service apache2 restart </b>
+
+![image](https://user-images.githubusercontent.com/89140035/197088952-6ce68541-688d-41c4-b8ee-13f4ea78912a.png)
 
 Comandos extras:
 
