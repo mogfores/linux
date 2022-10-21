@@ -1970,4 +1970,25 @@ Para conectar no bando de dados <br>
 ![image](https://user-images.githubusercontent.com/89140035/197277377-5e931bda-ad23-4f07-8fcc-1c4362701a4d.png)
 
 
+4) <b> select * from cadastro </b> : Ver conteúdo da Tabela
 
+![image](https://user-images.githubusercontent.com/89140035/197282437-e45afea4-75f1-48ed-ab16-b5ca417104e9.png)
+
+Veja que pela imagem acima a tabela não possui dados.
+
+5) <b> insert into cadastro (codigo, nome, email, endereco, nascimento, nacionalidade) <br>
+ values (1, 'Eduardo Mogfores', 'eduardo_mogfores@yahoo.com.br', 'Rua y', 09091986, 'Brasileiro); </b> : Inserir dados
+ 
+ ![image](https://user-images.githubusercontent.com/89140035/197283789-2f4b4315-4dc4-49b8-8c61-dd9f8a564d00.png)
+
+6) <b> delete from cadastro where nome='Eduardo Mogfores'; </b> : excluir dados
+
+![image](https://user-images.githubusercontent.com/89140035/197284165-a96a8ec2-c5b5-4e18-aa4b-1375920292bb.png)
+
+7) <b> drop table cadastro </b> : apagar um banco de dados
+
+![image](https://user-images.githubusercontent.com/89140035/197284493-588190e4-2bcb-4bb4-8179-dbdd12428b3c.png)
+
+8) <b> exit </b> : sair do terminal
+
+9) <b> drop database teste; </b> : apagar tabela teste
