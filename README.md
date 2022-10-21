@@ -1878,4 +1878,12 @@ Os arquivos do host virtual especificam a configuração real de nossos hosts vi
  
  ![image](https://user-images.githubusercontent.com/89140035/197082478-a07486a6-749c-4509-ae48-26ead506afad.png)
 
+Criar o arquivo de configuração dos sites:
+
+O Apache vem com um arquivo host virtual padrão chamado <b> 000-default.conf </b> que você pode usar como ponto de partida. Copie este arquivo para o primeiro domínio:
+
+<b> cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/teste.com.br.conf </b>
+
+Após a cópia do arquivo, realizar as seguintes alterações:
+
                                                         
