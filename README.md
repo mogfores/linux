@@ -1920,3 +1920,12 @@ Comandos extras:
 <b> apachectl -t </b>: verificar se a sintaxe do ficheiro de configuração está correta
 
 <b> apache2 -v </b> : verificar versão Apache
+
+<b> É necessário instalar os módulos (pacotes) de PHP para que possa rodar sites com essa tecnologia </b> <br>
+Ao instalar a versão mais nova dos pacotes de PHP, ativeo, através dos comandos:
+
+![image](https://user-images.githubusercontent.com/89140035/197091415-c2bb92b0-ad95-4572-9f24-e32cf1bf0402.png)
+
+Consulte a versão pelo comando:
+
+![image](https://user-images.githubusercontent.com/89140035/197091489-df6923ad-2a77-4240-9dd9-ee3300fe141b.png)
