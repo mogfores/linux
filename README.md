@@ -1,4 +1,4 @@
-Fonte Principal: Curso Linux Completo + Servidores
+Fonte Principal: Curso Linux Completo + Servidores <br>
 Udemy: https://www.udemy.com/course/linux-completo-servidores/
 
 ## Linux 🐧
@@ -1994,3 +1994,8 @@ Veja que pela imagem acima a tabela não possui dados.
 9) <b> drop database teste; </b> : apagar tabela teste
 
 ### WordPress - Instalando e Administrando 🗺️
+
+WordPress é um sistema livre e aberto de gestão de conteúdo para internet (Content Management System - CMS), baseado em PHP com banco de dados MySQL. <br>
+Executando em um servidor interpretador, voltado principalmente para a criação de páginas eletrônicas (sites) e blogs online. <br>
+É uma das ferramentas mais utilizadas para conteúdo na web. <br>
+É possível desenvolver sites de tipo comércio eletrônico, revistas, portfólio, gerenciador de projeto, agregador de eventos e, outros conteúdos devido a sua capacidade de extensão antravés de <b> plugins, API's (Application Programming Interface) temas e programação. </b>
