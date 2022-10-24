@@ -2030,7 +2030,14 @@ O arquivo de configuração é o /etc/ssh/sshd_config
 
 Para o acesso ao seu servidor, podemos utilizar ferramentas como o PuTTY.
 
-![image](https://user-images.githubusercontent.com/89140035/197589199-7bff29ff-d4dc-45e2-8dc3-110c28ea74ed.png)
+![image](https://user-images.githubusercontent.com/89140035/197590967-d7105fe0-3f42-4dac-bc7f-ab0551f1cb9d.png)
+
+![image](https://user-images.githubusercontent.com/89140035/197591167-1ea3c97f-04bc-4657-acb3-ae8939320561.png)
+
+Por padrão, como dito anteriormente, só será possível a conexão por usuário sem ser root, por questões de segurança.
+
+![image](https://user-images.githubusercontent.com/89140035/197592017-a76488d4-483a-4ab9-ba11-6320145489c3.png)
+
 
 
 
