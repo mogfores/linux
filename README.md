@@ -2009,3 +2009,16 @@ O WordPress precisará de um <b> servidor web (APACHE), </b> um <b> banco de dad
 1) Criando um Banco de Dados MariaDB e um Usuário para o WordPress
 
 <b> CREATE DATABASE wordpress DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci; </b>
+
+... continuar
+
+### Proxy Squid
+
+### Acesso Remoto 🪳
+
+O SSH, para Secure Shell, é um protocolo de rede usado para operar logins remotos em máquinas distantes dentro de uma rede ou pela internet. As arquiteturas SSH normalmente incluem um servidor SSH usado pelos clientes SSH para conectar-se à máquina remota. O SSH é um protocolo Criptografado.
+
+No Debian, o pacote de instação é o <b> openssh-server </b>
+
+
+
