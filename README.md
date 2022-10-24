@@ -1999,3 +1999,13 @@ WordPress é um sistema livre e aberto de gestão de conteúdo para internet (Co
 Executando em um servidor interpretador, voltado principalmente para a criação de páginas eletrônicas (sites) e blogs online. <br>
 É uma das ferramentas mais utilizadas para conteúdo na web. <br>
 É possível desenvolver sites de tipo comércio eletrônico, revistas, portfólio, gerenciador de projeto, agregador de eventos e, outros conteúdos devido a sua capacidade de extensão antravés de <b> plugins, API's (Application Programming Interface) temas e programação. </b>
+
+<b> Instalação </b>
+
+Pré-Requisitos:
+
+O WordPress precisará de um <b> servidor web (APACHE), </b> um <b> banco de dados (MARIADB) </b> e o <b> PHP </b> para funcionar corretamente. A configuração de uma pilha LAMP (Linux, Apache, MariaDB, e PHP) atende a todos esses requisitos.
+
+1) Criando um Banco de Dados MariaDB e um Usuário para o WordPress
+
+<b> CREATE DATABASE wordpress DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci; </b>
