@@ -1993,7 +1993,7 @@ Veja que pela imagem acima a tabela não possui dados.
 
 9) <b> drop database teste; </b> : apagar tabela teste
 
-### WordPress - Instalando e Administrando 🗺️
+### WordPress - Instalando e Administrando 🗺️ (terminar)
 
 WordPress é um sistema livre e aberto de gestão de conteúdo para internet (Content Management System - CMS), baseado em PHP com banco de dados MySQL. <br>
 Executando em um servidor interpretador, voltado principalmente para a criação de páginas eletrônicas (sites) e blogs online. <br>
@@ -2012,7 +2012,7 @@ O WordPress precisará de um <b> servidor web (APACHE), </b> um <b> banco de dad
 
 ... continuar
 
-### Proxy Squid
+### Proxy Squid (terminar)
 
 ### Acesso Remoto 🪳
 
@@ -2039,6 +2039,17 @@ Por padrão, como dito anteriormente, só será possível a conexão por usuári
 ![image](https://user-images.githubusercontent.com/89140035/197592017-a76488d4-483a-4ab9-ba11-6320145489c3.png)
 
 
+### DNS - Bind Recursivo e Autoritativo
 
+### Firewall - IPtables
+
+Um firewall é um dispositivo de segurança de rede que monitora o tráfego de rede de entrada e saída e decide permitir ou bloquear tráfegos específicos de acordo com um conjunto definido de regras de segurança. <br>
+Os firewalls têm sido a linha de frente da defesa na segurança de rede há mais de 25 anos. <br>
+Eles colocam uma barreira entre redes internas protegidas e controladas que podem ser redes externas confiáveis ou não, como a internet. Um firewall pode ser um hardware, software ou ambos.<br>
+
+
+
+
+### Controlador de Domínio (SAMBA)
 
 
