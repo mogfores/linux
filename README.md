@@ -2020,5 +2020,18 @@ O SSH, para Secure Shell, é um protocolo de rede usado para operar logins remot
 
 No Debian, o pacote de instação é o <b> openssh-server </b>
 
+Com o comando <b> ss -tlpn | grep 22 </b> você irá ver a porta de conexão com o serviço de SSH.
+
+![image](https://user-images.githubusercontent.com/89140035/197587844-dd6723a0-edee-4ed5-82ff-56f0a1ba1e76.png)
+
+O arquivo de configuração é o /etc/ssh/sshd_config
+
+<b> Lembrando que o usuário root é desativado por padrão </b>
+
+Para o acesso ao seu servidor, podemos utilizar ferramentas como o PuTTY.
+
+![image](https://user-images.githubusercontent.com/89140035/197589199-7bff29ff-d4dc-45e2-8dc3-110c28ea74ed.png)
+
+
 
 
