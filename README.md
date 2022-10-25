@@ -2047,7 +2047,17 @@ Um firewall é um dispositivo de segurança de rede que monitora o tráfego de r
 Os firewalls têm sido a linha de frente da defesa na segurança de rede há mais de 25 anos. <br>
 Eles colocam uma barreira entre redes internas protegidas e controladas que podem ser redes externas confiáveis ou não, como a internet. Um firewall pode ser um hardware, software ou ambos.<br>
 
+![image](https://user-images.githubusercontent.com/89140035/197874634-861aaaed-692a-4fb1-800d-bcbe3ddaea47.png)
 
+DMZ = rede pública.
+
+<b> IPTABLES </b>
+
+A função do Firewall é tomar conta das portas, verificar quem as está acessando e conforme as regras do usuário deixar ou não o acesso dos programas através das referidas portas. <br>
+Para usuários Linux temos o <b> iptables </b>, configurado via scripts. <br>
+As regras do iptables são compostas de uma Tabela, Opções, Chain, Dados e Ação.
+
+<b> iptables [-t tabela] [opção] [chain] [dados] -j [ação] </b>
 
 
 ### Controlador de Domínio (SAMBA)
