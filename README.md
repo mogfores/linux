@@ -2130,6 +2130,15 @@ Especifica o protocolo usado na regra, podendo ser: <br>
 -p udp <br>
 -p icmp <br>
 
+--sport ou --source-port <br>
+Especifica uma porta ou faixa de portas de origem. Deve sempre ser acompanhado por -p tcp e -p udp.
+
+--dport ou --destination-port <br>
+Especifica uma porta ou faixa de portas de destino. Deve sempre ser acompanhado por -p tcp e -p udp.
+
+! <br>
+Exclui determinado argumento (exceção)
+
 ### Controlador de Domínio (SAMBA)
 
 
