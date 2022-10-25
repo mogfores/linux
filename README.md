@@ -2156,6 +2156,11 @@ Bloquear endereço IP
 
 ![image](https://user-images.githubusercontent.com/89140035/197902860-e0096d0b-1628-4d80-b127-f823ee7aeddc.png)
 
+Apagar a regra
+
+![image](https://user-images.githubusercontent.com/89140035/197903096-9e69c771-6586-4d65-bfa3-ccdcfe4cf443.png)
+
+
 
 ### Controlador de Domínio (SAMBA)
 
