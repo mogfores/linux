@@ -2148,6 +2148,15 @@ ACCEPT = O pacote é aceito e o processamento das regras daquele chains é concl
 DROP = Rejeita o pacote sem nenhum aviso; <br>
 REJECT = Rejeita o pacote, mas envia um aviso;
 
+Mostrar regras
+
+![image](https://user-images.githubusercontent.com/89140035/197902590-2111f9ac-8e31-4efa-a675-02eed6b89fbf.png)
+
+Bloquear endereço IP
+
+![image](https://user-images.githubusercontent.com/89140035/197902860-e0096d0b-1628-4d80-b127-f823ee7aeddc.png)
+
+
 ### Controlador de Domínio (SAMBA)
 
 
