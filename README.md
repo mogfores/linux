@@ -2101,6 +2101,20 @@ PREROUTING = consultado para os dados que precisam ser modificados logo que cheg
 POSTROUTING = consultado para dados que precisam ser modificados após o tratamento de roteamento (IP Masquerading); <br>
 OUTPUT = consultado quando os dados gerados localmente precisam ser modificados antes de serem roteados (IPs locais).
 
+iptables -t tabela opção chain <b> dados </b> -j ação
+
+As opções de dados possíveis de inserção em uma regra iptables são:
+
+-s <br>
+Especifica a origem do pacote. Origem que pode ser informada como: <br>
+- endereço IP completo (-s 192.168.1.1);
+- hostname (-s ubuntu);
+- endereço fqdn (-s www.ubuntu.com.br);
+- par rede/máscara (-s 200.200.200.0/255.255.255.0 ou -s 200.200.200.0/24).
+
+-d <br>
+Especifica um destino para o pacote, com a mesma sintaxe descrita acima por -s.
+
 ### Controlador de Domínio (SAMBA)
 
 
