@@ -2059,6 +2059,18 @@ As regras do iptables são compostas de uma Tabela, Opções, Chain, Dados e Aç
 
 <b> iptables [-t tabela] [opção] [chain] [dados] -j [ação] </b>
 
+iptables <b> -t tabela </b> opção chain dados -j ação
+
+Tabelas:
+
+São os locais usados para armazenar os chains. <br>
+As tabelas são referenciadas em uma regra iptables com a opção "-t tabela". <br>
+Existem 3 tabelas discponíveis: <br>
+<b> filter - </b> As regras contidas na tabela filter determinaram a aceitação (ou não) de um pacote. Dentro dessa tabela existem três cadeias: INPUT, OUTPUT, FORWARD. <br>
+<b> nat - </b> usada quando há ocorrência de NAT (geração de outra conexão);
+<b> mangle - </b> raramente usada, utilizada para alterações especiais de pacotes.
+
+Se você deixar em branco [-t tabela], a tabela usada será a filter.
 
 ### Controlador de Domínio (SAMBA)
 
