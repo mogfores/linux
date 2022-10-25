@@ -2139,6 +2139,15 @@ Especifica uma porta ou faixa de portas de destino. Deve sempre ser acompanhado 
 ! <br>
 Exclui determinado argumento (exceção)
 
+iptables -t tabela opção chain dados <b> -j ação </b>
+
+<b> Ações : </b>
+
+Sempre vem após o parâmetro -j e os mais usados são: <br>
+ACCEPT = O pacote é aceito e o processamento das regras daquele chains é concluído; <br>
+DROP = Rejeita o pacote sem nenhum aviso; <br>
+REJECT = Rejeita o pacote, mas envia um aviso;
+
 ### Controlador de Domínio (SAMBA)
 
 
