@@ -2115,6 +2115,21 @@ Especifica a origem do pacote. Origem que pode ser informada como: <br>
 -d <br>
 Especifica um destino para o pacote, com a mesma sintaxe descrita acima por -s.
 
+-i <br>
+Identifica a interface de entrada do pacote, podendo ser placa de rede, modem ou interface de conexão: <br>
+-i eth0 <br>
+-i enp0s3 <br>
+-i wlan0 <br>
+
+-o <br>
+Identifica a interface de saída do pacote, com a mesma sintaxe descrita acima em -i.
+
+-p <br>
+Especifica o protocolo usado na regra, podendo ser: <br>
+-p tcp <br>
+-p udp <br>
+-p icmp <br>
+
 ### Controlador de Domínio (SAMBA)
 
 
