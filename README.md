@@ -2061,7 +2061,7 @@ As regras do iptables são compostas de uma Tabela, Opções, Chain, Dados e Aç
 
 iptables <b> -t tabela </b> opção chain dados -j ação
 
-Tabelas:
+<b> Tabelas: </b>
 
 São os locais usados para armazenar os chains. <br>
 As tabelas são referenciadas em uma regra iptables com a opção "-t tabela". <br>
@@ -2071,6 +2071,35 @@ Existem 3 tabelas discponíveis: <br>
 <b> mangle - </b> raramente usada, utilizada para alterações especiais de pacotes.
 
 Se você deixar em branco [-t tabela], a tabela usada será a filter.
+
+iptables -t tabela <b> opções </b> chain dados -j ação
+
+<b> Opções: </b>
+
+Representada por uma letra sempre escrita em maiúscula.
+
+-A = acrescenta uma nova regra as exigentes; <br>
+-L = lista as regras existentes; <br>
+-F = apaga todas as regras; <br>
+-I = insere uma nova regra;
+-D = zera uma regra específica;
+
+iptables -t tabela opções <b> chain </b> dados -j ação
+
+<b> Chains: </b>
+
+Com eles podemos especificar a situação do tratamento dos pacotes, seja qual tabela for.<br>
+Exemplo: para tabelas <b> filter </b> temos as seguintes tipos de chains:
+
+INPUT = consultado para dados que chegam ao computador; <br>
+OUTPUT = consultado para dados que saem do computador; <br>
+FORWARD = consultado para dados que são redirecionados para outra interface de rede ou outra máquina.
+
+Já para as tabelas <b> nat </b> os chains possíveis são:
+
+PREROUTING = consultado para os dados que precisam ser modificados logo que chegam (DNAT e redirecionamento de portas); <br>
+POSTROUTING = consultado para dados que precisam ser modificados após o tratamento de roteamento (IP Masquerading); <br>
+OUTPUT = consultado quando os dados gerados localmente precisam ser modificados antes de serem roteados (IPs locais).
 
 ### Controlador de Domínio (SAMBA)
 
