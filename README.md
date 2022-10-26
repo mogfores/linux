@@ -2208,3 +2208,9 @@ Server Role [dc] = qual a função deste domínio?  = dc <br>
 DNS backend = SAMBA_INTERNAL <br>
 DNS forwarder = para quem as máquinas vão redirecionar as consultadas do domínio
 Senha de Administrador = Teste22!
+
+cat smb.conf
+
+![image](https://user-images.githubusercontent.com/89140035/198106308-e1a72a79-910e-4220-9dfd-4dc567f33e76.png)
+
+
