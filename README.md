@@ -2181,4 +2181,17 @@ Bloquear comando do PING apenas para uma máquina
 
 ### Controlador de Domínio (SAMBA)
 
+Um controlador de domínio, do inglês Domain Controller (DC), é um servidor que responde à requisições seguras de autenticação (login, verificação de permissões, etc) dentro de uma rede de computadores. <br>
+Um domínio é um conceito introduzido no Windows NT em que um usuário pode ter acesso a uma série de recursos de computador com o uso de uma única combinação de nome de usuário e senha.<br>
+
+- Usuário e senha
+- Permissões na estação de trabalho
+- Permissões de acesso na rede
+
+Uma das funções do Samba também é atuar como controlador de domínio, esse recurso serve para controlar os usuário que podem acessar seus computadores e também definir permissões de uso. <br>
+O Linux conta com o Samba que além de compartilhar arquivos, também pode ser o Domain Controller de uma rede. <br>
+Para a configuração, será necessário a instalação dos pacotes de serviços:
+
+<b> Samba, krb5-config, winbind e smbclient </b>
+
 
