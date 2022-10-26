@@ -2168,6 +2168,15 @@ Deixar bloqueado para todos com uma exceção
 
 ![image](https://user-images.githubusercontent.com/89140035/197904302-fc3bd1b9-dc4c-465c-a802-3417064e2e8b.png)
 
+Bloquear comando do PING
+
+![image](https://user-images.githubusercontent.com/89140035/197904554-4e5e2937-5bc8-4ce7-a177-3332af1154d0.png)
+
+Bloquear comando do PING apenas para uma máquina
+
+![image](https://user-images.githubusercontent.com/89140035/197905123-4c0aa87e-cad6-4f47-8891-42cd41156a36.png)
+
+
 
 
 ### Controlador de Domínio (SAMBA)
