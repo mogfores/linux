@@ -2217,5 +2217,13 @@ cat smb.conf
 
 ![image](https://user-images.githubusercontent.com/89140035/198127861-be7464f7-cca4-4112-8fdc-79e75bbff820.png)
 
+Agora é preciso fazer uma cópia do arquivo do Kerperus, que esta dentro do diretório /var/lib diretamente para o diretório /etc
+
+![image](https://user-images.githubusercontent.com/89140035/198128340-af5f91a2-e5ee-4737-83ec-0952269bd255.png)
+
+Agora precisamos entrar com uns comandos para gerenciar os serviços
+
+![image](https://user-images.githubusercontent.com/89140035/198129487-90612212-9380-44e6-a250-1307a0950948.png)
+
 
 
