@@ -2160,6 +2160,14 @@ Apagar a regra
 
 ![image](https://user-images.githubusercontent.com/89140035/197903096-9e69c771-6586-4d65-bfa3-ccdcfe4cf443.png)
 
+Fechar conexão com SSH
+
+![image](https://user-images.githubusercontent.com/89140035/197903430-60281edf-6da8-4d39-baae-0b6f67927423.png)
+
+Deixar bloqueado para todos com uma exceção
+
+![image](https://user-images.githubusercontent.com/89140035/197904302-fc3bd1b9-dc4c-465c-a802-3417064e2e8b.png)
+
 
 
 ### Controlador de Domínio (SAMBA)
