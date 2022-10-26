@@ -2225,5 +2225,13 @@ Agora precisamos entrar com uns comandos para gerenciar os serviços
 
 ![image](https://user-images.githubusercontent.com/89140035/198129487-90612212-9380-44e6-a250-1307a0950948.png)
 
+![image](https://user-images.githubusercontent.com/89140035/198130764-d3fe0885-5efd-4e15-b9e0-c7c803176e3c.png)
+
+![image](https://user-images.githubusercontent.com/89140035/198131355-89beb238-d035-4880-9d6f-fd3c32ae0ed5.png)
+
+![image](https://user-images.githubusercontent.com/89140035/198131493-281cdd0b-d469-4f96-bd70-3c0a4b800532.png)
+
+![image](https://user-images.githubusercontent.com/89140035/198131846-154d6c6e-47ca-4426-ae15-7b4d7ae0286b.png)
+
 
 
