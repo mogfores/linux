@@ -2198,6 +2198,10 @@ Deixando o IP do DC estático
 
 ![image](https://user-images.githubusercontent.com/89140035/198101972-f5b9bec8-0ce8-425a-b7ba-a0827385dff1.png)
 
+Renomeando o arquivo smb.conf
+
+![image](https://user-images.githubusercontent.com/89140035/198127072-c339a860-cbe9-47dc-a6a8-86c778318b3b.png)
+
 Agora vamos iniciar a configuração. Para isso é preciso chamar o seguinte comando para configurar o arquivo smb.conf
 
 ![image](https://user-images.githubusercontent.com/89140035/198104681-619604be-da13-4391-9e4e-1603c7c9818b.png)
@@ -2211,6 +2215,7 @@ Senha de Administrador = Teste22!
 
 cat smb.conf
 
-![image](https://user-images.githubusercontent.com/89140035/198106308-e1a72a79-910e-4220-9dfd-4dc567f33e76.png)
+![image](https://user-images.githubusercontent.com/89140035/198127861-be7464f7-cca4-4112-8fdc-79e75bbff820.png)
+
 
 
