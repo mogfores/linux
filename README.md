@@ -2194,4 +2194,17 @@ Para a configuração, será necessário a instalação dos pacotes de serviços
 
 <b> Samba, krb5-config, winbind e smbclient </b>
 
+Deixando o IP do DC estático
 
+![image](https://user-images.githubusercontent.com/89140035/198101972-f5b9bec8-0ce8-425a-b7ba-a0827385dff1.png)
+
+Agora vamos iniciar a configuração. Para isso é preciso chamar o seguinte comando para configurar o arquivo smb.conf
+
+![image](https://user-images.githubusercontent.com/89140035/198104681-619604be-da13-4391-9e4e-1603c7c9818b.png)
+
+Realm = nome do domínio <br>
+Domain [teste] = em branco <br>
+Server Role [dc] = qual a função deste domínio?  = dc <br>
+DNS backend = SAMBA_INTERNAL <br>
+DNS forwarder = para quem as máquinas vão redirecionar as consultadas do domínio
+Senha de Administrador = Teste22!
