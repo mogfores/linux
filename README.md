@@ -2289,6 +2289,11 @@ Alterar as configurações de senha (ex. mudar o tamanho miníno da senha)
 
 ![image](https://user-images.githubusercontent.com/89140035/198389645-3f94ca4f-9055-496c-8a82-fdb0c96b54c1.png)
 
+Exibir menu de ajuda e possibilidades de alteração de sennha
+
+<b> samba-tool domain passwordsettings set -h </b>
+
+![image](https://user-images.githubusercontent.com/89140035/198391382-01829ea1-812c-4684-8c3d-19a7edd6a70d.png)
 
 
 
