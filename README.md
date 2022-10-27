@@ -2295,6 +2295,20 @@ Exibir menu de ajuda e possibilidades de alteração de sennha
 
 ![image](https://user-images.githubusercontent.com/89140035/198391382-01829ea1-812c-4684-8c3d-19a7edd6a70d.png)
 
+Ex.: desativar a complexidade da senha (não recomendado, caso desativado o usuário poderá incluir senha 12345 ou abcde por exemplo)
 
+![image](https://user-images.githubusercontent.com/89140035/198391873-b5c08697-de27-41db-b0c3-e44fee181e88.png)
+
+Ex.: Trocar o tempo mínimo de troca de senha
+
+![image](https://user-images.githubusercontent.com/89140035/198392260-f8b85a53-70b3-4b08-b4b7-7f73f265ac3e.png)
+
+<b> Controlador de Domínio (continuação) </b>
+
+A Unidade Organizacional (OU) é um contêiner no domínio que pode conter objetos como grupos, comtas de usuário e computador. <br>
+A OU é uma unidade administrativa na qual um administrador pode vincular objetos de Diretiva de Grupo e atribuir permissões a outro usuário. <br>
+Portanto, podemos distinguir duas tarefas principais ao usar a OU, exceto para armazenar objetos do domínio: <br>
+- Delegação de tarefas administrativas e de gerenciamento no domínio a outros administradores e usuários sem conceder a eles as permissões de administrador do domínio; <br>
+- Vinculando diretivas de grupo (GPO) a todos os objetos (usuários e computadores) nesta OU.
 
 
