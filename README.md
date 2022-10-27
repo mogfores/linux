@@ -2369,5 +2369,19 @@ Diretiva de Grupo, ou Grouo Policy (GPO), é uma ferramenta da família de siste
 Ela fornece o gerenciamento e configuração centralizados de sistemas operacionais, aplicativos e configurações dos usuários em um ambiente Active Directoty\SAMBA. <br>
 Em outras palavras, a Diretiva de Grupo controla em parte o que os usuários podem ou não fazer em um sistema de computador.
 
+O SAMBA tem suporte ao RSAT (Remote Server Administration Tools). <br>
+Isso permite que todo o domínio, inclusive a criação de GPOs possam ser executadas remotamente, via interface gráfica.
+
+https://www.microsoft.com/en-us/download/details.aspx?id=45520
+
+Após a instalação do pacote, na máquina windows como Administrador, abra o Painel de Controle, Programas e Recursos, Ativar ou Desativar Recursos do Windows. A janela trazerá a opção <b>"Ferramenta de Administrador de Servidor Remoto" </b> <br>
+Ative as opções "Ferramentas de Gerenciamento de Diretiva de Grupo" e "Ferramentas do AD DS LDS". <br>
+
+Após a instalação dos novos recursos, no menu Iniciar aparecerá a opção de <b>"Usuários e Computadores do Active Diretory" e "Gerenciamento de Diretiva de Grupo" </b> <br>
+
+Em usuários e Computadores do AD, clicar com o botão direito, Alterar Domínio. Insira o domínio incluido no Samba, que no caso é teste.com.br
+
+Ao abrir a floresta do domínio, aparecerá todos os grupos e configurações criadas. <br>
+A partir deste sistema é possível fazer qualquer alteração em modo gráfico, direto no servidor SAMBA.
 
 
