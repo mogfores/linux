@@ -2329,6 +2329,28 @@ Criar itens na OU
 
 ![image](https://user-images.githubusercontent.com/89140035/198395258-aab57cfb-0802-45a8-a84c-488cd54a09d9.png)
 
+![image](https://user-images.githubusercontent.com/89140035/198396786-134f406a-2940-4e18-961d-d7c2398beda7.png)
+
+Ter um grupo e visualizar em qual OU ele pertence (ou não)
+
+![image](https://user-images.githubusercontent.com/89140035/198397185-5ae2b95c-9de6-4b7e-b651-581e65cbf5ea.png)
+
+Criar padrões de senhas diferentes para determinados objetos, como grupos. Permissões espciais (PSO)
+
+![image](https://user-images.githubusercontent.com/89140035/198397893-a753bb5a-f24c-4057-946b-57a394ecf701.png)
+
+![image](https://user-images.githubusercontent.com/89140035/198397864-da979e34-3638-4e8d-bed1-62325a3f01ce.png)
+
+Criar uma PSO nova
+
+![image](https://user-images.githubusercontent.com/89140035/198398278-abef0e14-27b1-4ce6-bc53-7f2ad37e2704.png)
+
+Mudar configurações de senha da PSO criada
+
+![image](https://user-images.githubusercontent.com/89140035/198398657-5c9ef542-d135-438a-80be-4280beb829c0.png)
+
+
+
 
 
 
