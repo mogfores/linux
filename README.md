@@ -2345,11 +2345,21 @@ Criar uma PSO nova
 
 ![image](https://user-images.githubusercontent.com/89140035/198398278-abef0e14-27b1-4ce6-bc53-7f2ad37e2704.png)
 
-Mudar configurações de senha da PSO criada
+Mudar configurações de senha da PSO criada (comprimento de senha)
 
 ![image](https://user-images.githubusercontent.com/89140035/198398657-5c9ef542-d135-438a-80be-4280beb829c0.png)
 
+Mudar configurações de senha da PSO criada (tempo de vida senha)
 
+![image](https://user-images.githubusercontent.com/89140035/198398915-2ff15ec6-fdb0-4c7e-a984-01961ed36cf8.png)
+
+Agora aplicar a PSO criado ao grupo ADMINISTRATIVO
+
+![image](https://user-images.githubusercontent.com/89140035/198399480-b1046590-90f5-4e2a-992e-978f32dbb5f4.png)
+
+Mostrar os PSO e onde eles estão sendo aplicados (qual grupo)
+
+![image](https://user-images.githubusercontent.com/89140035/198399774-f21d0571-81d2-46a2-a66e-c694886e7502.png)
 
 
 
