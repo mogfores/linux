@@ -2362,6 +2362,12 @@ Mostrar os PSO e onde eles estão sendo aplicados (qual grupo)
 ![image](https://user-images.githubusercontent.com/89140035/198399774-f21d0571-81d2-46a2-a66e-c694886e7502.png)
 
 
+<b> Controlador de Domínio (continuação) </b>
+
+Diretiva de Grupo, ou Grouo Policy (GPO), é uma ferramenta da família de sistemas operacionais Microsoft Windows NT. <br>
+É um conjunto de regras que controlam o ambiente de trabalho de contas de usuários e contas de computador. <br>
+Ela fornece o gerenciamento e configuração centralizados de sistemas operacionais, aplicativos e configurações dos usuários em um ambiente Active Directoty\SAMBA. <br>
+Em outras palavras, a Diretiva de Grupo controla em parte o que os usuários podem ou não fazer em um sistema de computador.
 
 
 
