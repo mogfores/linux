@@ -2253,4 +2253,43 @@ Definição de tempo para que o usuário expire no domínio
 
 ![image](https://user-images.githubusercontent.com/89140035/198386761-ce865814-54e7-4246-a446-0dbaf7cb1adf.png)
 
+Desativar um usuário no domínio
+
+![image](https://user-images.githubusercontent.com/89140035/198387076-7420f373-409c-4377-8f97-0f9b48b9fa58.png)
+
+Ativar um usuário no domínio
+
+![image](https://user-images.githubusercontent.com/89140035/198387288-1dfa6825-4964-445d-9d20-0cf442ae7191.png)
+
+Criar ou deletar um grupo
+
+![image](https://user-images.githubusercontent.com/89140035/198387712-87a1391f-1678-420c-9bda-ff105ba96ee2.png)
+
+Listar grupos
+
+<b> samba-tool group list </b>
+
+Adicionar usuários a grupos criados. Obs: para adicionar mais usuários, basta inserir a vírgula (,) e ir colocando os nomes dos usuários
+
+![image](https://user-images.githubusercontent.com/89140035/198388298-78409678-9efb-47c8-a349-af24f1995c44.png)
+
+Listar os usuários dentro de um grupo
+
+![image](https://user-images.githubusercontent.com/89140035/198388550-585fd228-3b93-4721-af90-fb86374f93c6.png)
+
+Remover um usuário de um grupo
+
+![image](https://user-images.githubusercontent.com/89140035/198388699-c7a600f2-a4b9-408d-9f81-e36465d4dc7a.png)
+
+Consultar parâmetros de senha
+
+![image](https://user-images.githubusercontent.com/89140035/198388910-6e10b8dc-e9c1-45dd-8047-82c0b2e86caa.png)
+
+Alterar as configurações de senha (ex. mudar o tamanho miníno da senha)
+
+![image](https://user-images.githubusercontent.com/89140035/198389645-3f94ca4f-9055-496c-8a82-fdb0c96b54c1.png)
+
+
+
+
 
