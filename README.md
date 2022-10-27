@@ -2233,5 +2233,24 @@ Agora precisamos entrar com uns comandos para gerenciar os serviços
 
 ![image](https://user-images.githubusercontent.com/89140035/198131846-154d6c6e-47ca-4426-ae15-7b4d7ae0286b.png)
 
+Verificar os usuários existentes dentro do domínio
+
+![image](https://user-images.githubusercontent.com/89140035/198385682-c9ff8664-5805-40f5-adfd-05adacfca59b.png)
+
+Criar novo usuário
+
+![image](https://user-images.githubusercontent.com/89140035/198385934-c7a2fe60-10df-4124-8bef-b8954b82d756.png)
+
+Deletar usuário
+
+![image](https://user-images.githubusercontent.com/89140035/198386104-0273b60c-d2cc-464f-ae69-f9d3b23b4a3e.png)
+
+Resetar a senha do usuário
+
+![image](https://user-images.githubusercontent.com/89140035/198386430-70bb6759-e79c-40cc-a454-4da53718ab67.png)
+
+Definição de tempo para que o usuário expire no domínio
+
+![image](https://user-images.githubusercontent.com/89140035/198386761-ce865814-54e7-4246-a446-0dbaf7cb1adf.png)
 
 
