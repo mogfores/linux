@@ -2311,4 +2311,25 @@ Portanto, podemos distinguir duas tarefas principais ao usar a OU, exceto para a
 - Delegação de tarefas administrativas e de gerenciamento no domínio a outros administradores e usuários sem conceder a eles as permissões de administrador do domínio; <br>
 - Vinculando diretivas de grupo (GPO) a todos os objetos (usuários e computadores) nesta OU.
 
+Criação de uma OU
+
+![image](https://user-images.githubusercontent.com/89140035/198394308-cd01c723-e1f3-4b5f-8266-0cfae3042b60.png)
+
+Listar as OUs criadas
+
+![image](https://user-images.githubusercontent.com/89140035/198394492-ac75c4e3-3b79-4af0-b5ec-0fb98b83ee93.png)
+
+Identificar os objetos dentro de uma OU (no caso abaixo mostra como vazia)
+
+![image](https://user-images.githubusercontent.com/89140035/198394711-a494a53a-146b-4b85-81fb-c3a1caf0b0d5.png)
+
+Criar itens na OU
+
+1 - mover o grupo ADMINISTRATIVO para dentro da OU RECIFE
+
+![image](https://user-images.githubusercontent.com/89140035/198395258-aab57cfb-0802-45a8-a84c-488cd54a09d9.png)
+
+
+
+
 
